@@ -14,23 +14,23 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		dZlxdOGApRM6uYymQM2OeEuYDk8=
+		BA3Yk6fJ4pt8WZ0BCUGLcSgZqTQ=
 		</data>
 		<key>Modules/BanubaLicenseServicingSDK.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		7MO5XJl0Px9BKebWHa6kUzpEpms=
+		4J5iE8KZwxemlc4o2Ie2eGnmG88=
 		</data>
 		<key>Modules/BanubaLicenseServicingSDK.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<data>
-		7MO5XJl0Px9BKebWHa6kUzpEpms=
+		4J5iE8KZwxemlc4o2Ie2eGnmG88=
 		</data>
 		<key>Modules/BanubaLicenseServicingSDK.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		k8N2fnUmwkHY4S4UAm6+1HJWU6Y=
+		HyrXEvdhtm1PCs4T+x9YtixZ8cY=
 		</data>
 		<key>Modules/BanubaLicenseServicingSDK.swiftmodule/Project/x86_64.swiftsourceinfo</key>
 		<data>
-		k8N2fnUmwkHY4S4UAm6+1HJWU6Y=
+		HyrXEvdhtm1PCs4T+x9YtixZ8cY=
 		</data>
 		<key>Modules/BanubaLicenseServicingSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Modules/BanubaLicenseServicingSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		7qdAX6muVdpzWan92/NvYkcXjw0=
+		yzZuhnnKxYNtjE3DoRYEE9jlHfE=
 		</data>
 		<key>Modules/BanubaLicenseServicingSDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/BanubaLicenseServicingSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		7qdAX6muVdpzWan92/NvYkcXjw0=
+		yzZuhnnKxYNtjE3DoRYEE9jlHfE=
 		</data>
 		<key>Modules/BanubaLicenseServicingSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -66,7 +66,7 @@
 		</data>
 		<key>Modules/BanubaLicenseServicingSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		paqU40GalyjastIOlrxNaljNgLc=
+		FHiGUxnjQDN+QsQpA9wlgHmPOSQ=
 		</data>
 		<key>Modules/BanubaLicenseServicingSDK.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -78,7 +78,7 @@
 		</data>
 		<key>Modules/BanubaLicenseServicingSDK.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		paqU40GalyjastIOlrxNaljNgLc=
+		FHiGUxnjQDN+QsQpA9wlgHmPOSQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -105,28 +105,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			kc2PzImcj7QajN3+qZaSc+JurC76G7jvCEPQpjvJDDs=
+			dwJITcB1Sq8/vhrBA/RU1PF8HiX00mjQ67YX0fOJbuU=
 			</data>
 		</dict>
 		<key>Modules/BanubaLicenseServicingSDK.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kc2PzImcj7QajN3+qZaSc+JurC76G7jvCEPQpjvJDDs=
+			dwJITcB1Sq8/vhrBA/RU1PF8HiX00mjQ67YX0fOJbuU=
 			</data>
 		</dict>
 		<key>Modules/BanubaLicenseServicingSDK.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			M7HBzvaQiQKF4UtRwm91a19OXXqRQAxYolFvg6mrrPc=
+			3dOX8924iqT6dyLvM2ugDvYD3iU9VcslUsyiXxInHv0=
 			</data>
 		</dict>
 		<key>Modules/BanubaLicenseServicingSDK.swiftmodule/Project/x86_64.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			M7HBzvaQiQKF4UtRwm91a19OXXqRQAxYolFvg6mrrPc=
+			3dOX8924iqT6dyLvM2ugDvYD3iU9VcslUsyiXxInHv0=
 			</data>
 		</dict>
 		<key>Modules/BanubaLicenseServicingSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -147,7 +147,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Qwv/uRz4Tg9Ynttys3mOP3kjbWt2JGuFidK6O/ClVt0=
+			Wmlh7w3Nai5y8dXTbyDkEV5c7ctLVnc7dJvCdb2CiGo=
 			</data>
 		</dict>
 		<key>Modules/BanubaLicenseServicingSDK.swiftmodule/arm64.swiftdoc</key>
@@ -168,7 +168,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Qwv/uRz4Tg9Ynttys3mOP3kjbWt2JGuFidK6O/ClVt0=
+			Wmlh7w3Nai5y8dXTbyDkEV5c7ctLVnc7dJvCdb2CiGo=
 			</data>
 		</dict>
 		<key>Modules/BanubaLicenseServicingSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -189,7 +189,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VhlfO4ZD/UUqkZsUJQrF92t68eGS8DTd32rq1/vi2xs=
+			LBW/rFdHIpWYD5AU4iNWHZn6buZwr2i4iiix450sVhk=
 			</data>
 		</dict>
 		<key>Modules/BanubaLicenseServicingSDK.swiftmodule/x86_64.swiftdoc</key>
@@ -210,7 +210,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VhlfO4ZD/UUqkZsUJQrF92t68eGS8DTd32rq1/vi2xs=
+			LBW/rFdHIpWYD5AU4iNWHZn6buZwr2i4iiix450sVhk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

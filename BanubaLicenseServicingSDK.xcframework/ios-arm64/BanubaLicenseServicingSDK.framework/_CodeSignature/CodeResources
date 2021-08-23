@@ -14,15 +14,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		ySyJyGT3y4Kq54RUAysLmWgQxL8=
+		gMU9RLobVS2O9iu5Ujs0kLJPHpQ=
 		</data>
 		<key>Modules/BanubaLicenseServicingSDK.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		Fwtpf/Hd7W9QdKUbiCl3C6Kwky0=
+		Ivbn/I+YZ7t+DXmzMtq16IbLEyw=
 		</data>
 		<key>Modules/BanubaLicenseServicingSDK.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<data>
-		Fwtpf/Hd7W9QdKUbiCl3C6Kwky0=
+		Ivbn/I+YZ7t+DXmzMtq16IbLEyw=
 		</data>
 		<key>Modules/BanubaLicenseServicingSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/BanubaLicenseServicingSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		1FxI5VdMEEPXCEISPSA7nD56Yk8=
+		+yEdc9K8vuTZ2exInymMNv4xPFM=
 		</data>
 		<key>Modules/BanubaLicenseServicingSDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>Modules/BanubaLicenseServicingSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		1FxI5VdMEEPXCEISPSA7nD56Yk8=
+		+yEdc9K8vuTZ2exInymMNv4xPFM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -73,14 +73,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6c4Ac40qDifG35la7aDEnLZQfcPl2PY/Wzzg40QrrHc=
+			J7LR19rRthsfLo4byEV4yBgP4goqFqiRKTYKrcl13+E=
 			</data>
 		</dict>
 		<key>Modules/BanubaLicenseServicingSDK.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6c4Ac40qDifG35la7aDEnLZQfcPl2PY/Wzzg40QrrHc=
+			J7LR19rRthsfLo4byEV4yBgP4goqFqiRKTYKrcl13+E=
 			</data>
 		</dict>
 		<key>Modules/BanubaLicenseServicingSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -101,7 +101,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			sbdOJ8ePEzoW3owN5wUtYAqoGnKNcKqTFd0oe9EKEZ4=
+			Q2U7tR+rqiuj35X1Ktu+0Da/m5SY0RtTcSwl/3p0TLc=
 			</data>
 		</dict>
 		<key>Modules/BanubaLicenseServicingSDK.swiftmodule/arm64.swiftdoc</key>
@@ -122,7 +122,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			sbdOJ8ePEzoW3owN5wUtYAqoGnKNcKqTFd0oe9EKEZ4=
+			Q2U7tR+rqiuj35X1Ktu+0Da/m5SY0RtTcSwl/3p0TLc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
