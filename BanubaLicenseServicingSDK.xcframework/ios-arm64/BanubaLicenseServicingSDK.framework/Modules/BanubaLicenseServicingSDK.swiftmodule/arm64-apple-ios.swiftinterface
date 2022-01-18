@@ -18,7 +18,6 @@ public enum BNBInformerEventType {
 public protocol BasicEventOptions : Swift.Decodable, Swift.Encodable {
   var sdkVersion: Swift.String { get }
   var iOSVersion: Swift.String { get }
-  var deviceType: Swift.String { get }
   var token: Swift.String { get }
   func adjustStringJson() -> Swift.String?
 }
@@ -26,7 +25,6 @@ public struct ExportEventOptions : BanubaLicenseServicingSDK.BasicEventOptions {
   public var token: Swift.String
   public var sdkVersion: Swift.String
   public var iOSVersion: Swift.String
-  public var deviceType: Swift.String
   public init(token: Swift.String, videoResolutions: [Swift.String], postProcessingEffects: [Swift.String]?, cameraEffects: [Swift.String]?, exportDuration: Foundation.TimeInterval, videoDuration: Foundation.TimeInterval, videoCount: Swift.UInt8)
   public func adjustStringJson() -> Swift.String?
   public func encode(to encoder: Swift.Encoder) throws
@@ -36,7 +34,6 @@ public struct InitEventOptions : BanubaLicenseServicingSDK.BasicEventOptions {
   public var token: Swift.String
   public var sdkVersion: Swift.String
   public var iOSVersion: Swift.String
-  public var deviceType: Swift.String
   public init(token: Swift.String)
   public func adjustStringJson() -> Swift.String?
   public func encode(to encoder: Swift.Encoder) throws
@@ -47,12 +44,12 @@ public struct PresentEventOptions : BanubaLicenseServicingSDK.BasicEventOptions 
   public var token: Swift.String
   public var sdkVersion: Swift.String
   public var iOSVersion: Swift.String
-  public var deviceType: Swift.String
   public enum EntryPoint : Swift.String, Swift.Codable {
-    case trim
     case camera
-    case drafts
+    case pip
+    case trimmer
     case editor
+    case drafts
     public init?(rawValue: Swift.String)
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
