@@ -21,11 +21,16 @@ public protocol BasicEventOptions : Swift.Decodable, Swift.Encodable {
   var token: Swift.String { get }
   func adjustStringJson() -> Swift.String?
 }
+public struct VideoSource : Swift.Codable {
+  public init(name: Swift.String, startTime: Swift.String, endTime: Swift.String, type: Swift.String)
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
+}
 public struct ExportEventOptions : BanubaLicenseServicingSDK.BasicEventOptions {
   public var token: Swift.String
   public var sdkVersion: Swift.String
   public var iOSVersion: Swift.String
-  public init(token: Swift.String, videoResolutions: [Swift.String], postProcessingEffects: [Swift.String]?, cameraEffects: [Swift.String]?, exportDuration: Foundation.TimeInterval, videoDuration: Foundation.TimeInterval, videoCount: Swift.UInt8)
+  public init(token: Swift.String, exportSuccess: Swift.Bool, videoResolutions: [Swift.String], postProcessingEffects: [Swift.String]?, cameraEffects: [Swift.String]?, exportDuration: Foundation.TimeInterval, videoDuration: Foundation.TimeInterval, videoCount: Swift.UInt8, videoSources: [BanubaLicenseServicingSDK.VideoSource])
   public func adjustStringJson() -> Swift.String?
   public func encode(to encoder: Swift.Encoder) throws
   public init(from decoder: Swift.Decoder) throws
@@ -110,6 +115,9 @@ extension BanubaLicenseServicingSDK.BNBAnalyticsManager {
   @objc public var supportsPiP: Swift.Bool {
     get
   }
+  @objc public var supportsBlur: Swift.Bool {
+    get
+  }
   @objc public var supportsAudioBrowser: Swift.Bool {
     get
   }
@@ -129,7 +137,7 @@ extension BanubaLicenseServicingSDK.BNBAnalyticsManager {
     get
   }
   @objc override dynamic public func isEqual(_ object: Any?) -> Swift.Bool
-  @objc public init(clientId: Swift.String, giphyApiKey: Swift.String?, isTrialToken: Swift.Bool, maxFaces: Swift.Int32, collectAnalytics: Swift.Bool, supportsAnalytics: Swift.Bool, supportsFaceAR: Swift.Bool, supportsPiP: Swift.Bool, supportsAudioBrowser: Swift.Bool, supportsBgSeparation: Swift.Bool, postProcessingEffects: [Swift.Int], arCloudURL: Swift.String?, timeBomb: BanubaLicenseServicingSDK.TimeBomb?, supportsFHD: Swift.Bool, licenseManager: BNBLicenseUtils.XBNBLicenseManager?)
+  @objc public init(clientId: Swift.String, giphyApiKey: Swift.String?, isTrialToken: Swift.Bool, maxFaces: Swift.Int32, collectAnalytics: Swift.Bool, supportsAnalytics: Swift.Bool, supportsFaceAR: Swift.Bool, supportsPiP: Swift.Bool, supportsBlur: Swift.Bool, supportsAudioBrowser: Swift.Bool, supportsBgSeparation: Swift.Bool, postProcessingEffects: [Swift.Int], arCloudURL: Swift.String?, timeBomb: BanubaLicenseServicingSDK.TimeBomb?, supportsFHD: Swift.Bool, licenseManager: BNBLicenseUtils.XBNBLicenseManager?)
   @objc public static func isTokenExpired(token: Swift.String) -> Swift.Bool
   @objc public static func getLicense(fromToken token: Swift.String) -> BanubaLicenseServicingSDK.License?
   @objc deinit

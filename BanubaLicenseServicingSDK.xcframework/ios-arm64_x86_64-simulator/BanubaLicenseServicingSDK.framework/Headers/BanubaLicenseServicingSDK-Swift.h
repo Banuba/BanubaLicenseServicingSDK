@@ -236,6 +236,7 @@ SWIFT_CLASS("_TtC25BanubaLicenseServicingSDK7License")
 @property (nonatomic, readonly) BOOL supportsAnalytics;
 @property (nonatomic, readonly) BOOL supportsFaceAR;
 @property (nonatomic, readonly) BOOL supportsPiP;
+@property (nonatomic, readonly) BOOL supportsBlur;
 @property (nonatomic, readonly) BOOL supportsAudioBrowser;
 @property (nonatomic, readonly) BOOL supportsBgSeparation;
 @property (nonatomic, readonly, copy) NSArray<NSNumber *> * _Nonnull postProcessingEffects;
@@ -243,7 +244,7 @@ SWIFT_CLASS("_TtC25BanubaLicenseServicingSDK7License")
 @property (nonatomic, readonly, strong) TimeBomb * _Nullable timeBomb;
 @property (nonatomic, readonly) BOOL supportsFHD;
 - (BOOL)isEqual:(id _Nullable)object SWIFT_WARN_UNUSED_RESULT;
-- (nonnull instancetype)initWithClientId:(NSString * _Nonnull)clientId giphyApiKey:(NSString * _Nullable)giphyApiKey isTrialToken:(BOOL)isTrialToken maxFaces:(int32_t)maxFaces collectAnalytics:(BOOL)collectAnalytics supportsAnalytics:(BOOL)supportsAnalytics supportsFaceAR:(BOOL)supportsFaceAR supportsPiP:(BOOL)supportsPiP supportsAudioBrowser:(BOOL)supportsAudioBrowser supportsBgSeparation:(BOOL)supportsBgSeparation postProcessingEffects:(NSArray<NSNumber *> * _Nonnull)postProcessingEffects arCloudURL:(NSString * _Nullable)arCloudURL timeBomb:(TimeBomb * _Nullable)timeBomb supportsFHD:(BOOL)supportsFHD licenseManager:(XBNBLicenseManager * _Nullable)licenseManager OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithClientId:(NSString * _Nonnull)clientId giphyApiKey:(NSString * _Nullable)giphyApiKey isTrialToken:(BOOL)isTrialToken maxFaces:(int32_t)maxFaces collectAnalytics:(BOOL)collectAnalytics supportsAnalytics:(BOOL)supportsAnalytics supportsFaceAR:(BOOL)supportsFaceAR supportsPiP:(BOOL)supportsPiP supportsBlur:(BOOL)supportsBlur supportsAudioBrowser:(BOOL)supportsAudioBrowser supportsBgSeparation:(BOOL)supportsBgSeparation postProcessingEffects:(NSArray<NSNumber *> * _Nonnull)postProcessingEffects arCloudURL:(NSString * _Nullable)arCloudURL timeBomb:(TimeBomb * _Nullable)timeBomb supportsFHD:(BOOL)supportsFHD licenseManager:(XBNBLicenseManager * _Nullable)licenseManager OBJC_DESIGNATED_INITIALIZER;
 /// Check whether token is expired
 /// \param token your token that you want to verify.
 ///
@@ -509,6 +510,7 @@ SWIFT_CLASS("_TtC25BanubaLicenseServicingSDK7License")
 @property (nonatomic, readonly) BOOL supportsAnalytics;
 @property (nonatomic, readonly) BOOL supportsFaceAR;
 @property (nonatomic, readonly) BOOL supportsPiP;
+@property (nonatomic, readonly) BOOL supportsBlur;
 @property (nonatomic, readonly) BOOL supportsAudioBrowser;
 @property (nonatomic, readonly) BOOL supportsBgSeparation;
 @property (nonatomic, readonly, copy) NSArray<NSNumber *> * _Nonnull postProcessingEffects;
@@ -516,7 +518,7 @@ SWIFT_CLASS("_TtC25BanubaLicenseServicingSDK7License")
 @property (nonatomic, readonly, strong) TimeBomb * _Nullable timeBomb;
 @property (nonatomic, readonly) BOOL supportsFHD;
 - (BOOL)isEqual:(id _Nullable)object SWIFT_WARN_UNUSED_RESULT;
-- (nonnull instancetype)initWithClientId:(NSString * _Nonnull)clientId giphyApiKey:(NSString * _Nullable)giphyApiKey isTrialToken:(BOOL)isTrialToken maxFaces:(int32_t)maxFaces collectAnalytics:(BOOL)collectAnalytics supportsAnalytics:(BOOL)supportsAnalytics supportsFaceAR:(BOOL)supportsFaceAR supportsPiP:(BOOL)supportsPiP supportsAudioBrowser:(BOOL)supportsAudioBrowser supportsBgSeparation:(BOOL)supportsBgSeparation postProcessingEffects:(NSArray<NSNumber *> * _Nonnull)postProcessingEffects arCloudURL:(NSString * _Nullable)arCloudURL timeBomb:(TimeBomb * _Nullable)timeBomb supportsFHD:(BOOL)supportsFHD licenseManager:(XBNBLicenseManager * _Nullable)licenseManager OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithClientId:(NSString * _Nonnull)clientId giphyApiKey:(NSString * _Nullable)giphyApiKey isTrialToken:(BOOL)isTrialToken maxFaces:(int32_t)maxFaces collectAnalytics:(BOOL)collectAnalytics supportsAnalytics:(BOOL)supportsAnalytics supportsFaceAR:(BOOL)supportsFaceAR supportsPiP:(BOOL)supportsPiP supportsBlur:(BOOL)supportsBlur supportsAudioBrowser:(BOOL)supportsAudioBrowser supportsBgSeparation:(BOOL)supportsBgSeparation postProcessingEffects:(NSArray<NSNumber *> * _Nonnull)postProcessingEffects arCloudURL:(NSString * _Nullable)arCloudURL timeBomb:(TimeBomb * _Nullable)timeBomb supportsFHD:(BOOL)supportsFHD licenseManager:(XBNBLicenseManager * _Nullable)licenseManager OBJC_DESIGNATED_INITIALIZER;
 /// Check whether token is expired
 /// \param token your token that you want to verify.
 ///
