@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/BanubaLicenseServicingSDK-Swift.h</key>
 		<data>
-		VJTbR3byhcruTYn1pwxEPgqv9iU=
+		i5NDqd+7Mjmhj1cZtB+tZ8PG3OY=
 		</data>
 		<key>Headers/BanubaLicenseServicingSDK.h</key>
 		<data>
@@ -14,39 +14,39 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Jv+rLP5y9Vp5D4fEop6SuFmnBQo=
+		wju5BserqvU/AhBvRBR9iKDGmyQ=
 		</data>
 		<key>Modules/BanubaLicenseServicingSDK.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		gh526p5pFkwpyAnVsx5jUmiTu/M=
+		Evod8cGIqrdD1KXTbS5D4kzkq9E=
 		</data>
 		<key>Modules/BanubaLicenseServicingSDK.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		aHXUBQwutF/Y40+NC8k1GVvI/7M=
+		wQ1x3uVh59b2xrtsq3x6hGV0E28=
 		</data>
 		<key>Modules/BanubaLicenseServicingSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		TkvJOBlxTMKt4JUTAEiWLDVk5E4=
+		mnxnCsQJ9z0idH7OVUN3qxYm2kM=
 		</data>
 		<key>Modules/BanubaLicenseServicingSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		aXVOH2jlgTfd0sETfDeFPrZ3A9k=
+		0FygdCRCM0+/bYYG8Wana0XqLIE=
 		</data>
 		<key>Modules/BanubaLicenseServicingSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		l/uMUZB/0FIH9kXwWCn7liu/tmY=
+		ALp9OkIIVDOexMfaKsfxKWiXf8Y=
 		</data>
 		<key>Modules/BanubaLicenseServicingSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		Pw/xOHbQLfZGLxyJvziSpzP0URM=
+		G1Q18IS2lhL45gtjcBJylw1TpsU=
 		</data>
 		<key>Modules/BanubaLicenseServicingSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		na6yemP7gN5LDD7RfAz+TN/WrcI=
+		0e1NcJ4wCHrQ6OMJhXjXPmcrvqU=
 		</data>
 		<key>Modules/BanubaLicenseServicingSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Usdtk8rT3wJNnQJiL8RTQit6wpE=
+		KfP5J0keMma1wewgEV52N0evaXo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -59,7 +59,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9ASt1owUwKZBTrJWd4UQCkwrdOM9xKDjjLXI7YbajCk=
+			hQwjHORKfsnqbxWEXhDIJEYf/fpBGaIhnUaD8/GkYZE=
 			</data>
 		</dict>
 		<key>Headers/BanubaLicenseServicingSDK.h</key>
@@ -73,56 +73,56 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			s17pcZ04tu5tCbQclP8X/UJNcNdyNdiu9C9EBM5e7eY=
+			FLhI1cUF1P7Nlal39HNTmvxBjjQ/amhK9MZFuTob98E=
 			</data>
 		</dict>
 		<key>Modules/BanubaLicenseServicingSDK.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9xXSMfKaEAALxl46hP/bB03NlJm2kmV41B0iPvR0DDo=
+			qDy1c+A1i4aLja5yr7NLkPmiC0oi2Cn3K7ZDkPzpMKo=
 			</data>
 		</dict>
 		<key>Modules/BanubaLicenseServicingSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XzoaUYzpAzGd1ks7oxuQxsqsW0D5TmovgpHyCmL+dBw=
+			pylO1mmBlcyValLDEyYtgMaqpU4M5bZAM6uLVgFfjEs=
 			</data>
 		</dict>
 		<key>Modules/BanubaLicenseServicingSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8sTdHiEY+MTbKrdQoqpKfmiUGerOFsJBZsCcHz6Eh+I=
+			hGiTZMLrchNqRJw91kHPNSwSgbJX95aKI3mifACICPc=
 			</data>
 		</dict>
 		<key>Modules/BanubaLicenseServicingSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6xUkQqR9r6sshC/YaxPCNklbVZRfJAijMSWhdGo/2zQ=
+			8eya/nlWrZkEXWWnyFKNrMdLdR5Uhw88wtBIQbO65gA=
 			</data>
 		</dict>
 		<key>Modules/BanubaLicenseServicingSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			AR2wQpbHhj73bK671sYuSUS2SaLEpArXEl9iyDryuL4=
+			XIRV4A3KIgPPS67kLBZM/RJQYj/Rer0xKghOH5/5f1w=
 			</data>
 		</dict>
 		<key>Modules/BanubaLicenseServicingSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xKVzjTwpG+8MN9OHhqhoelVS7cyHgi3brYeEta1T6MA=
+			ZPXf1IAFMKeRa8fndz6rU6GnIcvFg6pja/pKJWTyFv4=
 			</data>
 		</dict>
 		<key>Modules/BanubaLicenseServicingSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/ZfzQjlcHOyrZc9fXGqrd2ZY0Vpthivf4FOGkNMG4Ko=
+			XqczW3ZIWtDZhqLOX1rtZVNCU1Lc6lo83grpXJoT/QE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
