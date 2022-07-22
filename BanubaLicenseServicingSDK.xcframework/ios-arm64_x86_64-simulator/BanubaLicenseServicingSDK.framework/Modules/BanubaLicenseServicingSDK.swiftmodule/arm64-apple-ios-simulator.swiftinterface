@@ -136,8 +136,17 @@ extension BanubaLicenseServicingSDK.BNBAnalyticsManager {
   @objc public var supportsFHD: Swift.Bool {
     get
   }
+  @objc public var isExportAPIEnabled: Swift.Bool {
+    get
+  }
+  @objc public var isPlaybackAPIEnabled: Swift.Bool {
+    get
+  }
+  @objc public var isVESDKEnabled: Swift.Bool {
+    get
+  }
   @objc override dynamic public func isEqual(_ object: Any?) -> Swift.Bool
-  @objc public init(clientId: Swift.String, giphyApiKey: Swift.String?, isTrialToken: Swift.Bool, maxFaces: Swift.Int32, collectAnalytics: Swift.Bool, supportsAnalytics: Swift.Bool, supportsFaceAR: Swift.Bool, supportsPiP: Swift.Bool, supportsBlur: Swift.Bool, supportsAudioBrowser: Swift.Bool, supportsBgSeparation: Swift.Bool, postProcessingEffects: [Swift.Int], arCloudURL: Swift.String?, timeBomb: BanubaLicenseServicingSDK.TimeBomb?, supportsFHD: Swift.Bool, licenseManager: BNBLicenseUtils.XBNBLicenseManager?)
+  @objc public init(isExportAPIEnabled: Swift.Bool, isPlaybackAPIEnabled: Swift.Bool, isVESDKEnabled: Swift.Bool, clientId: Swift.String, giphyApiKey: Swift.String?, isTrialToken: Swift.Bool, maxFaces: Swift.Int32, collectAnalytics: Swift.Bool, supportsAnalytics: Swift.Bool, supportsFaceAR: Swift.Bool, supportsPiP: Swift.Bool, supportsBlur: Swift.Bool, supportsAudioBrowser: Swift.Bool, supportsBgSeparation: Swift.Bool, postProcessingEffects: [Swift.Int], arCloudURL: Swift.String?, timeBomb: BanubaLicenseServicingSDK.TimeBomb?, supportsFHD: Swift.Bool, licenseManager: BNBLicenseUtils.XBNBLicenseManager?)
   @objc public static func isTokenExpired(token: Swift.String) -> Swift.Bool
   @objc public static func getLicense(fromToken token: Swift.String) -> BanubaLicenseServicingSDK.License?
   @objc deinit
