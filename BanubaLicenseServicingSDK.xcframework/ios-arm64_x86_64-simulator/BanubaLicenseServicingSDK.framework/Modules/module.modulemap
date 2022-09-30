@@ -6,6 +6,6 @@ framework module BanubaLicenseServicingSDK {
 }
 
 module BanubaLicenseServicingSDK.Swift {
-    header "BanubaLicenseServicingSDK-Swift.h"
-    requires objc
+  header "BanubaLicenseServicingSDK-Swift.h"
+  requires objc
 }
