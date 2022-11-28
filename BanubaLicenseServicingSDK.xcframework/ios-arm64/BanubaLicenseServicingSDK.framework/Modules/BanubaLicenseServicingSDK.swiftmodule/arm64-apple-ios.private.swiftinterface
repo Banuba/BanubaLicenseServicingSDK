@@ -23,6 +23,9 @@ public protocol BasicEventOptions : Swift.Decodable, Swift.Encodable {
   var token: Swift.String { get }
   func adjustStringJson() -> Swift.String?
 }
+extension BanubaLicenseServicingSDK.BasicEventOptions {
+  public func adjustStringJson() -> Swift.String?
+}
 public struct VideoSource : Swift.Codable {
   public init(name: Swift.String, startTime: Swift.String, endTime: Swift.String, type: Swift.String)
   public func encode(to encoder: Swift.Encoder) throws
@@ -33,7 +36,6 @@ public struct ExportEventOptions : BanubaLicenseServicingSDK.BasicEventOptions {
   public var sdkVersion: Swift.String
   public var iOSVersion: Swift.String
   public init(token: Swift.String, exportSuccess: Swift.Bool, videoResolutions: [Swift.String], postProcessingEffects: [Swift.String]?, cameraEffects: [Swift.String]?, exportDuration: Foundation.TimeInterval, videoDuration: Foundation.TimeInterval, videoCount: Swift.UInt8, videoSources: [BanubaLicenseServicingSDK.VideoSource])
-  public func adjustStringJson() -> Swift.String?
   public func encode(to encoder: Swift.Encoder) throws
   public init(from decoder: Swift.Decoder) throws
 }
@@ -42,7 +44,6 @@ public struct InitEventOptions : BanubaLicenseServicingSDK.BasicEventOptions {
   public var sdkVersion: Swift.String
   public var iOSVersion: Swift.String
   public init(token: Swift.String)
-  public func adjustStringJson() -> Swift.String?
   public func encode(to encoder: Swift.Encoder) throws
   public init(from decoder: Swift.Decoder) throws
 }
@@ -64,7 +65,6 @@ public struct PresentEventOptions : BanubaLicenseServicingSDK.BasicEventOptions 
     }
   }
   public init(token: Swift.String, entryPoint: BanubaLicenseServicingSDK.PresentEventOptions.EntryPoint)
-  public func adjustStringJson() -> Swift.String?
   public func encode(to encoder: Swift.Encoder) throws
   public init(from decoder: Swift.Decoder) throws
 }
