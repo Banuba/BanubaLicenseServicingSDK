@@ -2333,6 +2333,63 @@
                 "accessorKind": "get"
               }
             ]
+          },
+          {
+            "kind": "Var",
+            "name": "allCases",
+            "printedName": "allCases",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[BanubaLicenseServicingSDK.EffectType]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EffectType",
+                    "printedName": "BanubaLicenseServicingSDK.EffectType",
+                    "usr": "s:25BanubaLicenseServicingSDK10EffectTypeO"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:25BanubaLicenseServicingSDK10EffectTypeO8allCasesSayACGvpZ",
+            "mangledName": "$s25BanubaLicenseServicingSDK10EffectTypeO8allCasesSayACGvpZ",
+            "moduleName": "BanubaLicenseServicingSDK",
+            "static": true,
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[BanubaLicenseServicingSDK.EffectType]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EffectType",
+                        "printedName": "BanubaLicenseServicingSDK.EffectType",
+                        "usr": "s:25BanubaLicenseServicingSDK10EffectTypeO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25BanubaLicenseServicingSDK10EffectTypeO8allCasesSayACGvgZ",
+                "mangledName": "$s25BanubaLicenseServicingSDK10EffectTypeO8allCasesSayACGvgZ",
+                "moduleName": "BanubaLicenseServicingSDK",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
           }
         ],
         "declKind": "Enum",
@@ -2379,6 +2436,36 @@
             ],
             "usr": "s:SY",
             "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CaseIterable",
+            "printedName": "CaseIterable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "AllCases",
+                "printedName": "AllCases",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[BanubaLicenseServicingSDK.EffectType]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EffectType",
+                        "printedName": "BanubaLicenseServicingSDK.EffectType",
+                        "usr": "s:25BanubaLicenseServicingSDK10EffectTypeO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12CaseIterableP",
+            "mangledName": "$ss12CaseIterableP"
           }
         ]
       },
@@ -4912,28 +4999,28 @@
     {
       "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/AnalyticsManager.swift",
       "kind": "Array",
-      "offset": 694,
+      "offset": 708,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/AnalyticsManager.swift",
       "kind": "Array",
-      "offset": 710,
+      "offset": 724,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/AnalyticsManager.swift",
       "kind": "Array",
-      "offset": 734,
+      "offset": 748,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/AnalyticsManager.swift",
       "kind": "StringLiteral",
-      "offset": 363,
+      "offset": 377,
       "length": 19,
       "value": "\"BanubaLicenseServicingSDK.BNBAnalyticsManager\""
     },

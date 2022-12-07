@@ -68,12 +68,16 @@ public struct PresentEventOptions : BanubaLicenseServicingSDK.BasicEventOptions 
   public func encode(to encoder: Swift.Encoder) throws
   public init(from decoder: Swift.Decoder) throws
 }
-public enum EffectType : Swift.String {
+public enum EffectType : Swift.String, Swift.CaseIterable {
   case mask
   case filter
   case beautification
   public init?(rawValue: Swift.String)
+  public typealias AllCases = [BanubaLicenseServicingSDK.EffectType]
   public typealias RawValue = Swift.String
+  public static var allCases: [BanubaLicenseServicingSDK.EffectType] {
+    get
+  }
   public var rawValue: Swift.String {
     get
   }
