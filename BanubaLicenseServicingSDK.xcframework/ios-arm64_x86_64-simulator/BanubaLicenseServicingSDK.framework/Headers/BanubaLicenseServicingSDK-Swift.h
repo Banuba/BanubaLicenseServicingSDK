@@ -269,7 +269,6 @@ SWIFT_CLASS_NAMED("BNBAnalyticsManager")
 SWIFT_CLASS("_TtC25BanubaLicenseServicingSDK7License")
 @interface License : NSObject
 @property (nonatomic, readonly, copy) NSString * _Nonnull clientId;
-@property (nonatomic, readonly, copy) NSString * _Nullable giphyApiKey;
 @property (nonatomic, readonly) BOOL isTrialToken;
 @property (nonatomic, readonly) int32_t maxFaces;
 /// Video Editor Analytics
@@ -289,11 +288,7 @@ SWIFT_CLASS("_TtC25BanubaLicenseServicingSDK7License")
 @property (nonatomic, readonly) BOOL isPlaybackAPIEnabled;
 @property (nonatomic, readonly) BOOL isVESDKEnabled;
 - (BOOL)isEqual:(id _Nullable)object SWIFT_WARN_UNUSED_RESULT;
-- (nonnull instancetype)initWithIsExportAPIEnabled:(BOOL)isExportAPIEnabled isPlaybackAPIEnabled:(BOOL)isPlaybackAPIEnabled isVESDKEnabled:(BOOL)isVESDKEnabled clientId:(NSString * _Nonnull)clientId giphyApiKey:(NSString * _Nullable)giphyApiKey isTrialToken:(BOOL)isTrialToken maxFaces:(int32_t)maxFaces collectAnalytics:(BOOL)collectAnalytics supportsAnalytics:(BOOL)supportsAnalytics supportsFaceAR:(BOOL)supportsFaceAR supportsPiP:(BOOL)supportsPiP supportsBlur:(BOOL)supportsBlur supportsAudioBrowser:(BOOL)supportsAudioBrowser supportsBgSeparation:(BOOL)supportsBgSeparation postProcessingEffects:(NSArray<NSNumber *> * _Nonnull)postProcessingEffects arCloudURL:(NSString * _Nullable)arCloudURL timeBomb:(TimeBomb * _Nullable)timeBomb supportsFHD:(BOOL)supportsFHD licenseManager:(XBNBLicenseManager * _Nullable)licenseManager OBJC_DESIGNATED_INITIALIZER;
-/// Check whether token is expired
-/// \param token your token that you want to verify.
-///
-+ (BOOL)isTokenExpiredWithToken:(NSString * _Nonnull)token SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)initWithIsExportAPIEnabled:(BOOL)isExportAPIEnabled isPlaybackAPIEnabled:(BOOL)isPlaybackAPIEnabled isVESDKEnabled:(BOOL)isVESDKEnabled clientId:(NSString * _Nonnull)clientId isTrialToken:(BOOL)isTrialToken maxFaces:(int32_t)maxFaces collectAnalytics:(BOOL)collectAnalytics supportsAnalytics:(BOOL)supportsAnalytics supportsFaceAR:(BOOL)supportsFaceAR supportsPiP:(BOOL)supportsPiP supportsBlur:(BOOL)supportsBlur supportsAudioBrowser:(BOOL)supportsAudioBrowser supportsBgSeparation:(BOOL)supportsBgSeparation postProcessingEffects:(NSArray<NSNumber *> * _Nonnull)postProcessingEffects arCloudURL:(NSString * _Nullable)arCloudURL timeBomb:(TimeBomb * _Nullable)timeBomb supportsFHD:(BOOL)supportsFHD licenseManager:(XBNBLicenseManager * _Nonnull)licenseManager OBJC_DESIGNATED_INITIALIZER;
 + (License * _Nullable)getLicenseFromToken:(NSString * _Nonnull)token SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
@@ -591,7 +586,6 @@ SWIFT_CLASS_NAMED("BNBAnalyticsManager")
 SWIFT_CLASS("_TtC25BanubaLicenseServicingSDK7License")
 @interface License : NSObject
 @property (nonatomic, readonly, copy) NSString * _Nonnull clientId;
-@property (nonatomic, readonly, copy) NSString * _Nullable giphyApiKey;
 @property (nonatomic, readonly) BOOL isTrialToken;
 @property (nonatomic, readonly) int32_t maxFaces;
 /// Video Editor Analytics
@@ -611,11 +605,7 @@ SWIFT_CLASS("_TtC25BanubaLicenseServicingSDK7License")
 @property (nonatomic, readonly) BOOL isPlaybackAPIEnabled;
 @property (nonatomic, readonly) BOOL isVESDKEnabled;
 - (BOOL)isEqual:(id _Nullable)object SWIFT_WARN_UNUSED_RESULT;
-- (nonnull instancetype)initWithIsExportAPIEnabled:(BOOL)isExportAPIEnabled isPlaybackAPIEnabled:(BOOL)isPlaybackAPIEnabled isVESDKEnabled:(BOOL)isVESDKEnabled clientId:(NSString * _Nonnull)clientId giphyApiKey:(NSString * _Nullable)giphyApiKey isTrialToken:(BOOL)isTrialToken maxFaces:(int32_t)maxFaces collectAnalytics:(BOOL)collectAnalytics supportsAnalytics:(BOOL)supportsAnalytics supportsFaceAR:(BOOL)supportsFaceAR supportsPiP:(BOOL)supportsPiP supportsBlur:(BOOL)supportsBlur supportsAudioBrowser:(BOOL)supportsAudioBrowser supportsBgSeparation:(BOOL)supportsBgSeparation postProcessingEffects:(NSArray<NSNumber *> * _Nonnull)postProcessingEffects arCloudURL:(NSString * _Nullable)arCloudURL timeBomb:(TimeBomb * _Nullable)timeBomb supportsFHD:(BOOL)supportsFHD licenseManager:(XBNBLicenseManager * _Nullable)licenseManager OBJC_DESIGNATED_INITIALIZER;
-/// Check whether token is expired
-/// \param token your token that you want to verify.
-///
-+ (BOOL)isTokenExpiredWithToken:(NSString * _Nonnull)token SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)initWithIsExportAPIEnabled:(BOOL)isExportAPIEnabled isPlaybackAPIEnabled:(BOOL)isPlaybackAPIEnabled isVESDKEnabled:(BOOL)isVESDKEnabled clientId:(NSString * _Nonnull)clientId isTrialToken:(BOOL)isTrialToken maxFaces:(int32_t)maxFaces collectAnalytics:(BOOL)collectAnalytics supportsAnalytics:(BOOL)supportsAnalytics supportsFaceAR:(BOOL)supportsFaceAR supportsPiP:(BOOL)supportsPiP supportsBlur:(BOOL)supportsBlur supportsAudioBrowser:(BOOL)supportsAudioBrowser supportsBgSeparation:(BOOL)supportsBgSeparation postProcessingEffects:(NSArray<NSNumber *> * _Nonnull)postProcessingEffects arCloudURL:(NSString * _Nullable)arCloudURL timeBomb:(TimeBomb * _Nullable)timeBomb supportsFHD:(BOOL)supportsFHD licenseManager:(XBNBLicenseManager * _Nonnull)licenseManager OBJC_DESIGNATED_INITIALIZER;
 + (License * _Nullable)getLicenseFromToken:(NSString * _Nonnull)token SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");

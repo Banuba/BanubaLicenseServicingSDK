@@ -14,5 +14,4 @@ FOUNDATION_EXPORT double BanubaLicenseServicingSDKVersionNumber;
 FOUNDATION_EXPORT const unsigned char BanubaLicenseServicingSDKVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <BanubaLicenseServicingSDK/PublicHeader.h>
-
-
+#import <BanubaLicenseServicingSDK/XBNBLicenseManager+SafeInstantiation.h>

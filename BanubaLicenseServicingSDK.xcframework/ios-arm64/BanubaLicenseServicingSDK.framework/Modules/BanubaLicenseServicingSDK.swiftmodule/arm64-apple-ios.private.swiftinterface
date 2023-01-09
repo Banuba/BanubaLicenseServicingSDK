@@ -83,14 +83,11 @@ public enum EffectType : Swift.String, Swift.CaseIterable {
   }
 }
 @objc(BNBAnalyticsManager) public class BNBAnalyticsManager : ObjectiveC.NSObject {
-  public static var token: Swift.String {
-    get
-  }
   public var license: BanubaLicenseServicingSDK.License {
     get
   }
   public var cameraEffects: [BanubaLicenseServicingSDK.EffectType : [Swift.String?]]
-  public init(token: Swift.String, license: BanubaLicenseServicingSDK.License)
+  public init(license: BanubaLicenseServicingSDK.License)
   @objc deinit
 }
 extension BanubaLicenseServicingSDK.BNBAnalyticsManager {
@@ -98,9 +95,6 @@ extension BanubaLicenseServicingSDK.BNBAnalyticsManager {
 }
 @objc public class License : ObjectiveC.NSObject {
   @objc public var clientId: Swift.String {
-    get
-  }
-  @objc public var giphyApiKey: Swift.String? {
     get
   }
   @objc public var isTrialToken: Swift.Bool {
@@ -152,9 +146,9 @@ extension BanubaLicenseServicingSDK.BNBAnalyticsManager {
     get
   }
   @objc override dynamic public func isEqual(_ object: Any?) -> Swift.Bool
-  @objc public init(isExportAPIEnabled: Swift.Bool, isPlaybackAPIEnabled: Swift.Bool, isVESDKEnabled: Swift.Bool, clientId: Swift.String, giphyApiKey: Swift.String?, isTrialToken: Swift.Bool, maxFaces: Swift.Int32, collectAnalytics: Swift.Bool, supportsAnalytics: Swift.Bool, supportsFaceAR: Swift.Bool, supportsPiP: Swift.Bool, supportsBlur: Swift.Bool, supportsAudioBrowser: Swift.Bool, supportsBgSeparation: Swift.Bool, postProcessingEffects: [Swift.Int], arCloudURL: Swift.String?, timeBomb: BanubaLicenseServicingSDK.TimeBomb?, supportsFHD: Swift.Bool, licenseManager: BNBLicenseUtils.XBNBLicenseManager?)
-  @objc public static func isTokenExpired(token: Swift.String) -> Swift.Bool
+  @objc public init(isExportAPIEnabled: Swift.Bool, isPlaybackAPIEnabled: Swift.Bool, isVESDKEnabled: Swift.Bool, clientId: Swift.String, isTrialToken: Swift.Bool, maxFaces: Swift.Int32, collectAnalytics: Swift.Bool, supportsAnalytics: Swift.Bool, supportsFaceAR: Swift.Bool, supportsPiP: Swift.Bool, supportsBlur: Swift.Bool, supportsAudioBrowser: Swift.Bool, supportsBgSeparation: Swift.Bool, postProcessingEffects: [Swift.Int], arCloudURL: Swift.String?, timeBomb: BanubaLicenseServicingSDK.TimeBomb?, supportsFHD: Swift.Bool, licenseManager: BNBLicenseUtils.XBNBLicenseManager)
   @objc public static func getLicense(fromToken token: Swift.String) -> BanubaLicenseServicingSDK.License?
+  public func getLicenseState(completion: @escaping ((BNBLicenseUtils.XBNBLicenseStatus) -> Swift.Void))
   @objc deinit
 }
 @objc public class TimeBomb : ObjectiveC.NSObject, Swift.Codable {
