@@ -18,15 +18,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		a01e7v1qVQq4yi1CGl+cujImGBU=
+		KgWUptzOiMgioFj/pFvo0S2czXc=
 		</data>
 		<key>Modules/BanubaLicenseServicingSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		/heW1tvAsCzqHg+J3HdwEqXN3Os=
+		grC77fddNVkuJUlqZXT+wd7ELQE=
 		</data>
 		<key>Modules/BanubaLicenseServicingSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		WqQuz00DMWsmi11USlrmLkhd61o=
+		ZCpT+O6ja5iP2qwFDKgFooUlzlA=
 		</data>
 		<key>Modules/BanubaLicenseServicingSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/BanubaLicenseServicingSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		WqQuz00DMWsmi11USlrmLkhd61o=
+		ZCpT+O6ja5iP2qwFDKgFooUlzlA=
 		</data>
 		<key>Modules/BanubaLicenseServicingSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		IoeNiS3hxt2ywdZcSeS1XYIkVvs=
+		hY8Nsx72gLkdI2wuE4S39qSzbxM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -72,14 +72,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			C4iHxCGFak1GVDoUFyg7GGc1fgcHd3/bOB5q1psYIO4=
+			uh8KD1XrJ5pmCTIc3ASShSjiQ0Wz4fmgD5+B21gV4vg=
 			</data>
 		</dict>
 		<key>Modules/BanubaLicenseServicingSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			p06TbELPzK2SsRYHRwtzp+JhW6HJjNIH5eRIg2VYI+o=
+			9sTtF4ZJ98pjpf1qEDQEOqe28CstKAbWZ/WxtApi1Bw=
 			</data>
 		</dict>
 		<key>Modules/BanubaLicenseServicingSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -93,14 +93,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			p06TbELPzK2SsRYHRwtzp+JhW6HJjNIH5eRIg2VYI+o=
+			9sTtF4ZJ98pjpf1qEDQEOqe28CstKAbWZ/WxtApi1Bw=
 			</data>
 		</dict>
 		<key>Modules/BanubaLicenseServicingSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wBRlW1ltmSPDYkUWAayZhitXYxujuvnTKXdDPIFC1To=
+			kOfqDjLPuTrwKC3FfYCnkpkTa9yUGesoRN5PY7x+gzs=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
