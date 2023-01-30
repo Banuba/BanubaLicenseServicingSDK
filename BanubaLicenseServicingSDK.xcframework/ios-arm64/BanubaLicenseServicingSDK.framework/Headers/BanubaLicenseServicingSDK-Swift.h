@@ -277,7 +277,6 @@ SWIFT_CLASS("_TtC25BanubaLicenseServicingSDK7License")
 @property (nonatomic, readonly) BOOL supportsAnalytics;
 @property (nonatomic, readonly) BOOL supportsFaceAR;
 @property (nonatomic, readonly) BOOL supportsPiP;
-@property (nonatomic, readonly) BOOL supportsBlur;
 @property (nonatomic, readonly) BOOL supportsAudioBrowser;
 @property (nonatomic, readonly) BOOL supportsBgSeparation;
 @property (nonatomic, readonly, copy) NSArray<NSNumber *> * _Nonnull postProcessingEffects;
@@ -288,7 +287,7 @@ SWIFT_CLASS("_TtC25BanubaLicenseServicingSDK7License")
 @property (nonatomic, readonly) BOOL isPlaybackAPIEnabled;
 @property (nonatomic, readonly) BOOL isVESDKEnabled;
 - (BOOL)isEqual:(id _Nullable)object SWIFT_WARN_UNUSED_RESULT;
-- (nonnull instancetype)initWithIsExportAPIEnabled:(BOOL)isExportAPIEnabled isPlaybackAPIEnabled:(BOOL)isPlaybackAPIEnabled isVESDKEnabled:(BOOL)isVESDKEnabled clientId:(NSString * _Nonnull)clientId isTrialToken:(BOOL)isTrialToken maxFaces:(int32_t)maxFaces collectAnalytics:(BOOL)collectAnalytics supportsAnalytics:(BOOL)supportsAnalytics supportsFaceAR:(BOOL)supportsFaceAR supportsPiP:(BOOL)supportsPiP supportsBlur:(BOOL)supportsBlur supportsAudioBrowser:(BOOL)supportsAudioBrowser supportsBgSeparation:(BOOL)supportsBgSeparation postProcessingEffects:(NSArray<NSNumber *> * _Nonnull)postProcessingEffects arCloudURL:(NSString * _Nullable)arCloudURL timeBomb:(TimeBomb * _Nullable)timeBomb supportsFHD:(BOOL)supportsFHD licenseManager:(XBNBLicenseManager * _Nonnull)licenseManager OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithIsExportAPIEnabled:(BOOL)isExportAPIEnabled isPlaybackAPIEnabled:(BOOL)isPlaybackAPIEnabled isVESDKEnabled:(BOOL)isVESDKEnabled clientId:(NSString * _Nonnull)clientId isTrialToken:(BOOL)isTrialToken maxFaces:(int32_t)maxFaces collectAnalytics:(BOOL)collectAnalytics supportsAnalytics:(BOOL)supportsAnalytics supportsFaceAR:(BOOL)supportsFaceAR supportsPiP:(BOOL)supportsPiP supportsAudioBrowser:(BOOL)supportsAudioBrowser supportsBgSeparation:(BOOL)supportsBgSeparation postProcessingEffects:(NSArray<NSNumber *> * _Nonnull)postProcessingEffects arCloudURL:(NSString * _Nullable)arCloudURL timeBomb:(TimeBomb * _Nullable)timeBomb supportsFHD:(BOOL)supportsFHD licenseManager:(XBNBLicenseManager * _Nonnull)licenseManager OBJC_DESIGNATED_INITIALIZER;
 + (License * _Nullable)getLicenseFromToken:(NSString * _Nonnull)token SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
