@@ -393,57 +393,278 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "VideoSource",
-        "printedName": "VideoSource",
+        "name": "VideoSources",
+        "printedName": "VideoSources",
         "children": [
           {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(name:startTime:endTime:type:aspectRatio:)",
+            "kind": "Var",
+            "name": "camera",
+            "printedName": "camera",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "VideoSource",
-                "printedName": "BanubaLicenseServicingSDK.VideoSource",
-                "usr": "s:25BanubaLicenseServicingSDK11VideoSourceV"
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:25BanubaLicenseServicingSDK12VideoSourcesV6cameraSivp",
+            "mangledName": "$s25BanubaLicenseServicingSDK12VideoSourcesV6cameraSivp",
+            "moduleName": "BanubaLicenseServicingSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25BanubaLicenseServicingSDK12VideoSourcesV6cameraSivg",
+                "mangledName": "$s25BanubaLicenseServicingSDK12VideoSourcesV6cameraSivg",
+                "moduleName": "BanubaLicenseServicingSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "gallery",
+            "printedName": "gallery",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:25BanubaLicenseServicingSDK12VideoSourcesV7gallerySivp",
+            "mangledName": "$s25BanubaLicenseServicingSDK12VideoSourcesV7gallerySivp",
+            "moduleName": "BanubaLicenseServicingSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25BanubaLicenseServicingSDK12VideoSourcesV7gallerySivg",
+                "mangledName": "$s25BanubaLicenseServicingSDK12VideoSourcesV7gallerySivg",
+                "moduleName": "BanubaLicenseServicingSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "pip",
+            "printedName": "pip",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:25BanubaLicenseServicingSDK12VideoSourcesV3pipSivp",
+            "mangledName": "$s25BanubaLicenseServicingSDK12VideoSourcesV3pipSivp",
+            "moduleName": "BanubaLicenseServicingSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25BanubaLicenseServicingSDK12VideoSourcesV3pipSivg",
+                "mangledName": "$s25BanubaLicenseServicingSDK12VideoSourcesV3pipSivg",
+                "moduleName": "BanubaLicenseServicingSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "slideshow",
+            "printedName": "slideshow",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:25BanubaLicenseServicingSDK12VideoSourcesV9slideshowSivp",
+            "mangledName": "$s25BanubaLicenseServicingSDK12VideoSourcesV9slideshowSivp",
+            "moduleName": "BanubaLicenseServicingSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25BanubaLicenseServicingSDK12VideoSourcesV9slideshowSivg",
+                "mangledName": "$s25BanubaLicenseServicingSDK12VideoSourcesV9slideshowSivg",
+                "moduleName": "BanubaLicenseServicingSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "audio",
+            "printedName": "audio",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:25BanubaLicenseServicingSDK12VideoSourcesV5audioSivp",
+            "mangledName": "$s25BanubaLicenseServicingSDK12VideoSourcesV5audioSivp",
+            "moduleName": "BanubaLicenseServicingSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25BanubaLicenseServicingSDK12VideoSourcesV5audioSivg",
+                "mangledName": "$s25BanubaLicenseServicingSDK12VideoSourcesV5audioSivg",
+                "moduleName": "BanubaLicenseServicingSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(camera:gallery:pip:slideshow:audio:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VideoSources",
+                "printedName": "BanubaLicenseServicingSDK.VideoSources",
+                "usr": "s:25BanubaLicenseServicingSDK12VideoSourcesV"
               },
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
               },
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
               },
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
               },
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
               },
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:25BanubaLicenseServicingSDK11VideoSourceV4name9startTime03endI04type11aspectRatioACSS_S4Stcfc",
-            "mangledName": "$s25BanubaLicenseServicingSDK11VideoSourceV4name9startTime03endI04type11aspectRatioACSS_S4Stcfc",
+            "usr": "s:25BanubaLicenseServicingSDK12VideoSourcesV6camera7gallery3pip9slideshow5audioACSi_S4itcfc",
+            "mangledName": "$s25BanubaLicenseServicingSDK12VideoSourcesV6camera7gallery3pip9slideshow5audioACSi_S4itcfc",
             "moduleName": "BanubaLicenseServicingSDK",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "init_kind": "Designated"
           },
@@ -454,9 +675,9 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "VideoSource",
-                "printedName": "BanubaLicenseServicingSDK.VideoSource",
-                "usr": "s:25BanubaLicenseServicingSDK11VideoSourceV"
+                "name": "VideoSources",
+                "printedName": "BanubaLicenseServicingSDK.VideoSources",
+                "usr": "s:25BanubaLicenseServicingSDK12VideoSourcesV"
               },
               {
                 "kind": "TypeNominal",
@@ -466,8 +687,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:25BanubaLicenseServicingSDK11VideoSourceV4fromACs7Decoder_p_tKcfc",
-            "mangledName": "$s25BanubaLicenseServicingSDK11VideoSourceV4fromACs7Decoder_p_tKcfc",
+            "usr": "s:25BanubaLicenseServicingSDK12VideoSourcesV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s25BanubaLicenseServicingSDK12VideoSourcesV4fromACs7Decoder_p_tKcfc",
             "moduleName": "BanubaLicenseServicingSDK",
             "implicit": true,
             "throwing": true,
@@ -491,8 +712,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:25BanubaLicenseServicingSDK11VideoSourceV6encode2toys7Encoder_p_tKF",
-            "mangledName": "$s25BanubaLicenseServicingSDK11VideoSourceV6encode2toys7Encoder_p_tKF",
+            "usr": "s:25BanubaLicenseServicingSDK12VideoSourcesV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s25BanubaLicenseServicingSDK12VideoSourcesV6encode2toys7Encoder_p_tKF",
             "moduleName": "BanubaLicenseServicingSDK",
             "implicit": true,
             "throwing": true,
@@ -500,8 +721,8 @@
           }
         ],
         "declKind": "Struct",
-        "usr": "s:25BanubaLicenseServicingSDK11VideoSourceV",
-        "mangledName": "$s25BanubaLicenseServicingSDK11VideoSourceV",
+        "usr": "s:25BanubaLicenseServicingSDK12VideoSourcesV",
+        "mangledName": "$s25BanubaLicenseServicingSDK12VideoSourcesV",
         "moduleName": "BanubaLicenseServicingSDK",
         "declAttributes": [
           "AccessControl",
@@ -531,6 +752,250 @@
         "children": [
           {
             "kind": "Var",
+            "name": "exportSuccess",
+            "printedName": "exportSuccess",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:25BanubaLicenseServicingSDK18ExportEventOptionsV13exportSuccessSbvp",
+            "mangledName": "$s25BanubaLicenseServicingSDK18ExportEventOptionsV13exportSuccessSbvp",
+            "moduleName": "BanubaLicenseServicingSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25BanubaLicenseServicingSDK18ExportEventOptionsV13exportSuccessSbvg",
+                "mangledName": "$s25BanubaLicenseServicingSDK18ExportEventOptionsV13exportSuccessSbvg",
+                "moduleName": "BanubaLicenseServicingSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "videoResolutions",
+            "printedName": "videoResolutions",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:25BanubaLicenseServicingSDK18ExportEventOptionsV16videoResolutionsSaySSGvp",
+            "mangledName": "$s25BanubaLicenseServicingSDK18ExportEventOptionsV16videoResolutionsSaySSGvp",
+            "moduleName": "BanubaLicenseServicingSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25BanubaLicenseServicingSDK18ExportEventOptionsV16videoResolutionsSaySSGvg",
+                "mangledName": "$s25BanubaLicenseServicingSDK18ExportEventOptionsV16videoResolutionsSaySSGvg",
+                "moduleName": "BanubaLicenseServicingSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "postProcessingEffects",
+            "printedName": "postProcessingEffects",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "BanubaLicenseServicingSDK.PostProcessingOptions?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PostProcessingOptions",
+                    "printedName": "BanubaLicenseServicingSDK.PostProcessingOptions",
+                    "usr": "s:25BanubaLicenseServicingSDK21PostProcessingOptionsV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:25BanubaLicenseServicingSDK18ExportEventOptionsV21postProcessingEffectsAA04PostiG0VSgvp",
+            "mangledName": "$s25BanubaLicenseServicingSDK18ExportEventOptionsV21postProcessingEffectsAA04PostiG0VSgvp",
+            "moduleName": "BanubaLicenseServicingSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "BanubaLicenseServicingSDK.PostProcessingOptions?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PostProcessingOptions",
+                        "printedName": "BanubaLicenseServicingSDK.PostProcessingOptions",
+                        "usr": "s:25BanubaLicenseServicingSDK21PostProcessingOptionsV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25BanubaLicenseServicingSDK18ExportEventOptionsV21postProcessingEffectsAA04PostiG0VSgvg",
+                "mangledName": "$s25BanubaLicenseServicingSDK18ExportEventOptionsV21postProcessingEffectsAA04PostiG0VSgvg",
+                "moduleName": "BanubaLicenseServicingSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "cameraEffects",
+            "printedName": "cameraEffects",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:25BanubaLicenseServicingSDK18ExportEventOptionsV13cameraEffectsSaySSGSgvp",
+            "mangledName": "$s25BanubaLicenseServicingSDK18ExportEventOptionsV13cameraEffectsSaySSGSgvp",
+            "moduleName": "BanubaLicenseServicingSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25BanubaLicenseServicingSDK18ExportEventOptionsV13cameraEffectsSaySSGSgvg",
+                "mangledName": "$s25BanubaLicenseServicingSDK18ExportEventOptionsV13cameraEffectsSaySSGSgvg",
+                "moduleName": "BanubaLicenseServicingSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "sdkVersion",
             "printedName": "sdkVersion",
             "children": [
@@ -550,6 +1015,7 @@
               "AccessControl",
               "RawDocComment"
             ],
+            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -570,48 +1036,6 @@
                 "moduleName": "BanubaLicenseServicingSDK",
                 "implicit": true,
                 "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:25BanubaLicenseServicingSDK18ExportEventOptionsV10sdkVersionSSvs",
-                "mangledName": "$s25BanubaLicenseServicingSDK18ExportEventOptionsV10sdkVersionSSvs",
-                "moduleName": "BanubaLicenseServicingSDK",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:25BanubaLicenseServicingSDK18ExportEventOptionsV10sdkVersionSSvM",
-                "mangledName": "$s25BanubaLicenseServicingSDK18ExportEventOptionsV10sdkVersionSSvM",
-                "moduleName": "BanubaLicenseServicingSDK",
-                "implicit": true,
-                "accessorKind": "_modify"
               }
             ]
           },
@@ -636,6 +1060,7 @@
               "AccessControl",
               "RawDocComment"
             ],
+            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -656,17 +1081,218 @@
                 "moduleName": "BanubaLicenseServicingSDK",
                 "implicit": true,
                 "accessorKind": "get"
-              },
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "exportDuration",
+            "printedName": "exportDuration",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:25BanubaLicenseServicingSDK18ExportEventOptionsV14exportDurationSdvp",
+            "mangledName": "$s25BanubaLicenseServicingSDK18ExportEventOptionsV14exportDurationSdvp",
+            "moduleName": "BanubaLicenseServicingSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
               {
                 "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
+                "name": "Get",
+                "printedName": "Get()",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25BanubaLicenseServicingSDK18ExportEventOptionsV14exportDurationSdvg",
+                "mangledName": "$s25BanubaLicenseServicingSDK18ExportEventOptionsV14exportDurationSdvg",
+                "moduleName": "BanubaLicenseServicingSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "videoDuration",
+            "printedName": "videoDuration",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:25BanubaLicenseServicingSDK18ExportEventOptionsV13videoDurationSdvp",
+            "mangledName": "$s25BanubaLicenseServicingSDK18ExportEventOptionsV13videoDurationSdvp",
+            "moduleName": "BanubaLicenseServicingSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25BanubaLicenseServicingSDK18ExportEventOptionsV13videoDurationSdvg",
+                "mangledName": "$s25BanubaLicenseServicingSDK18ExportEventOptionsV13videoDurationSdvg",
+                "moduleName": "BanubaLicenseServicingSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "videoCount",
+            "printedName": "videoCount",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UInt8",
+                "printedName": "Swift.UInt8",
+                "usr": "s:s5UInt8V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:25BanubaLicenseServicingSDK18ExportEventOptionsV10videoCounts5UInt8Vvp",
+            "mangledName": "$s25BanubaLicenseServicingSDK18ExportEventOptionsV10videoCounts5UInt8Vvp",
+            "moduleName": "BanubaLicenseServicingSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25BanubaLicenseServicingSDK18ExportEventOptionsV10videoCounts5UInt8Vvg",
+                "mangledName": "$s25BanubaLicenseServicingSDK18ExportEventOptionsV10videoCounts5UInt8Vvg",
+                "moduleName": "BanubaLicenseServicingSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "videoSources",
+            "printedName": "videoSources",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VideoSources",
+                "printedName": "BanubaLicenseServicingSDK.VideoSources",
+                "usr": "s:25BanubaLicenseServicingSDK12VideoSourcesV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:25BanubaLicenseServicingSDK18ExportEventOptionsV12videoSourcesAA05VideoI0Vvp",
+            "mangledName": "$s25BanubaLicenseServicingSDK18ExportEventOptionsV12videoSourcesAA05VideoI0Vvp",
+            "moduleName": "BanubaLicenseServicingSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VideoSources",
+                    "printedName": "BanubaLicenseServicingSDK.VideoSources",
+                    "usr": "s:25BanubaLicenseServicingSDK12VideoSourcesV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25BanubaLicenseServicingSDK18ExportEventOptionsV12videoSourcesAA05VideoI0Vvg",
+                "mangledName": "$s25BanubaLicenseServicingSDK18ExportEventOptionsV12videoSourcesAA05VideoI0Vvg",
+                "moduleName": "BanubaLicenseServicingSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "aspectRatio",
+            "printedName": "aspectRatio",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:25BanubaLicenseServicingSDK18ExportEventOptionsV11aspectRatioSSvp",
+            "mangledName": "$s25BanubaLicenseServicingSDK18ExportEventOptionsV11aspectRatioSSvp",
+            "moduleName": "BanubaLicenseServicingSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "String",
@@ -675,36 +1301,18 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:25BanubaLicenseServicingSDK18ExportEventOptionsV10iOSVersionSSvs",
-                "mangledName": "$s25BanubaLicenseServicingSDK18ExportEventOptionsV10iOSVersionSSvs",
+                "usr": "s:25BanubaLicenseServicingSDK18ExportEventOptionsV11aspectRatioSSvg",
+                "mangledName": "$s25BanubaLicenseServicingSDK18ExportEventOptionsV11aspectRatioSSvg",
                 "moduleName": "BanubaLicenseServicingSDK",
                 "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:25BanubaLicenseServicingSDK18ExportEventOptionsV10iOSVersionSSvM",
-                "mangledName": "$s25BanubaLicenseServicingSDK18ExportEventOptionsV10iOSVersionSSvM",
-                "moduleName": "BanubaLicenseServicingSDK",
-                "implicit": true,
-                "accessorKind": "_modify"
+                "accessorKind": "get"
               }
             ]
           },
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(exportSuccess:videoResolutions:postProcessingEffects:cameraEffects:exportDuration:videoDuration:videoCount:videoSources:)",
+            "printedName": "init(exportSuccess:videoResolutions:postProcessingEffects:cameraEffects:exportDuration:videoDuration:videoCount:videoSources:aspectRatio:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -735,21 +1343,13 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "[Swift.String]?",
+                "printedName": "BanubaLicenseServicingSDK.PostProcessingOptions?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[Swift.String]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sa"
+                    "name": "PostProcessingOptions",
+                    "printedName": "BanubaLicenseServicingSDK.PostProcessingOptions",
+                    "usr": "s:25BanubaLicenseServicingSDK21PostProcessingOptionsV"
                   }
                 ],
                 "usr": "s:Sq"
@@ -796,22 +1396,20 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[BanubaLicenseServicingSDK.VideoSource]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "VideoSource",
-                    "printedName": "BanubaLicenseServicingSDK.VideoSource",
-                    "usr": "s:25BanubaLicenseServicingSDK11VideoSourceV"
-                  }
-                ],
-                "usr": "s:Sa"
+                "name": "VideoSources",
+                "printedName": "BanubaLicenseServicingSDK.VideoSources",
+                "usr": "s:25BanubaLicenseServicingSDK12VideoSourcesV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:25BanubaLicenseServicingSDK18ExportEventOptionsV13exportSuccess16videoResolutions21postProcessingEffects06cameraN00H8Duration0jP00J5Count0J7SourcesACSb_SaySSGALSgAMS2ds5UInt8VSayAA11VideoSourceVGtcfc",
-            "mangledName": "$s25BanubaLicenseServicingSDK18ExportEventOptionsV13exportSuccess16videoResolutions21postProcessingEffects06cameraN00H8Duration0jP00J5Count0J7SourcesACSb_SaySSGALSgAMS2ds5UInt8VSayAA11VideoSourceVGtcfc",
+            "usr": "s:25BanubaLicenseServicingSDK18ExportEventOptionsV13exportSuccess16videoResolutions21postProcessingEffects06cameraN00H8Duration0jP00J5Count0J7Sources11aspectRatioACSb_SaySSGAA04PostmG0VSgAMSgS2ds5UInt8VAA05VideoR0VSStcfc",
+            "mangledName": "$s25BanubaLicenseServicingSDK18ExportEventOptionsV13exportSuccess16videoResolutions21postProcessingEffects06cameraN00H8Duration0jP00J5Count0J7Sources11aspectRatioACSb_SaySSGAA04PostmG0VSgAMSgS2ds5UInt8VAA05VideoR0VSStcfc",
             "moduleName": "BanubaLicenseServicingSDK",
             "declAttributes": [
               "AccessControl",
@@ -887,6 +1485,152 @@
             "usr": "s:25BanubaLicenseServicingSDK17BasicEventOptionsP",
             "mangledName": "$s25BanubaLicenseServicingSDK17BasicEventOptionsP"
           },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PostProcessingOptions",
+        "printedName": "PostProcessingOptions",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(visual:speed:mask:color:text:sticker:blur:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PostProcessingOptions",
+                "printedName": "BanubaLicenseServicingSDK.PostProcessingOptions",
+                "usr": "s:25BanubaLicenseServicingSDK21PostProcessingOptionsV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:25BanubaLicenseServicingSDK21PostProcessingOptionsV6visual5speed4mask5color4text7sticker4blurACSi_S6itcfc",
+            "mangledName": "$s25BanubaLicenseServicingSDK21PostProcessingOptionsV6visual5speed4mask5color4text7sticker4blurACSi_S6itcfc",
+            "moduleName": "BanubaLicenseServicingSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PostProcessingOptions",
+                "printedName": "BanubaLicenseServicingSDK.PostProcessingOptions",
+                "usr": "s:25BanubaLicenseServicingSDK21PostProcessingOptionsV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:25BanubaLicenseServicingSDK21PostProcessingOptionsV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s25BanubaLicenseServicingSDK21PostProcessingOptionsV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "BanubaLicenseServicingSDK",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:25BanubaLicenseServicingSDK21PostProcessingOptionsV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s25BanubaLicenseServicingSDK21PostProcessingOptionsV6encode2toys7Encoder_p_tKF",
+            "moduleName": "BanubaLicenseServicingSDK",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:25BanubaLicenseServicingSDK21PostProcessingOptionsV",
+        "mangledName": "$s25BanubaLicenseServicingSDK21PostProcessingOptionsV",
+        "moduleName": "BanubaLicenseServicingSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
           {
             "kind": "Conformance",
             "name": "Decodable",
@@ -4279,210 +5023,224 @@
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
-      "offset": 2494,
+      "offset": 2892,
       "length": 16,
       "value": "\"export_success\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
-      "offset": 2533,
+      "offset": 2931,
       "length": 13,
       "value": "\"sdk_version\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
-      "offset": 2569,
+      "offset": 2967,
       "length": 12,
       "value": "\"os_version\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
-      "offset": 2608,
+      "offset": 3006,
       "length": 17,
       "value": "\"export_duration\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
-      "offset": 2651,
+      "offset": 3049,
       "length": 16,
       "value": "\"video_duration\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
-      "offset": 2690,
+      "offset": 3088,
       "length": 13,
       "value": "\"video_count\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
-      "offset": 2732,
+      "offset": 3130,
       "length": 19,
       "value": "\"video_resolutions\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
-      "offset": 2785,
-      "length": 25,
-      "value": "\"post_processing_effects\""
+      "offset": 3183,
+      "length": 13,
+      "value": "\"ppt_effects\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
-      "offset": 2836,
+      "offset": 3222,
       "length": 16,
       "value": "\"camera_effects\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
-      "offset": 2877,
-      "length": 15,
-      "value": "\"video_sources\""
+      "offset": 3263,
+      "length": 9,
+      "value": "\"sources\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
-      "offset": 2494,
+      "offset": 3296,
+      "length": 14,
+      "value": "\"aspect_ratio\""
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
+      "kind": "StringLiteral",
+      "offset": 2892,
       "length": 16,
       "value": "\"export_success\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
-      "offset": 2533,
+      "offset": 2931,
       "length": 13,
       "value": "\"sdk_version\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
-      "offset": 2569,
+      "offset": 2967,
       "length": 12,
       "value": "\"os_version\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
-      "offset": 2608,
+      "offset": 3006,
       "length": 17,
       "value": "\"export_duration\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
-      "offset": 2651,
+      "offset": 3049,
       "length": 16,
       "value": "\"video_duration\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
-      "offset": 2690,
+      "offset": 3088,
       "length": 13,
       "value": "\"video_count\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
-      "offset": 2732,
+      "offset": 3130,
       "length": 19,
       "value": "\"video_resolutions\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
-      "offset": 2785,
-      "length": 25,
-      "value": "\"post_processing_effects\""
+      "offset": 3183,
+      "length": 13,
+      "value": "\"ppt_effects\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
-      "offset": 2836,
+      "offset": 3222,
       "length": 16,
       "value": "\"camera_effects\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
-      "offset": 2877,
-      "length": 15,
-      "value": "\"video_sources\""
+      "offset": 3263,
+      "length": 9,
+      "value": "\"sources\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
-      "offset": 4595,
+      "offset": 3296,
+      "length": 14,
+      "value": "\"aspect_ratio\""
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
+      "kind": "StringLiteral",
+      "offset": 6116,
       "length": 13,
       "value": "\"sdk_version\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
-      "offset": 4631,
+      "offset": 6152,
       "length": 12,
       "value": "\"os_version\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
-      "offset": 4595,
+      "offset": 6116,
       "length": 13,
       "value": "\"sdk_version\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
-      "offset": 4631,
+      "offset": 6152,
       "length": 12,
       "value": "\"os_version\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
-      "offset": 5643,
+      "offset": 7164,
       "length": 13,
       "value": "\"sdk_version\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
-      "offset": 5679,
+      "offset": 7200,
       "length": 12,
       "value": "\"os_version\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
-      "offset": 5714,
+      "offset": 7235,
       "length": 13,
       "value": "\"entry_point\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
-      "offset": 5643,
+      "offset": 7164,
       "length": 13,
       "value": "\"sdk_version\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
-      "offset": 5679,
+      "offset": 7200,
       "length": 12,
       "value": "\"os_version\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
-      "offset": 5714,
+      "offset": 7235,
       "length": 13,
       "value": "\"entry_point\""
     },
