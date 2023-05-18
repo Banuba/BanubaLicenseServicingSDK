@@ -110,7 +110,7 @@ public enum EffectType : Swift.String, Swift.CaseIterable {
 extension BanubaLicenseServicingSDK.BNBAnalyticsManager {
   public func sendEvent(withType type: BanubaLicenseServicingSDK.BNBInformerEventType)
 }
-@objc public class License : ObjectiveC.NSObject {
+@_hasMissingDesignatedInitializers @objc public class License : ObjectiveC.NSObject {
   @objc public var clientId: Swift.String {
     get
   }
@@ -132,7 +132,16 @@ extension BanubaLicenseServicingSDK.BNBAnalyticsManager {
   @objc public var supportsAudioBrowser: Swift.Bool {
     get
   }
+  @objc public var supportsMusicLibrary: Swift.Bool {
+    get
+  }
   @objc public var supportsBgSeparation: Swift.Bool {
+    get
+  }
+  @objc public var supportsCaptions: Swift.Bool {
+    get
+  }
+  @objc public var supportsAutoCut: Swift.Bool {
     get
   }
   @objc public var postProcessingEffects: [Swift.Int] {
@@ -157,7 +166,6 @@ extension BanubaLicenseServicingSDK.BNBAnalyticsManager {
     get
   }
   @objc override dynamic public func isEqual(_ object: Any?) -> Swift.Bool
-  @objc public init(isExportAPIEnabled: Swift.Bool, isPlaybackAPIEnabled: Swift.Bool, isVESDKEnabled: Swift.Bool, clientId: Swift.String, maxFaces: Swift.Int32, collectAnalytics: Swift.Bool, supportsAnalytics: Swift.Bool, supportsFaceAR: Swift.Bool, supportsPiP: Swift.Bool, supportsAudioBrowser: Swift.Bool, supportsBgSeparation: Swift.Bool, postProcessingEffects: [Swift.Int], arCloudURL: Swift.String?, timeBomb: BanubaLicenseServicingSDK.TimeBomb?, supportsFHD: Swift.Bool, licenseManager: BNBLicenseUtils.XBNBLicenseManager)
   @objc public static func getLicense(fromToken token: Swift.String) -> BanubaLicenseServicingSDK.License?
   public func getLicenseState(completion: @escaping ((BNBLicenseUtils.XBNBLicenseStatus) -> Swift.Void))
   @objc deinit
