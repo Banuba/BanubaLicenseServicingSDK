@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
 // swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name BanubaLicenseServicingSDK
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import BNBLicenseUtils
@@ -13,9 +13,9 @@ import _StringProcessing
 import os.log
 import os
 public enum BNBInformerEventType {
-  case `init`(BanubaLicenseServicingSDK.BasicEventOptions)
-  case present(BanubaLicenseServicingSDK.BasicEventOptions)
-  case export(BanubaLicenseServicingSDK.BasicEventOptions)
+  case `init`(any BanubaLicenseServicingSDK.BasicEventOptions)
+  case present(any BanubaLicenseServicingSDK.BasicEventOptions)
+  case export(any BanubaLicenseServicingSDK.BasicEventOptions)
 }
 public protocol BasicEventOptions : Swift.Decodable, Swift.Encodable {
   var sdkVersion: Swift.String { get }
@@ -32,8 +32,8 @@ public struct VideoSources : Swift.Codable {
   public let slideshow: Swift.Int
   public let audio: Swift.Int
   public init(camera: Swift.Int, gallery: Swift.Int, pip: Swift.Int, slideshow: Swift.Int, audio: Swift.Int)
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct ExportEventOptions : BanubaLicenseServicingSDK.BasicEventOptions {
   public let exportSuccess: Swift.Bool
@@ -48,20 +48,20 @@ public struct ExportEventOptions : BanubaLicenseServicingSDK.BasicEventOptions {
   public let videoSources: BanubaLicenseServicingSDK.VideoSources
   public let aspectRatio: Swift.String
   public init(exportSuccess: Swift.Bool, videoResolutions: [Swift.String], postProcessingEffects: BanubaLicenseServicingSDK.PostProcessingOptions?, cameraEffects: [Swift.String]?, exportDuration: Foundation.TimeInterval, videoDuration: Foundation.TimeInterval, videoCount: Swift.UInt8, videoSources: BanubaLicenseServicingSDK.VideoSources, aspectRatio: Swift.String)
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct PostProcessingOptions : Swift.Codable {
   public init(visual: Swift.Int, speed: Swift.Int, mask: Swift.Int, color: Swift.Int, text: Swift.Int, sticker: Swift.Int, blur: Swift.Int)
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct InitEventOptions : BanubaLicenseServicingSDK.BasicEventOptions {
   public var sdkVersion: Swift.String
   public var iOSVersion: Swift.String
   public init()
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public typealias BanubaVideoEditorEntryPoint = BanubaLicenseServicingSDK.PresentEventOptions.EntryPoint
 public struct PresentEventOptions : BanubaLicenseServicingSDK.BasicEventOptions {
@@ -80,8 +80,8 @@ public struct PresentEventOptions : BanubaLicenseServicingSDK.BasicEventOptions 
     }
   }
   public init(entryPoint: BanubaLicenseServicingSDK.PresentEventOptions.EntryPoint)
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public enum EffectType : Swift.String, Swift.CaseIterable {
   case mask
@@ -177,8 +177,8 @@ extension BanubaLicenseServicingSDK.BNBAnalyticsManager {
     @objc get
   }
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
-  required public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
 }
 extension BanubaLicenseServicingSDK.PresentEventOptions.EntryPoint : Swift.Equatable {}
 extension BanubaLicenseServicingSDK.PresentEventOptions.EntryPoint : Swift.Hashable {}
