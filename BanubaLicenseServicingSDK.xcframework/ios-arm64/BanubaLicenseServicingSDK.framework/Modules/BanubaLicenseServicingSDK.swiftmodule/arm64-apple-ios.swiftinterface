@@ -73,6 +73,7 @@ public struct PresentEventOptions : BanubaLicenseServicingSDK.BasicEventOptions 
     case trimmer
     case editor
     case drafts
+    case gallery
     public init?(rawValue: Swift.String)
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {

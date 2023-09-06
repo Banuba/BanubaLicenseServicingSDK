@@ -2298,6 +2298,43 @@
                 "moduleName": "BanubaLicenseServicingSDK"
               },
               {
+                "kind": "Var",
+                "name": "gallery",
+                "printedName": "gallery",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(BanubaLicenseServicingSDK.PresentEventOptions.EntryPoint.Type) -> BanubaLicenseServicingSDK.PresentEventOptions.EntryPoint",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EntryPoint",
+                        "printedName": "BanubaLicenseServicingSDK.PresentEventOptions.EntryPoint",
+                        "usr": "s:25BanubaLicenseServicingSDK19PresentEventOptionsV10EntryPointO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "BanubaLicenseServicingSDK.PresentEventOptions.EntryPoint.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "EntryPoint",
+                            "printedName": "BanubaLicenseServicingSDK.PresentEventOptions.EntryPoint",
+                            "usr": "s:25BanubaLicenseServicingSDK19PresentEventOptionsV10EntryPointO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:25BanubaLicenseServicingSDK19PresentEventOptionsV10EntryPointO7galleryyA2EmF",
+                "mangledName": "$s25BanubaLicenseServicingSDK19PresentEventOptionsV10EntryPointO7galleryyA2EmF",
+                "moduleName": "BanubaLicenseServicingSDK"
+              },
+              {
                 "kind": "Constructor",
                 "name": "init",
                 "printedName": "init(rawValue:)",
@@ -5242,42 +5279,42 @@
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
-      "offset": 7164,
+      "offset": 7181,
       "length": 13,
       "value": "\"sdk_version\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
-      "offset": 7200,
+      "offset": 7217,
       "length": 12,
       "value": "\"os_version\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
-      "offset": 7235,
+      "offset": 7252,
       "length": 13,
       "value": "\"entry_point\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
-      "offset": 7164,
+      "offset": 7181,
       "length": 13,
       "value": "\"sdk_version\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
-      "offset": 7200,
+      "offset": 7217,
       "length": 12,
       "value": "\"os_version\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
-      "offset": 7235,
+      "offset": 7252,
       "length": 13,
       "value": "\"entry_point\""
     },
