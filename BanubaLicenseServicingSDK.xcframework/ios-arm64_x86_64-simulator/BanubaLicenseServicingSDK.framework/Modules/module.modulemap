@@ -1,7 +1,7 @@
 framework module BanubaLicenseServicingSDK {
   umbrella header "BanubaLicenseServicingSDK.h"
-
   export *
+
   module * { export * }
 }
 
