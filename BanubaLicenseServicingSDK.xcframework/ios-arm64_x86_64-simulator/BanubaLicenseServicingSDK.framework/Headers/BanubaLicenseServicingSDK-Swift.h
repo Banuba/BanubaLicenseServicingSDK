@@ -322,7 +322,6 @@ SWIFT_CLASS("_TtC25BanubaLicenseServicingSDK7License")
 @property (nonatomic, readonly) BOOL supportsAnalytics;
 @property (nonatomic, readonly) BOOL supportsFaceAR;
 @property (nonatomic, readonly) BOOL supportsPiP;
-@property (nonatomic, readonly) BOOL supportsAudioBrowser;
 @property (nonatomic, readonly) BOOL supportsMusicLibrary;
 @property (nonatomic, readonly) BOOL supportsBgSeparation;
 @property (nonatomic, readonly) BOOL supportsCaptions;
@@ -334,6 +333,7 @@ SWIFT_CLASS("_TtC25BanubaLicenseServicingSDK7License")
 @property (nonatomic, readonly) BOOL isExportAPIEnabled;
 @property (nonatomic, readonly) BOOL isPlaybackAPIEnabled;
 @property (nonatomic, readonly) BOOL isVESDKEnabled;
+@property (nonatomic, readonly) BOOL isPhotoEditorSDKEnabled;
 - (BOOL)isEqual:(id _Nullable)object SWIFT_WARN_UNUSED_RESULT;
 + (License * _Nullable)getLicenseFromToken:(NSString * _Nonnull)token SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
@@ -685,7 +685,6 @@ SWIFT_CLASS("_TtC25BanubaLicenseServicingSDK7License")
 @property (nonatomic, readonly) BOOL supportsAnalytics;
 @property (nonatomic, readonly) BOOL supportsFaceAR;
 @property (nonatomic, readonly) BOOL supportsPiP;
-@property (nonatomic, readonly) BOOL supportsAudioBrowser;
 @property (nonatomic, readonly) BOOL supportsMusicLibrary;
 @property (nonatomic, readonly) BOOL supportsBgSeparation;
 @property (nonatomic, readonly) BOOL supportsCaptions;
@@ -697,6 +696,7 @@ SWIFT_CLASS("_TtC25BanubaLicenseServicingSDK7License")
 @property (nonatomic, readonly) BOOL isExportAPIEnabled;
 @property (nonatomic, readonly) BOOL isPlaybackAPIEnabled;
 @property (nonatomic, readonly) BOOL isVESDKEnabled;
+@property (nonatomic, readonly) BOOL isPhotoEditorSDKEnabled;
 - (BOOL)isEqual:(id _Nullable)object SWIFT_WARN_UNUSED_RESULT;
 + (License * _Nullable)getLicenseFromToken:(NSString * _Nonnull)token SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;

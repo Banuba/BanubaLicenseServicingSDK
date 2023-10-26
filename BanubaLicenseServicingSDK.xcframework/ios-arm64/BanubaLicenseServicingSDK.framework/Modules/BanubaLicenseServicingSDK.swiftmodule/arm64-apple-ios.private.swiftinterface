@@ -131,9 +131,6 @@ extension BanubaLicenseServicingSDK.BNBAnalyticsManager {
   @objc public var supportsPiP: Swift.Bool {
     get
   }
-  @objc public var supportsAudioBrowser: Swift.Bool {
-    get
-  }
   @objc public var supportsMusicLibrary: Swift.Bool {
     get
   }
@@ -166,6 +163,9 @@ extension BanubaLicenseServicingSDK.BNBAnalyticsManager {
   }
   @objc public var isVESDKEnabled: Swift.Bool {
     get
+  }
+  @objc public var isPhotoEditorSDKEnabled: Swift.Bool {
+    @objc get
   }
   @objc override dynamic public func isEqual(_ object: Any?) -> Swift.Bool
   @objc public static func getLicense(fromToken token: Swift.String) -> BanubaLicenseServicingSDK.License?
