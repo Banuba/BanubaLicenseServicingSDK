@@ -3436,6 +3436,55 @@
         "children": [
           {
             "kind": "Var",
+            "name": "token",
+            "printedName": "token",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@BanubaLicenseServicingSDK@objc(cs)License(py)token",
+            "mangledName": "$s25BanubaLicenseServicingSDK0B0C5tokenSSvp",
+            "moduleName": "BanubaLicenseServicingSDK",
+            "declAttributes": [
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@BanubaLicenseServicingSDK@objc(cs)License(im)token",
+                "mangledName": "$s25BanubaLicenseServicingSDK0B0C5tokenSSvg",
+                "moduleName": "BanubaLicenseServicingSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "clientId",
             "printedName": "clientId",
             "children": [
@@ -3764,6 +3813,54 @@
                 "declKind": "Accessor",
                 "usr": "c:@M@BanubaLicenseServicingSDK@objc(cs)License(im)supportsMusicLibrary",
                 "mangledName": "$s25BanubaLicenseServicingSDK0B0C20supportsMusicLibrarySbvg",
+                "moduleName": "BanubaLicenseServicingSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "supportsSoundstripe",
+            "printedName": "supportsSoundstripe",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@BanubaLicenseServicingSDK@objc(cs)License(py)supportsSoundstripe",
+            "mangledName": "$s25BanubaLicenseServicingSDK0B0C19supportsSoundstripeSbvp",
+            "moduleName": "BanubaLicenseServicingSDK",
+            "declAttributes": [
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@BanubaLicenseServicingSDK@objc(cs)License(im)supportsSoundstripe",
+                "mangledName": "$s25BanubaLicenseServicingSDK0B0C19supportsSoundstripeSbvg",
                 "moduleName": "BanubaLicenseServicingSDK",
                 "implicit": true,
                 "declAttributes": [
@@ -5422,133 +5519,133 @@
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/License.swift",
       "kind": "BooleanLiteral",
-      "offset": 1272,
+      "offset": 1395,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/License.swift",
       "kind": "BooleanLiteral",
-      "offset": 1507,
+      "offset": 1630,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/License.swift",
       "kind": "BooleanLiteral",
-      "offset": 3128,
+      "offset": 3375,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/License.swift",
       "kind": "BooleanLiteral",
-      "offset": 3167,
+      "offset": 3414,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/License.swift",
       "kind": "StringLiteral",
-      "offset": 3361,
+      "offset": 3608,
       "length": 74,
       "value": "\"Cannot create license. Please check your token or contact Banuba support\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/License.swift",
       "kind": "StringLiteral",
-      "offset": 3672,
+      "offset": 3919,
       "length": 58,
       "value": "\"The token is not compatible with Banuba Video Editor SDK\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/License.swift",
       "kind": "StringLiteral",
-      "offset": 3824,
+      "offset": 4071,
       "length": 40,
       "value": "\"License does not include this platform\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/License.swift",
       "kind": "StringLiteral",
-      "offset": 3969,
+      "offset": 4216,
       "length": 46,
       "value": "\"License does not include VE UI SDK or VE API\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/License.swift",
       "kind": "BooleanLiteral",
-      "offset": 4141,
+      "offset": 4409,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/License.swift",
       "kind": "BooleanLiteral",
-      "offset": 4228,
+      "offset": 4496,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/License.swift",
       "kind": "BooleanLiteral",
-      "offset": 4434,
+      "offset": 4702,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/License.swift",
       "kind": "BooleanLiteral",
-      "offset": 4485,
+      "offset": 4753,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/License.swift",
       "kind": "BooleanLiteral",
-      "offset": 4598,
+      "offset": 4866,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/License.swift",
       "kind": "BooleanLiteral",
-      "offset": 4685,
+      "offset": 5013,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/License.swift",
       "kind": "BooleanLiteral",
-      "offset": 4771,
+      "offset": 5099,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/License.swift",
       "kind": "BooleanLiteral",
-      "offset": 4850,
+      "offset": 5178,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/License.swift",
       "kind": "BooleanLiteral",
-      "offset": 4927,
+      "offset": 5255,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/License.swift",
       "kind": "Array",
-      "offset": 5023,
+      "offset": 5351,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/License.swift",
       "kind": "BooleanLiteral",
-      "offset": 5207,
+      "offset": 5535,
       "length": 5,
       "value": "false"
     },
@@ -5562,399 +5659,427 @@
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
       "kind": "StringLiteral",
-      "offset": 572,
+      "offset": 625,
       "length": 5,
       "value": "\"iOS\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
       "kind": "BooleanLiteral",
-      "offset": 582,
+      "offset": 635,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
       "kind": "Array",
-      "offset": 627,
+      "offset": 680,
       "length": 252,
       "value": "[101, 102, 103, 104, 105, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 201, 202, 301, 302, 303, 304, 305, 306, 307]"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
       "kind": "StringLiteral",
-      "offset": 977,
+      "offset": 1030,
       "length": 11,
       "value": "\"max_faces\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
       "kind": "StringLiteral",
-      "offset": 1043,
+      "offset": 1096,
       "length": 11,
       "value": "\"client_id\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
       "kind": "StringLiteral",
-      "offset": 1090,
+      "offset": 1143,
       "length": 7,
       "value": "\"veSdk\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
       "kind": "StringLiteral",
-      "offset": 1120,
+      "offset": 1177,
+      "length": 13,
+      "value": "\"soundstripe\""
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
+      "kind": "StringLiteral",
+      "offset": 1213,
       "length": 14,
       "value": "\"ar_cloud_url\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
       "kind": "StringLiteral",
-      "offset": 1155,
+      "offset": 1248,
       "length": 11,
       "value": "\"time_bomb\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
       "kind": "StringLiteral",
-      "offset": 1184,
+      "offset": 1277,
       "length": 7,
       "value": "\"veApi\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
       "kind": "StringLiteral",
-      "offset": 977,
+      "offset": 1030,
       "length": 11,
       "value": "\"max_faces\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
       "kind": "StringLiteral",
-      "offset": 1043,
+      "offset": 1096,
       "length": 11,
       "value": "\"client_id\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
       "kind": "StringLiteral",
-      "offset": 1090,
+      "offset": 1143,
       "length": 7,
       "value": "\"veSdk\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
       "kind": "StringLiteral",
-      "offset": 1120,
+      "offset": 1177,
+      "length": 13,
+      "value": "\"soundstripe\""
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
+      "kind": "StringLiteral",
+      "offset": 1213,
       "length": 14,
       "value": "\"ar_cloud_url\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
       "kind": "StringLiteral",
-      "offset": 1155,
+      "offset": 1248,
       "length": 11,
       "value": "\"time_bomb\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
       "kind": "StringLiteral",
-      "offset": 1184,
+      "offset": 1277,
       "length": 7,
       "value": "\"veApi\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
       "kind": "StringLiteral",
-      "offset": 1399,
+      "offset": 1492,
       "length": 3,
       "value": "\"*\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
       "kind": "StringLiteral",
-      "offset": 1452,
+      "offset": 1545,
       "length": 6,
       "value": "\"true\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
       "kind": "StringLiteral",
-      "offset": 1532,
+      "offset": 1625,
       "length": 6,
       "value": "\"true\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
       "kind": "StringLiteral",
-      "offset": 1570,
+      "offset": 1663,
       "length": 7,
       "value": "\"false\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
       "kind": "StringLiteral",
-      "offset": 1609,
+      "offset": 1702,
       "length": 6,
       "value": "\"true\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
       "kind": "StringLiteral",
-      "offset": 1643,
+      "offset": 1736,
       "length": 7,
       "value": "\"false\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
       "kind": "StringLiteral",
-      "offset": 1677,
+      "offset": 1770,
       "length": 7,
       "value": "\"false\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
       "kind": "StringLiteral",
-      "offset": 1707,
+      "offset": 1800,
       "length": 6,
       "value": "\"true\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
       "kind": "StringLiteral",
-      "offset": 1781,
+      "offset": 1874,
       "length": 6,
       "value": "\"true\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
       "kind": "StringLiteral",
-      "offset": 1826,
+      "offset": 1919,
       "length": 6,
       "value": "\"true\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
       "kind": "StringLiteral",
-      "offset": 1856,
+      "offset": 1949,
       "length": 6,
       "value": "\"true\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2256,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2366,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
       "kind": "StringLiteral",
-      "offset": 2188,
+      "offset": 2497,
       "length": 3,
       "value": "\"*\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
       "kind": "BooleanLiteral",
-      "offset": 2214,
+      "offset": 2525,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
       "kind": "BooleanLiteral",
-      "offset": 2402,
+      "offset": 2723,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
       "kind": "StringLiteral",
-      "offset": 3227,
+      "offset": 3644,
       "length": 12,
       "value": "\"year_begin\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
       "kind": "StringLiteral",
-      "offset": 3260,
+      "offset": 3677,
       "length": 11,
       "value": "\"mon_begin\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
       "kind": "StringLiteral",
-      "offset": 3292,
+      "offset": 3709,
       "length": 11,
       "value": "\"day_begin\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
       "kind": "StringLiteral",
-      "offset": 3323,
+      "offset": 3740,
       "length": 10,
       "value": "\"year_end\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
       "kind": "StringLiteral",
-      "offset": 3352,
+      "offset": 3769,
       "length": 9,
       "value": "\"mon_end\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
       "kind": "StringLiteral",
-      "offset": 3380,
+      "offset": 3797,
       "length": 9,
       "value": "\"day_end\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
       "kind": "StringLiteral",
-      "offset": 3227,
+      "offset": 3644,
       "length": 12,
       "value": "\"year_begin\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
       "kind": "StringLiteral",
-      "offset": 3260,
+      "offset": 3677,
       "length": 11,
       "value": "\"mon_begin\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
       "kind": "StringLiteral",
-      "offset": 3292,
+      "offset": 3709,
       "length": 11,
       "value": "\"day_begin\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
       "kind": "StringLiteral",
-      "offset": 3323,
+      "offset": 3740,
       "length": 10,
       "value": "\"year_end\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
       "kind": "StringLiteral",
-      "offset": 3352,
+      "offset": 3769,
       "length": 9,
       "value": "\"mon_end\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
       "kind": "StringLiteral",
-      "offset": 3380,
+      "offset": 3797,
       "length": 9,
       "value": "\"day_end\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
       "kind": "StringLiteral",
-      "offset": 3449,
+      "offset": 3866,
       "length": 32,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
       "kind": "StringLiteral",
-      "offset": 3459,
+      "offset": 3876,
       "length": 1,
       "value": "\".\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
       "kind": "StringLiteral",
-      "offset": 3469,
+      "offset": 3886,
       "length": 1,
       "value": "\".\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
       "kind": "StringLiteral",
-      "offset": 3480,
+      "offset": 3897,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
       "kind": "StringLiteral",
-      "offset": 3550,
+      "offset": 3967,
       "length": 12,
       "value": "\"dd\/MM\/yyyy\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
       "kind": "BooleanLiteral",
-      "offset": 3644,
+      "offset": 4061,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
       "kind": "StringLiteral",
-      "offset": 3929,
+      "offset": 4346,
       "length": 13,
       "value": "\"playbackApi\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
       "kind": "StringLiteral",
-      "offset": 3964,
+      "offset": 4381,
       "length": 11,
       "value": "\"exportApi\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
       "kind": "StringLiteral",
-      "offset": 3929,
+      "offset": 4346,
       "length": 13,
       "value": "\"playbackApi\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
       "kind": "StringLiteral",
-      "offset": 3964,
+      "offset": 4381,
       "length": 11,
       "value": "\"exportApi\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
       "kind": "StringLiteral",
-      "offset": 4511,
+      "offset": 4928,
       "length": 21,
       "value": "\"supportMusicLibrary\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
       "kind": "StringLiteral",
-      "offset": 4591,
+      "offset": 5008,
       "length": 23,
       "value": "\"supportClosedCaptions\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
       "kind": "StringLiteral",
-      "offset": 4642,
+      "offset": 5059,
       "length": 16,
       "value": "\"supportAutoCut\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
       "kind": "StringLiteral",
-      "offset": 4511,
+      "offset": 4928,
       "length": 21,
       "value": "\"supportMusicLibrary\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
       "kind": "StringLiteral",
-      "offset": 4591,
+      "offset": 5008,
       "length": 23,
       "value": "\"supportClosedCaptions\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
       "kind": "StringLiteral",
-      "offset": 4642,
+      "offset": 5059,
       "length": 16,
       "value": "\"supportAutoCut\""
     },

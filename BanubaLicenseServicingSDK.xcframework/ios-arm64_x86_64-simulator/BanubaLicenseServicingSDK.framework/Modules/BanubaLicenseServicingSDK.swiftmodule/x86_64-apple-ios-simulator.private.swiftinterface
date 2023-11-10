@@ -113,6 +113,9 @@ extension BanubaLicenseServicingSDK.BNBAnalyticsManager {
   public func sendEvent(withType type: BanubaLicenseServicingSDK.BNBInformerEventType)
 }
 @_hasMissingDesignatedInitializers @objc public class License : ObjectiveC.NSObject {
+  @objc public var token: Swift.String {
+    get
+  }
   @objc public var clientId: Swift.String {
     get
   }
@@ -132,6 +135,9 @@ extension BanubaLicenseServicingSDK.BNBAnalyticsManager {
     get
   }
   @objc public var supportsMusicLibrary: Swift.Bool {
+    get
+  }
+  @objc public var supportsSoundstripe: Swift.Bool {
     get
   }
   @objc public var supportsBgSeparation: Swift.Bool {

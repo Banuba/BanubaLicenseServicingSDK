@@ -314,6 +314,7 @@ SWIFT_CLASS_NAMED("BNBAnalyticsManager")
 
 SWIFT_CLASS("_TtC25BanubaLicenseServicingSDK7License")
 @interface License : NSObject
+@property (nonatomic, readonly, copy) NSString * _Nonnull token;
 @property (nonatomic, readonly, copy) NSString * _Nonnull clientId;
 @property (nonatomic, readonly) int32_t maxFaces;
 /// Video Editor Analytics
@@ -323,6 +324,7 @@ SWIFT_CLASS("_TtC25BanubaLicenseServicingSDK7License")
 @property (nonatomic, readonly) BOOL supportsFaceAR;
 @property (nonatomic, readonly) BOOL supportsPiP;
 @property (nonatomic, readonly) BOOL supportsMusicLibrary;
+@property (nonatomic, readonly) BOOL supportsSoundstripe;
 @property (nonatomic, readonly) BOOL supportsBgSeparation;
 @property (nonatomic, readonly) BOOL supportsCaptions;
 @property (nonatomic, readonly) BOOL supportsAutoCut;
