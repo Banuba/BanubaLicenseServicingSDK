@@ -113,6 +113,9 @@ extension BanubaLicenseServicingSDK.BNBAnalyticsManager {
   public func sendEvent(withType type: BanubaLicenseServicingSDK.BNBInformerEventType)
 }
 @_hasMissingDesignatedInitializers @objc public class License : ObjectiveC.NSObject {
+  @objc public var token: Swift.String {
+    get
+  }
   @objc public var clientId: Swift.String {
     get
   }
@@ -131,10 +134,10 @@ extension BanubaLicenseServicingSDK.BNBAnalyticsManager {
   @objc public var supportsPiP: Swift.Bool {
     get
   }
-  @objc public var supportsAudioBrowser: Swift.Bool {
+  @objc public var supportsMusicLibrary: Swift.Bool {
     get
   }
-  @objc public var supportsMusicLibrary: Swift.Bool {
+  @objc public var supportsSoundstripe: Swift.Bool {
     get
   }
   @objc public var supportsBgSeparation: Swift.Bool {
@@ -165,6 +168,9 @@ extension BanubaLicenseServicingSDK.BNBAnalyticsManager {
     get
   }
   @objc public var isVESDKEnabled: Swift.Bool {
+    get
+  }
+  @objc public var isPhotoEditorSDKEnabled: Swift.Bool {
     get
   }
   @objc override dynamic public func isEqual(_ object: Any?) -> Swift.Bool
