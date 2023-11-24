@@ -1,6 +1,6 @@
 ---
 triple:          'arm64-apple-darwin'
-binary-path:     '/Users/user/Library/Developer/Xcode/DerivedData/VideoEditorSDKSandbox-dvbqgkbyffpndzghkkiwcffgdpts/Build/Intermediates.noindex/ArchiveIntermediates/BanubaLicenseServicingSDK/InstallationBuildProductsLocation/Library/Frameworks/BanubaLicenseServicingSDK.framework/BanubaLicenseServicingSDK'
+binary-path:     '/Users/user/Library/Developer/Xcode/DerivedData/VideoEditorSDKSandbox-apczolamkvzvcugwxnswrghnwlmi/Build/Intermediates.noindex/ArchiveIntermediates/BanubaLicenseServicingSDK/InstallationBuildProductsLocation/Library/Frameworks/BanubaLicenseServicingSDK.framework/BanubaLicenseServicingSDK'
 relocations:
   - { offsetInCU: 0x34, offset: 0x9F829, size: 0x8, addend: 0x0, symName: _BanubaLicenseServicingSDKVersionString, symObjAddr: 0x0, symBinAddr: 0x17B20, symSize: 0x0 }
   - { offsetInCU: 0x69, offset: 0x9F85E, size: 0x8, addend: 0x0, symName: _BanubaLicenseServicingSDKVersionNumber, symObjAddr: 0x58, symBinAddr: 0x17B78, symSize: 0x0 }
@@ -395,7 +395,7 @@ relocations:
   - { offsetInCU: 0x18FA, offset: 0xA51D1, size: 0x8, addend: 0x0, symName: '_$sSasSQRzlE2eeoiySbSayxG_ABtFZSi_Tg5Tf4nnd_n', symObjAddr: 0x1D1C, symBinAddr: 0xC684, symSize: 0x74 }
   - { offsetInCU: 0x190E, offset: 0xA51E5, size: 0x8, addend: 0x0, symName: '_$sSasSQRzlE2eeoiySbSayxG_ABtFZSi_Tg5Tf4nnd_n', symObjAddr: 0x1D1C, symBinAddr: 0xC684, symSize: 0x74 }
   - { offsetInCU: 0x19FA, offset: 0xA52D1, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataVyACxcSTRzs5UInt8V7ElementRtzlufCSS8UTF8ViewV_Tg5Tf4nd_n', symObjAddr: 0x252C, symBinAddr: 0xCE94, symSize: 0x4EC }
-  - { offsetInCU: 0x4F, offset: 0xA5707, size: 0x8, addend: 0x0, symName: '_$s25BanubaLicenseServicingSDK19VideoEditorSDKTokenV10allEffectsSaySiGvpZ', symObjAddr: 0x1E608, symBinAddr: 0x28FA8, symSize: 0x0 }
+  - { offsetInCU: 0x4F, offset: 0xA5707, size: 0x8, addend: 0x0, symName: '_$s25BanubaLicenseServicingSDK19VideoEditorSDKTokenV10allEffectsSaySiGvpZ', symObjAddr: 0x1E5F0, symBinAddr: 0x28FA8, symSize: 0x0 }
   - { offsetInCU: 0x9E, offset: 0xA5756, size: 0x8, addend: 0x0, symName: '_$s25BanubaLicenseServicingSDK8TimeBombC10CodingKeysO8rawValueSSvg', symObjAddr: 0x12BC, symBinAddr: 0x10968, symSize: 0x20 }
   - { offsetInCU: 0xBD, offset: 0xA5775, size: 0x8, addend: 0x0, symName: '_$s25BanubaLicenseServicingSDK8TimeBombC10CodingKeysO11stringValueSSvg', symObjAddr: 0x12DC, symBinAddr: 0x10988, symSize: 0x20 }
   - { offsetInCU: 0xEB, offset: 0xA57A3, size: 0x8, addend: 0x0, symName: '_$s25BanubaLicenseServicingSDK8TimeBombC10CodingKeysO11stringValueSSvg', symObjAddr: 0x12DC, symBinAddr: 0x10988, symSize: 0x20 }
