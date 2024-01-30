@@ -6,7 +6,7 @@
 	<dict>
 		<key>FrameworkVersion.plist</key>
 		<data>
-		+3td8fHkpKfkX1ogvPGdIW7vnE4=
+		+TaFRRhqw+vR8I1eWgOsBST7tk8=
 		</data>
 		<key>Headers/BanubaLicenseServicingSDK-Swift.h</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		0X3su34hMkX3ZSkOhwQYbrE1Pno=
+		AsN9Hu4MqCyzF88AOdKFyUfRWII=
 		</data>
 		<key>Modules/BanubaLicenseServicingSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -68,6 +68,10 @@
 		<data>
 		vxnENq7CtXzkSDjwoHEWyyJ0bn8=
 		</data>
+		<key>PrivacyInfo.xcprivacy</key>
+		<data>
+		NWcP02m5AqJmrEMU+2f6nNpVn5E=
+		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -75,7 +79,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			K4QjZuhwy9TEUdS7gSrHqWoYOGe/0lIlcrekQMUX2Mc=
+			2YcrSV6PQIE9V3oe4aoQeKqisAudSRrbvZX02VsjOvM=
 			</data>
 		</dict>
 		<key>Headers/BanubaLicenseServicingSDK-Swift.h</key>
@@ -174,6 +178,13 @@
 			<key>hash2</key>
 			<data>
 			tuuCUQY10MVw+kZKXVfiiD8fRQ20pyQy2gpbdXgka+U=
+			</data>
+		</dict>
+		<key>PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			WoBncoFeCN5PJUikLNKiQ6O2md/yn7fsAnP72H33svY=
 			</data>
 		</dict>
 	</dict>
