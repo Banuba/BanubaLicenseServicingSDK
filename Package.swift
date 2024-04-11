@@ -1,17 +1,22 @@
-// swift-tools-version:5.3
+// swift-tools-version:5.9
+
 import PackageDescription
+
 let package = Package(
   name: "BanubaLicenseServicingSDK",
   platforms: [
-    .iOS(.v12)
+    .iOS(.v15)
   ],
   products: [
     .library(
       name: "BanubaLicenseServicingSDK",
-      targets: ["BanubaLicenseServicingSDK"])
+      targets: ["BanubaLicenseServicingSDK"]
+    )
   ],
   targets: [
     .binaryTarget(
       name: "BanubaLicenseServicingSDK",
-      path: "BanubaLicenseServicingSDK.xcframework")
-  ])
+      path: "BanubaLicenseServicingSDK.xcframework"
+    )
+  ]
+)
