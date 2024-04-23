@@ -128,7 +128,10 @@ extension BanubaLicenseServicingSDK.BNBAnalyticsManager {
   @objc public var supportsAnalytics: Swift.Bool {
     get
   }
-  @objc public var supportsFaceAR: Swift.Bool {
+  @objc public var videoEditorSupportsFaceAR: Swift.Bool {
+    get
+  }
+  @objc public var hasFaceARFeatures: Swift.Bool {
     get
   }
   @objc public var supportsPiP: Swift.Bool {

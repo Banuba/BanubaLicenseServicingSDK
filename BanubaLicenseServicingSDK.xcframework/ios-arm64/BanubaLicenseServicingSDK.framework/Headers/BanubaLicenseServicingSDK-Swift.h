@@ -321,7 +321,8 @@ SWIFT_CLASS("_TtC25BanubaLicenseServicingSDK7License")
 @property (nonatomic, readonly) BOOL collectAnalytics;
 /// FAR Analytics
 @property (nonatomic, readonly) BOOL supportsAnalytics;
-@property (nonatomic, readonly) BOOL supportsFaceAR;
+@property (nonatomic, readonly) BOOL videoEditorSupportsFaceAR;
+@property (nonatomic, readonly) BOOL hasFaceARFeatures;
 @property (nonatomic, readonly) BOOL supportsPiP;
 @property (nonatomic, readonly) BOOL supportsMusicLibrary;
 @property (nonatomic, readonly) BOOL supportsSoundstripe;

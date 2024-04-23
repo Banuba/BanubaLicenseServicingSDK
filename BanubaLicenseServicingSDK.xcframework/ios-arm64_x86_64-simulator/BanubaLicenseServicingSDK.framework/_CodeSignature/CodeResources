@@ -6,11 +6,11 @@
 	<dict>
 		<key>FrameworkVersion.plist</key>
 		<data>
-		AYPwTOk4pJ5x5a6vhLnOi+85w/s=
+		ec6bfePXzDWgNBBkhmrVRatRd/M=
 		</data>
 		<key>Headers/BanubaLicenseServicingSDK-Swift.h</key>
 		<data>
-		kX8YiRvNO2tpPOgJvruPGAL3rBs=
+		ke/MoBRZBlMg32uXlvl3XQEAxJA=
 		</data>
 		<key>Headers/BanubaLicenseServicingSDK.h</key>
 		<data>
@@ -22,15 +22,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		zYh2SmtseHh/8OmRCEOzQvqT6kk=
+		ae6+UrWbpRQPw3jgvOIF9uf+Fac=
 		</data>
 		<key>Modules/BanubaLicenseServicingSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		bxWHh88UxBTpp02tLzFJXzMQdVM=
+		FuHIOU5butcPuCFIfiz1ohkI3d4=
 		</data>
 		<key>Modules/BanubaLicenseServicingSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		pGsPikSeO2Lo+vASbhJBzP0pZLE=
+		TNtZ3VNZQoC67C1R5pVO7Q/MRF8=
 		</data>
 		<key>Modules/BanubaLicenseServicingSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -38,19 +38,19 @@
 		</data>
 		<key>Modules/BanubaLicenseServicingSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		pGsPikSeO2Lo+vASbhJBzP0pZLE=
+		TNtZ3VNZQoC67C1R5pVO7Q/MRF8=
 		</data>
 		<key>Modules/BanubaLicenseServicingSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		6K8YHAW3DyfOnNqS1gNPbyuaInA=
+		knUKeVRXZf3VgjTZYmQYoDP+14Y=
 		</data>
 		<key>Modules/BanubaLicenseServicingSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		bxWHh88UxBTpp02tLzFJXzMQdVM=
+		FuHIOU5butcPuCFIfiz1ohkI3d4=
 		</data>
 		<key>Modules/BanubaLicenseServicingSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		aR1bRk9l9PJMNQ1QLbnH1vKKDsI=
+		9hsf1Zf2fDLlZwxVR9ZoVDxFDAQ=
 		</data>
 		<key>Modules/BanubaLicenseServicingSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -58,11 +58,11 @@
 		</data>
 		<key>Modules/BanubaLicenseServicingSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		aR1bRk9l9PJMNQ1QLbnH1vKKDsI=
+		9hsf1Zf2fDLlZwxVR9ZoVDxFDAQ=
 		</data>
 		<key>Modules/BanubaLicenseServicingSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		TNQp4I/O+2NhbMxr+ozpiTyWq28=
+		8ajtMnL6/S12N8EtaXYVX8tXueE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -79,14 +79,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			lOEBMjSDinbO+yoFcSVz0bkZHuWjgt//o5YAAZ6T0vY=
+			euN52ZQh776CeQraN49cD6WgaNk1VXboYuc80VDu8uQ=
 			</data>
 		</dict>
 		<key>Headers/BanubaLicenseServicingSDK-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+8jjckUQrokWerWCjbYC0iqtBqHecRuuLUA7GY474o8=
+			/iUM9Zg822KogL6w5oXUaWVpa1zLbHFt7mb+jMBnk1I=
 			</data>
 		</dict>
 		<key>Headers/BanubaLicenseServicingSDK.h</key>
@@ -107,14 +107,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jGI6o4UfqaE3sFJB9TMSRsPDJHOQYYxmg5i/4mYIgc8=
+			Fq+Ud6/4IIdSV55cUAfTzQQy1yFytYEIw8mo6bc3DR0=
 			</data>
 		</dict>
 		<key>Modules/BanubaLicenseServicingSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kiF2fySQwcOA73Cb0Wulp/TQRcOio8PkxZPyl3o+p4k=
+			HE/UKiOiTpArzOFq/cqBQkvIBf7RVgAYjQtPA41MoA0=
 			</data>
 		</dict>
 		<key>Modules/BanubaLicenseServicingSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -128,28 +128,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			kiF2fySQwcOA73Cb0Wulp/TQRcOio8PkxZPyl3o+p4k=
+			HE/UKiOiTpArzOFq/cqBQkvIBf7RVgAYjQtPA41MoA0=
 			</data>
 		</dict>
 		<key>Modules/BanubaLicenseServicingSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6qDtXLidUljB7o8S9+wU1jtR45jyDL7RnLgqvySLafA=
+			XNc8ekNeayLj6JINTTwkF253T1tZpgHmETkx//jpb38=
 			</data>
 		</dict>
 		<key>Modules/BanubaLicenseServicingSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jGI6o4UfqaE3sFJB9TMSRsPDJHOQYYxmg5i/4mYIgc8=
+			Fq+Ud6/4IIdSV55cUAfTzQQy1yFytYEIw8mo6bc3DR0=
 			</data>
 		</dict>
 		<key>Modules/BanubaLicenseServicingSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7DW/bSvcJ13nmDAemuts1D/rjJFQ4C2C/ZvPDkc8ovM=
+			m8N3jP9AYRJD2Ox9PdigIUQ3asJ7QtUmcnitn4mbWd4=
 			</data>
 		</dict>
 		<key>Modules/BanubaLicenseServicingSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -163,14 +163,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7DW/bSvcJ13nmDAemuts1D/rjJFQ4C2C/ZvPDkc8ovM=
+			m8N3jP9AYRJD2Ox9PdigIUQ3asJ7QtUmcnitn4mbWd4=
 			</data>
 		</dict>
 		<key>Modules/BanubaLicenseServicingSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uMrz9Ttp18cSRmYZRSV7NW3ENJiUSQ26dQZbb636xLM=
+			8TaPmXvHlaeh6P0ZgrBSMPjUg3LZewSvw1Geq96hqqs=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
