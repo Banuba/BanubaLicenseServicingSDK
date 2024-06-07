@@ -14,9 +14,12 @@ import _SwiftConcurrencyShims
 import os.log
 import os
 public enum BNBInformerEventType {
-  case `init`(any BanubaLicenseServicingSDK.BasicEventOptions)
-  case present(any BanubaLicenseServicingSDK.BasicEventOptions)
-  case export(any BanubaLicenseServicingSDK.BasicEventOptions)
+  case initVE(any BanubaLicenseServicingSDK.BasicEventOptions)
+  case initPE(any BanubaLicenseServicingSDK.BasicEventOptions)
+  case presentVE(any BanubaLicenseServicingSDK.BasicEventOptions)
+  case presentPE(any BanubaLicenseServicingSDK.BasicEventOptions)
+  case exportVE(any BanubaLicenseServicingSDK.BasicEventOptions)
+  case exportPE(any BanubaLicenseServicingSDK.BasicEventOptions)
 }
 public protocol BasicEventOptions : Swift.Decodable, Swift.Encodable {
   var sdkVersion: Swift.String { get }
@@ -52,6 +55,14 @@ public struct ExportEventOptions : BanubaLicenseServicingSDK.BasicEventOptions {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
+public struct PhotoEditorExportEventOptions : BanubaLicenseServicingSDK.BasicEventOptions {
+  public let exportSuccess: Swift.Bool
+  public let sdkVersion: Swift.String
+  public let iOSVersion: Swift.String
+  public init(exportSuccess: Swift.Bool, sdkVersion: Swift.String?, iOSVersion: Swift.String)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
 public struct PostProcessingOptions : Swift.Codable {
   public init(visual: Swift.Int, speed: Swift.Int, mask: Swift.Int, color: Swift.Int, text: Swift.Int, sticker: Swift.Int, blur: Swift.Int)
   public func encode(to encoder: any Swift.Encoder) throws
@@ -61,6 +72,7 @@ public struct InitEventOptions : BanubaLicenseServicingSDK.BasicEventOptions {
   public var sdkVersion: Swift.String
   public var iOSVersion: Swift.String
   public init()
+  public init(sdkVersion: Swift.String?, iOSVersion: Swift.String)
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
@@ -190,6 +202,11 @@ extension BanubaLicenseServicingSDK.BNBAnalyticsManager {
   @objc deinit
   public func encode(to encoder: any Swift.Encoder) throws
   required public init(from decoder: any Swift.Decoder) throws
+}
+extension Foundation.ProcessInfo {
+  public static var iOSVersion: Swift.String {
+    get
+  }
 }
 extension BanubaLicenseServicingSDK.PresentEventOptions.EntryPoint : Swift.Equatable {}
 extension BanubaLicenseServicingSDK.PresentEventOptions.EntryPoint : Swift.Hashable {}
