@@ -154,6 +154,9 @@ extension BanubaLicenseServicingSDK.BNBAnalyticsManager {
   @objc public var supportsSoundstripe: Swift.Bool {
     get
   }
+  @objc public var supportsBanubaMusic: Swift.Bool {
+    get
+  }
   @objc public var supportsBgSeparation: Swift.Bool {
     get
   }
