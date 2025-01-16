@@ -80,9 +80,10 @@ public typealias BanubaVideoEditorEntryPoint = BanubaLicenseServicingSDK.Present
 public struct PresentEventOptions : BanubaLicenseServicingSDK.BasicEventOptions {
   public var sdkVersion: Swift.String
   public var iOSVersion: Swift.String
-  @frozen public enum EntryPoint : Swift.String, Swift.Codable {
+  public enum EntryPoint : Swift.String, Swift.Codable {
     case camera
     case pip
+    case trimmer
     case editor
     case drafts
     case gallery
@@ -213,8 +214,6 @@ extension Foundation.ProcessInfo {
 extension BanubaLicenseServicingSDK.PresentEventOptions.EntryPoint : Swift.Equatable {}
 extension BanubaLicenseServicingSDK.PresentEventOptions.EntryPoint : Swift.Hashable {}
 extension BanubaLicenseServicingSDK.PresentEventOptions.EntryPoint : Swift.RawRepresentable {}
-extension BanubaLicenseServicingSDK.PresentEventOptions.EntryPoint : Swift.Sendable {}
-extension BanubaLicenseServicingSDK.PresentEventOptions.EntryPoint : Swift.BitwiseCopyable {}
 extension BanubaLicenseServicingSDK.EffectType : Swift.Equatable {}
 extension BanubaLicenseServicingSDK.EffectType : Swift.Hashable {}
 extension BanubaLicenseServicingSDK.EffectType : Swift.RawRepresentable {}
