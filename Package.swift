@@ -11,8 +11,11 @@ let package = Package(
   ],
   products: [
     .library(
-      name: "BanubaLicenseServicingSDK",
-      targets: ["BanubaLicenseServicingSDK"]
+        name: "BanubaLicenseServicingSDK",
+        targets: [
+            "BanubaLicenseServicingSDK",
+            "BNBLicenseUtils"
+        ]
     )
   ],
   dependencies: [
@@ -22,6 +25,10 @@ let package = Package(
     .binaryTarget(
       name: "BanubaLicenseServicingSDK",
       path: "BanubaLicenseServicingSDK.xcframework"
+    ),
+    .binaryTarget(
+      name: "BNBLicenseUtils",
+      path: "BNBLicenseUtils.xcframework"
     )
   ]
 )

@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "bnblicenseutils-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Banuba/BNBLicenseUtils-iOS.git",
+      "state" : {
+        "revision" : "72c9e4a89a3d2b130756a0afcc64b9994d6b83e1",
+        "version" : "1.40.0"
+      }
+    }
+  ],
+  "version" : 2
+}
