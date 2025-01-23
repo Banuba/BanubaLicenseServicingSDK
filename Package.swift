@@ -12,23 +12,31 @@ let package = Package(
   products: [
     .library(
         name: "BanubaLicenseServicingSDK",
-        targets: [
-            "BanubaLicenseServicingSDK",
-            "BNBLicenseUtils"
-        ]
+        targets: ["BanubaLicenseServicingSDKTarget"]
     )
   ],
   dependencies: [
     .package(url: "https://github.com/Banuba/BNBLicenseUtils-iOS.git", from: utilsVersion),
   ],
   targets: [
+    .target(
+      name: "BanubaLicenseServicingSDKWrapper",
+      dependencies: [
+        "BanubaLicenseServicingSDK",
+        .product(name: "BNBLicenseUtils", package: "BNBLicenseUtils-iOS")
+      ],
+      path: "BanubaLicenseServicingSDKWrapper"
+    ),
+    .target(
+      name: "BanubaLicenseServicingSDKTarget",
+      dependencies: [
+        .target(name: "BanubaLicenseServicingSDKWrapper")
+      ],
+      path: "BanubaLicenseServicingSDKTarget"
+    ),
     .binaryTarget(
       name: "BanubaLicenseServicingSDK",
       path: "BanubaLicenseServicingSDK.xcframework"
-    ),
-    .binaryTarget(
-      name: "BNBLicenseUtils",
-      path: "BNBLicenseUtils.xcframework"
     )
   ]
 )
