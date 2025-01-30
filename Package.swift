@@ -2,7 +2,7 @@
 
 import PackageDescription
 
-let utilsVersion: Version = "1.39.0"
+let version: Version = "1.40.1"
 
 let package = Package(
   name: "BanubaLicenseServicingSDK",
@@ -11,12 +11,12 @@ let package = Package(
   ],
   products: [
     .library(
-        name: "BanubaLicenseServicingSDK",
-        targets: ["BanubaLicenseServicingSDKTarget"]
+      name: "BanubaLicenseServicingSDK",
+      targets: ["BanubaLicenseServicingSDKTarget"]
     )
   ],
   dependencies: [
-    .package(url: "https://github.com/Banuba/BNBLicenseUtils-iOS.git", from: utilsVersion),
+    .package(url: "https://github.com/Banuba/BNBLicenseUtils-iOS.git", exact: version),
   ],
   targets: [
     .target(
