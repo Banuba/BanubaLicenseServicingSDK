@@ -2703,7 +2703,8 @@
                 "declKind": "EnumElement",
                 "usr": "s:25BanubaLicenseServicingSDK19PresentEventOptionsV10EntryPointO6camerayA2EmF",
                 "mangledName": "$s25BanubaLicenseServicingSDK19PresentEventOptionsV10EntryPointO6camerayA2EmF",
-                "moduleName": "BanubaLicenseServicingSDK"
+                "moduleName": "BanubaLicenseServicingSDK",
+                "fixedbinaryorder": 0
               },
               {
                 "kind": "Var",
@@ -2740,44 +2741,8 @@
                 "declKind": "EnumElement",
                 "usr": "s:25BanubaLicenseServicingSDK19PresentEventOptionsV10EntryPointO3pipyA2EmF",
                 "mangledName": "$s25BanubaLicenseServicingSDK19PresentEventOptionsV10EntryPointO3pipyA2EmF",
-                "moduleName": "BanubaLicenseServicingSDK"
-              },
-              {
-                "kind": "Var",
-                "name": "trimmer",
-                "printedName": "trimmer",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(BanubaLicenseServicingSDK.PresentEventOptions.EntryPoint.Type) -> BanubaLicenseServicingSDK.PresentEventOptions.EntryPoint",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "EntryPoint",
-                        "printedName": "BanubaLicenseServicingSDK.PresentEventOptions.EntryPoint",
-                        "usr": "s:25BanubaLicenseServicingSDK19PresentEventOptionsV10EntryPointO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "BanubaLicenseServicingSDK.PresentEventOptions.EntryPoint.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "EntryPoint",
-                            "printedName": "BanubaLicenseServicingSDK.PresentEventOptions.EntryPoint",
-                            "usr": "s:25BanubaLicenseServicingSDK19PresentEventOptionsV10EntryPointO"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:25BanubaLicenseServicingSDK19PresentEventOptionsV10EntryPointO7trimmeryA2EmF",
-                "mangledName": "$s25BanubaLicenseServicingSDK19PresentEventOptionsV10EntryPointO7trimmeryA2EmF",
-                "moduleName": "BanubaLicenseServicingSDK"
+                "moduleName": "BanubaLicenseServicingSDK",
+                "fixedbinaryorder": 1
               },
               {
                 "kind": "Var",
@@ -2814,7 +2779,8 @@
                 "declKind": "EnumElement",
                 "usr": "s:25BanubaLicenseServicingSDK19PresentEventOptionsV10EntryPointO6editoryA2EmF",
                 "mangledName": "$s25BanubaLicenseServicingSDK19PresentEventOptionsV10EntryPointO6editoryA2EmF",
-                "moduleName": "BanubaLicenseServicingSDK"
+                "moduleName": "BanubaLicenseServicingSDK",
+                "fixedbinaryorder": 2
               },
               {
                 "kind": "Var",
@@ -2851,7 +2817,8 @@
                 "declKind": "EnumElement",
                 "usr": "s:25BanubaLicenseServicingSDK19PresentEventOptionsV10EntryPointO6draftsyA2EmF",
                 "mangledName": "$s25BanubaLicenseServicingSDK19PresentEventOptionsV10EntryPointO6draftsyA2EmF",
-                "moduleName": "BanubaLicenseServicingSDK"
+                "moduleName": "BanubaLicenseServicingSDK",
+                "fixedbinaryorder": 3
               },
               {
                 "kind": "Var",
@@ -2888,12 +2855,13 @@
                 "declKind": "EnumElement",
                 "usr": "s:25BanubaLicenseServicingSDK19PresentEventOptionsV10EntryPointO7galleryyA2EmF",
                 "mangledName": "$s25BanubaLicenseServicingSDK19PresentEventOptionsV10EntryPointO7galleryyA2EmF",
-                "moduleName": "BanubaLicenseServicingSDK"
+                "moduleName": "BanubaLicenseServicingSDK",
+                "fixedbinaryorder": 4
               },
               {
                 "kind": "Var",
-                "name": "aiClipping",
-                "printedName": "aiClipping",
+                "name": "templates",
+                "printedName": "templates",
                 "children": [
                   {
                     "kind": "TypeFunc",
@@ -2923,9 +2891,10 @@
                   }
                 ],
                 "declKind": "EnumElement",
-                "usr": "s:25BanubaLicenseServicingSDK19PresentEventOptionsV10EntryPointO10aiClippingyA2EmF",
-                "mangledName": "$s25BanubaLicenseServicingSDK19PresentEventOptionsV10EntryPointO10aiClippingyA2EmF",
-                "moduleName": "BanubaLicenseServicingSDK"
+                "usr": "s:25BanubaLicenseServicingSDK19PresentEventOptionsV10EntryPointO9templatesyA2EmF",
+                "mangledName": "$s25BanubaLicenseServicingSDK19PresentEventOptionsV10EntryPointO9templatesyA2EmF",
+                "moduleName": "BanubaLicenseServicingSDK",
+                "fixedbinaryorder": 5
               },
               {
                 "kind": "Constructor",
@@ -3006,9 +2975,11 @@
             "moduleName": "BanubaLicenseServicingSDK",
             "declAttributes": [
               "AccessControl",
+              "Frozen",
               "RawDocComment"
             ],
             "enumRawTypeName": "String",
+            "isEnumExhaustive": true,
             "conformances": [
               {
                 "kind": "Conformance",
@@ -3073,6 +3044,20 @@
                 "printedName": "Encodable",
                 "usr": "s:SE",
                 "mangledName": "$sSE"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "BitwiseCopyable",
+                "printedName": "BitwiseCopyable",
+                "usr": "s:s15BitwiseCopyableP",
+                "mangledName": "$ss15BitwiseCopyableP"
               }
             ]
           },
@@ -6192,21 +6177,21 @@
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
-      "offset": 8742,
+      "offset": 8698,
       "length": 13,
       "value": "\"sdk_version\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
-      "offset": 8778,
+      "offset": 8734,
       "length": 12,
       "value": "\"os_version\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
-      "offset": 8813,
+      "offset": 8769,
       "length": 13,
       "value": "\"entry_point\""
     },
