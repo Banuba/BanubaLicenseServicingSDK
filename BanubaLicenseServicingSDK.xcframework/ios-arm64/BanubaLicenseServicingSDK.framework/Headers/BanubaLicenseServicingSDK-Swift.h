@@ -333,7 +333,7 @@ SWIFT_CLASS("_TtC25BanubaLicenseServicingSDK7License")
 @property (nonatomic, readonly) BOOL supportsBanubaMusic;
 @property (nonatomic, readonly) BOOL supportsBgSeparation;
 @property (nonatomic, readonly) BOOL supportsCaptions;
-@property (nonatomic, readonly) BOOL supportsAutoCut;
+@property (nonatomic, readonly) BOOL supportsAIClipping;
 @property (nonatomic, readonly, copy) NSArray<NSNumber *> * _Nonnull postProcessingEffects;
 @property (nonatomic, readonly, copy) NSString * _Nullable arCloudURL;
 @property (nonatomic, readonly, strong) TimeBomb * _Nullable timeBomb;

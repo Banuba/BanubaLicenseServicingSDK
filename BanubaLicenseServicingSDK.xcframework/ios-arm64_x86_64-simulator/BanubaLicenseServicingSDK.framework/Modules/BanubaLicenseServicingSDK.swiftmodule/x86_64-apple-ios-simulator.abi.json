@@ -4716,8 +4716,8 @@
           },
           {
             "kind": "Var",
-            "name": "supportsAutoCut",
-            "printedName": "supportsAutoCut",
+            "name": "supportsAIClipping",
+            "printedName": "supportsAIClipping",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -4727,8 +4727,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@BanubaLicenseServicingSDK@objc(cs)License(py)supportsAutoCut",
-            "mangledName": "$s25BanubaLicenseServicingSDK0B0C15supportsAutoCutSbvp",
+            "usr": "c:@M@BanubaLicenseServicingSDK@objc(cs)License(py)supportsAIClipping",
+            "mangledName": "$s25BanubaLicenseServicingSDK0B0C18supportsAIClippingSbvp",
             "moduleName": "BanubaLicenseServicingSDK",
             "declAttributes": [
               "HasStorage",
@@ -4751,8 +4751,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@BanubaLicenseServicingSDK@objc(cs)License(im)supportsAutoCut",
-                "mangledName": "$s25BanubaLicenseServicingSDK0B0C15supportsAutoCutSbvg",
+                "usr": "c:@M@BanubaLicenseServicingSDK@objc(cs)License(im)supportsAIClipping",
+                "mangledName": "$s25BanubaLicenseServicingSDK0B0C18supportsAIClippingSbvg",
                 "moduleName": "BanubaLicenseServicingSDK",
                 "implicit": true,
                 "declAttributes": [
