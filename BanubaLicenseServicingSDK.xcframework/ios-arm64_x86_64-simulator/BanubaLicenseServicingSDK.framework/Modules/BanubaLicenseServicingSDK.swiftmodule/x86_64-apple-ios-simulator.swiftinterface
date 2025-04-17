@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 6.0.2 effective-5.10 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
-// swift-module-flags: -target x86_64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name BanubaLicenseServicingSDK
+// swift-module-flags: -target x86_64-apple-ios17.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name BanubaLicenseServicingSDK
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import BNBLicenseUtils
 @_exported import BanubaLicenseServicingSDK
@@ -80,14 +80,13 @@ public typealias BanubaVideoEditorEntryPoint = BanubaLicenseServicingSDK.Present
 public struct PresentEventOptions : BanubaLicenseServicingSDK.BasicEventOptions {
   public var sdkVersion: Swift.String
   public var iOSVersion: Swift.String
-  public enum EntryPoint : Swift.String, Swift.Codable {
+  @frozen public enum EntryPoint : Swift.String, Swift.Codable {
     case camera
     case pip
-    case trimmer
     case editor
     case drafts
     case gallery
-    case aiClipping
+    case templates
     public init?(rawValue: Swift.String)
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
@@ -150,6 +149,9 @@ extension BanubaLicenseServicingSDK.BNBAnalyticsManager {
   @objc public var supportsPiP: Swift.Bool {
     get
   }
+  @objc public var supportsMusicLibrary: Swift.Bool {
+    get
+  }
   @objc public var supportsSoundstripe: Swift.Bool {
     get
   }
@@ -162,7 +164,7 @@ extension BanubaLicenseServicingSDK.BNBAnalyticsManager {
   @objc public var supportsCaptions: Swift.Bool {
     get
   }
-  @objc public var supportsAIClipping: Swift.Bool {
+  @objc public var supportsAutoCut: Swift.Bool {
     get
   }
   @objc public var postProcessingEffects: [Swift.Int] {
@@ -212,6 +214,8 @@ extension Foundation.ProcessInfo {
 extension BanubaLicenseServicingSDK.PresentEventOptions.EntryPoint : Swift.Equatable {}
 extension BanubaLicenseServicingSDK.PresentEventOptions.EntryPoint : Swift.Hashable {}
 extension BanubaLicenseServicingSDK.PresentEventOptions.EntryPoint : Swift.RawRepresentable {}
+extension BanubaLicenseServicingSDK.PresentEventOptions.EntryPoint : Swift.Sendable {}
+extension BanubaLicenseServicingSDK.PresentEventOptions.EntryPoint : Swift.BitwiseCopyable {}
 extension BanubaLicenseServicingSDK.EffectType : Swift.Equatable {}
 extension BanubaLicenseServicingSDK.EffectType : Swift.Hashable {}
 extension BanubaLicenseServicingSDK.EffectType : Swift.RawRepresentable {}
