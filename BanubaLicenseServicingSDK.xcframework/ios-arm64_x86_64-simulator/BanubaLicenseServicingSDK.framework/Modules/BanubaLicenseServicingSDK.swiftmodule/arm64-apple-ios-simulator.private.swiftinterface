@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 6.0.2 effective-5.10 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
-// swift-module-flags: -target arm64-apple-ios17.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name BanubaLicenseServicingSDK
+// swift-module-flags: -target arm64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name BanubaLicenseServicingSDK
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import BNBLicenseUtils
 @_exported import BanubaLicenseServicingSDK
@@ -20,6 +20,10 @@ public enum BNBInformerEventType {
   case presentPE(any BanubaLicenseServicingSDK.BasicEventOptions)
   case exportVE(any BanubaLicenseServicingSDK.BasicEventOptions)
   case exportPE(any BanubaLicenseServicingSDK.BasicEventOptions)
+  case screenOpen(any BanubaLicenseServicingSDK.BasicEventOptions)
+  case saveDraft(any BanubaLicenseServicingSDK.BasicEventOptions)
+  case createSlideshow(any BanubaLicenseServicingSDK.BasicEventOptions)
+  case addEffect(any BanubaLicenseServicingSDK.BasicEventOptions)
 }
 public protocol BasicEventOptions : Swift.Decodable, Swift.Encodable {
   var sdkVersion: Swift.String { get }
@@ -69,8 +73,8 @@ public struct PostProcessingOptions : Swift.Codable {
   public init(from decoder: any Swift.Decoder) throws
 }
 public struct InitEventOptions : BanubaLicenseServicingSDK.BasicEventOptions {
-  public var sdkVersion: Swift.String
-  public var iOSVersion: Swift.String
+  public let sdkVersion: Swift.String
+  public let iOSVersion: Swift.String
   public init()
   public init(sdkVersion: Swift.String?, iOSVersion: Swift.String)
   public func encode(to encoder: any Swift.Encoder) throws
@@ -78,15 +82,16 @@ public struct InitEventOptions : BanubaLicenseServicingSDK.BasicEventOptions {
 }
 public typealias BanubaVideoEditorEntryPoint = BanubaLicenseServicingSDK.PresentEventOptions.EntryPoint
 public struct PresentEventOptions : BanubaLicenseServicingSDK.BasicEventOptions {
-  public var sdkVersion: Swift.String
-  public var iOSVersion: Swift.String
-  @frozen public enum EntryPoint : Swift.String, Swift.Codable {
+  public let sdkVersion: Swift.String
+  public let iOSVersion: Swift.String
+  public enum EntryPoint : Swift.String, Swift.Codable {
     case camera
     case pip
+    case trimmer
     case editor
     case drafts
     case gallery
-    case templates
+    case aiClipping
     public init?(rawValue: Swift.String)
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
@@ -94,6 +99,77 @@ public struct PresentEventOptions : BanubaLicenseServicingSDK.BasicEventOptions 
     }
   }
   public init(entryPoint: BanubaLicenseServicingSDK.PresentEventOptions.EntryPoint)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct PresentScreenEventOptions : BanubaLicenseServicingSDK.BasicEventOptions {
+  public let sdkVersion: Swift.String
+  public let iOSVersion: Swift.String
+  public enum Screen : Swift.String, Swift.Codable {
+    case camera
+    case pip
+    case trimmer
+    case editor
+    case editorV2
+    case audioBrowserLocal
+    case audioBrowserExternal
+    case audioBrowserMubert
+    case audioBrowserBanuba
+    case audioBrowserSoundstripe
+    case drafts
+    case gallery
+    case customGallery
+    case aiClipping
+    case cover
+    public init?(rawValue: Swift.String)
+    public typealias RawValue = Swift.String
+    public var rawValue: Swift.String {
+      get
+    }
+  }
+  public init(screen: BanubaLicenseServicingSDK.PresentScreenEventOptions.Screen)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct SaveDraftEventOptions : BanubaLicenseServicingSDK.BasicEventOptions {
+  public let sdkVersion: Swift.String
+  public let iOSVersion: Swift.String
+  public init(screen: BanubaLicenseServicingSDK.PresentScreenEventOptions.Screen)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct CreateSlideshowEventOptions : BanubaLicenseServicingSDK.BasicEventOptions {
+  public let sdkVersion: Swift.String
+  public let iOSVersion: Swift.String
+  public init(screen: BanubaLicenseServicingSDK.PresentScreenEventOptions.Screen)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct AddEffectEventOptions : BanubaLicenseServicingSDK.BasicEventOptions {
+  public let sdkVersion: Swift.String
+  public let iOSVersion: Swift.String
+  public enum EffectType : Swift.String, Swift.Codable {
+    case sticker
+    case visual
+    case mask
+    case speed
+    case transition
+    case text
+    case color
+    case pixelation
+    case captions
+    case textStyle
+    case music
+    case voice
+    case voiceChanger
+    case unknown
+    public init?(rawValue: Swift.String)
+    public typealias RawValue = Swift.String
+    public var rawValue: Swift.String {
+      get
+    }
+  }
+  public init(screen: BanubaLicenseServicingSDK.PresentScreenEventOptions.Screen, type: BanubaLicenseServicingSDK.AddEffectEventOptions.EffectType)
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
@@ -149,9 +225,6 @@ extension BanubaLicenseServicingSDK.BNBAnalyticsManager {
   @objc public var supportsPiP: Swift.Bool {
     get
   }
-  @objc public var supportsMusicLibrary: Swift.Bool {
-    get
-  }
   @objc public var supportsSoundstripe: Swift.Bool {
     get
   }
@@ -164,7 +237,7 @@ extension BanubaLicenseServicingSDK.BNBAnalyticsManager {
   @objc public var supportsCaptions: Swift.Bool {
     get
   }
-  @objc public var supportsAutoCut: Swift.Bool {
+  @objc public var supportsAIClipping: Swift.Bool {
     get
   }
   @objc public var postProcessingEffects: [Swift.Int] {
@@ -214,8 +287,12 @@ extension Foundation.ProcessInfo {
 extension BanubaLicenseServicingSDK.PresentEventOptions.EntryPoint : Swift.Equatable {}
 extension BanubaLicenseServicingSDK.PresentEventOptions.EntryPoint : Swift.Hashable {}
 extension BanubaLicenseServicingSDK.PresentEventOptions.EntryPoint : Swift.RawRepresentable {}
-extension BanubaLicenseServicingSDK.PresentEventOptions.EntryPoint : Swift.Sendable {}
-extension BanubaLicenseServicingSDK.PresentEventOptions.EntryPoint : Swift.BitwiseCopyable {}
+extension BanubaLicenseServicingSDK.PresentScreenEventOptions.Screen : Swift.Equatable {}
+extension BanubaLicenseServicingSDK.PresentScreenEventOptions.Screen : Swift.Hashable {}
+extension BanubaLicenseServicingSDK.PresentScreenEventOptions.Screen : Swift.RawRepresentable {}
+extension BanubaLicenseServicingSDK.AddEffectEventOptions.EffectType : Swift.Equatable {}
+extension BanubaLicenseServicingSDK.AddEffectEventOptions.EffectType : Swift.Hashable {}
+extension BanubaLicenseServicingSDK.AddEffectEventOptions.EffectType : Swift.RawRepresentable {}
 extension BanubaLicenseServicingSDK.EffectType : Swift.Equatable {}
 extension BanubaLicenseServicingSDK.EffectType : Swift.Hashable {}
 extension BanubaLicenseServicingSDK.EffectType : Swift.RawRepresentable {}
