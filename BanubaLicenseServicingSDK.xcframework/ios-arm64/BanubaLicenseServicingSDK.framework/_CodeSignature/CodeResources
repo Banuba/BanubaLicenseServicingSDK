@@ -6,7 +6,7 @@
 	<dict>
 		<key>FrameworkVersion.plist</key>
 		<data>
-		nn4SJRqOWUjEoKN5CH9K5FZmCzg=
+		sOFnbzZJfLeQl2CWZWkyBhy2WaI=
 		</data>
 		<key>Headers/BanubaLicenseServicingSDK-Swift.h</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		QzSlFdrV3wMUVvpJyreeY+zklkc=
+		23CgLVcMROe5bNRdWWSPOZRa0Y0=
 		</data>
 		<key>Modules/BanubaLicenseServicingSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -59,7 +59,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			q5Z8shy7uaMpnFRWRdGTcA+y6pcmotfK9KIzEQ2jDbc=
+			zMcUsT092nnfqtw+7SyrUDPKGcYiTNBcc5tizuOemaY=
 			</data>
 		</dict>
 		<key>Headers/BanubaLicenseServicingSDK-Swift.h</key>
