@@ -6,15 +6,15 @@
 	<dict>
 		<key>ios-arm64/BanubaLicenseServicingSDK.framework/BanubaLicenseServicingSDK</key>
 		<data>
-		mGuWhesDedzJk1Vz68WpjKUWulY=
+		jB6Dhi4t4qMICHq0QUJ0G88GeMQ=
 		</data>
 		<key>ios-arm64/BanubaLicenseServicingSDK.framework/FrameworkVersion.plist</key>
 		<data>
-		Ww/2QB6snHZlJjKKj7fXPqI2PoE=
+		Sdr84aLqK9XRhuAhYMkwvkuPBs0=
 		</data>
 		<key>ios-arm64/BanubaLicenseServicingSDK.framework/Headers/BanubaLicenseServicingSDK-Swift.h</key>
 		<data>
-		CGuuiczX8Pco4DLxxI+zN3X25aw=
+		EMSVqSMqVeuWgYr1CMk2k/ah404=
 		</data>
 		<key>ios-arm64/BanubaLicenseServicingSDK.framework/Headers/BanubaLicenseServicingSDK.h</key>
 		<data>
@@ -26,15 +26,15 @@
 		</data>
 		<key>ios-arm64/BanubaLicenseServicingSDK.framework/Info.plist</key>
 		<data>
-		4rdH2B2ikxwhtSUJALzY9c6CQGM=
+		OdI07d9vLM0t9PYWBlwvShQ2y3o=
 		</data>
 		<key>ios-arm64/BanubaLicenseServicingSDK.framework/Modules/BanubaLicenseServicingSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		MwhBHByeoJY3DzWyxmWJXDzFWq4=
+		Lb2IS8F4/fida8N0t51tiRrmqqs=
 		</data>
 		<key>ios-arm64/BanubaLicenseServicingSDK.framework/Modules/BanubaLicenseServicingSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		a1kVofGi8dOSqU69ijtDk4Ekxso=
+		qYRuRryqcsvFADPPzCIa5O/X3QY=
 		</data>
 		<key>ios-arm64/BanubaLicenseServicingSDK.framework/Modules/BanubaLicenseServicingSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>ios-arm64/BanubaLicenseServicingSDK.framework/Modules/BanubaLicenseServicingSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		a1kVofGi8dOSqU69ijtDk4Ekxso=
+		qYRuRryqcsvFADPPzCIa5O/X3QY=
 		</data>
 		<key>ios-arm64/BanubaLicenseServicingSDK.framework/Modules/module.modulemap</key>
 		<data>
@@ -54,31 +54,31 @@
 		</data>
 		<key>ios-arm64/BanubaLicenseServicingSDK.framework/_CodeSignature/CodeResources</key>
 		<data>
-		RX3KDo6rGjyRLWeDJW78/1zOC08=
+		SWZvztZUDT3r0WKymJiiHkj3OF4=
 		</data>
 		<key>ios-arm64/dSYMs/BanubaLicenseServicingSDK.framework.dSYM/Contents/Info.plist</key>
 		<data>
-		Sq4hTYV3Z/gPVHesREMx0rPfmQk=
+		7CFcNBNn3H19OKhnJiiq1+4xlWE=
 		</data>
 		<key>ios-arm64/dSYMs/BanubaLicenseServicingSDK.framework.dSYM/Contents/Resources/DWARF/BanubaLicenseServicingSDK</key>
 		<data>
-		UVfTmQtoKNR4zRti9q4CTYBVyes=
+		UhsdNYa7m53gdvy1rFDhgntTHZg=
 		</data>
 		<key>ios-arm64/dSYMs/BanubaLicenseServicingSDK.framework.dSYM/Contents/Resources/Relocations/aarch64/BanubaLicenseServicingSDK.yml</key>
 		<data>
-		w7B7/2oivrw37HHUbEC7tXyYc00=
+		zCp+o6m+Ds5RLcsPG+Uu7j2hx3g=
 		</data>
 		<key>ios-arm64_x86_64-simulator/BanubaLicenseServicingSDK.framework/BanubaLicenseServicingSDK</key>
 		<data>
-		uaafV/pcwoyPtDFSn48JP2HtEHE=
+		L7y7dn2i+X6ixlOXZ3c9+nBYddE=
 		</data>
 		<key>ios-arm64_x86_64-simulator/BanubaLicenseServicingSDK.framework/FrameworkVersion.plist</key>
 		<data>
-		Ww/2QB6snHZlJjKKj7fXPqI2PoE=
+		Sdr84aLqK9XRhuAhYMkwvkuPBs0=
 		</data>
 		<key>ios-arm64_x86_64-simulator/BanubaLicenseServicingSDK.framework/Headers/BanubaLicenseServicingSDK-Swift.h</key>
 		<data>
-		c4UwbxPGfMYdUOMpANnB3VOV9k4=
+		xoaw0Ylsp2ZSfyPVi+LLjNgwd74=
 		</data>
 		<key>ios-arm64_x86_64-simulator/BanubaLicenseServicingSDK.framework/Headers/BanubaLicenseServicingSDK.h</key>
 		<data>
@@ -90,15 +90,15 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/BanubaLicenseServicingSDK.framework/Info.plist</key>
 		<data>
-		w/1YmB9/AYYhmu5G6ArKBC6ermA=
+		r/En5noACZBQxjUp0xnhUbuUfJQ=
 		</data>
 		<key>ios-arm64_x86_64-simulator/BanubaLicenseServicingSDK.framework/Modules/BanubaLicenseServicingSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		MwhBHByeoJY3DzWyxmWJXDzFWq4=
+		Lb2IS8F4/fida8N0t51tiRrmqqs=
 		</data>
 		<key>ios-arm64_x86_64-simulator/BanubaLicenseServicingSDK.framework/Modules/BanubaLicenseServicingSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		RJPuf7sXa/OGix1yR3Ficjc+cfc=
+		E8vbGb0R4r4tJ/YzkP/V34yPagM=
 		</data>
 		<key>ios-arm64_x86_64-simulator/BanubaLicenseServicingSDK.framework/Modules/BanubaLicenseServicingSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -106,15 +106,15 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/BanubaLicenseServicingSDK.framework/Modules/BanubaLicenseServicingSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		RJPuf7sXa/OGix1yR3Ficjc+cfc=
+		E8vbGb0R4r4tJ/YzkP/V34yPagM=
 		</data>
 		<key>ios-arm64_x86_64-simulator/BanubaLicenseServicingSDK.framework/Modules/BanubaLicenseServicingSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		MwhBHByeoJY3DzWyxmWJXDzFWq4=
+		Lb2IS8F4/fida8N0t51tiRrmqqs=
 		</data>
 		<key>ios-arm64_x86_64-simulator/BanubaLicenseServicingSDK.framework/Modules/BanubaLicenseServicingSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		WRJwLxDTA+y2U41ilE6tr+0p8oE=
+		oPb1r7u2fPvuiOniT29w92mqDZo=
 		</data>
 		<key>ios-arm64_x86_64-simulator/BanubaLicenseServicingSDK.framework/Modules/BanubaLicenseServicingSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -122,7 +122,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/BanubaLicenseServicingSDK.framework/Modules/BanubaLicenseServicingSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		WRJwLxDTA+y2U41ilE6tr+0p8oE=
+		oPb1r7u2fPvuiOniT29w92mqDZo=
 		</data>
 		<key>ios-arm64_x86_64-simulator/BanubaLicenseServicingSDK.framework/Modules/module.modulemap</key>
 		<data>
@@ -134,23 +134,23 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/BanubaLicenseServicingSDK.framework/_CodeSignature/CodeResources</key>
 		<data>
-		AZoRCneZh1M+VbgfWb0EzuBwqjE=
+		2NkyGpn3VFUgAWsTCvFYKb56KJI=
 		</data>
 		<key>ios-arm64_x86_64-simulator/dSYMs/BanubaLicenseServicingSDK.framework.dSYM/Contents/Info.plist</key>
 		<data>
-		Sq4hTYV3Z/gPVHesREMx0rPfmQk=
+		7CFcNBNn3H19OKhnJiiq1+4xlWE=
 		</data>
 		<key>ios-arm64_x86_64-simulator/dSYMs/BanubaLicenseServicingSDK.framework.dSYM/Contents/Resources/DWARF/BanubaLicenseServicingSDK</key>
 		<data>
-		BibNEXq8XpSH49iRkijo2u+ovZo=
+		jt2RiQO9DwuGu2hgoHgAy8Ymq7o=
 		</data>
 		<key>ios-arm64_x86_64-simulator/dSYMs/BanubaLicenseServicingSDK.framework.dSYM/Contents/Resources/Relocations/aarch64/BanubaLicenseServicingSDK.yml</key>
 		<data>
-		Mx3t9dFUhPP5i4ox5hQjjGrrKNg=
+		IMBrjzkWTS+pXEVblkUpy457NrE=
 		</data>
 		<key>ios-arm64_x86_64-simulator/dSYMs/BanubaLicenseServicingSDK.framework.dSYM/Contents/Resources/Relocations/x86_64/BanubaLicenseServicingSDK.yml</key>
 		<data>
-		O3MKe8jx2ovZ2xKbDKXWF0b09VQ=
+		Qcsv/Wmli7uT97DRpNR5T1xMOqo=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -159,33 +159,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			mGuWhesDedzJk1Vz68WpjKUWulY=
+			jB6Dhi4t4qMICHq0QUJ0G88GeMQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			9PwkcDjCMktJgHvWMuOgU5mUq7hn2e+Qk/ybh3rAOP8=
+			uGbifK+ZlQbntMjuJ090Rt9XtAUWBoe0duf1noXX+pM=
 			</data>
 		</dict>
 		<key>ios-arm64/BanubaLicenseServicingSDK.framework/FrameworkVersion.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Ww/2QB6snHZlJjKKj7fXPqI2PoE=
+			Sdr84aLqK9XRhuAhYMkwvkuPBs0=
 			</data>
 			<key>hash2</key>
 			<data>
-			6bSMV6S+EsuAbR2mWpux4E/45AoiF4Bq4zRb9sG/Gyo=
+			Cmtv3jwg2k0xali/5WRFveaMWkPfqGRtcwdkNNCLjTQ=
 			</data>
 		</dict>
 		<key>ios-arm64/BanubaLicenseServicingSDK.framework/Headers/BanubaLicenseServicingSDK-Swift.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			CGuuiczX8Pco4DLxxI+zN3X25aw=
+			EMSVqSMqVeuWgYr1CMk2k/ah404=
 			</data>
 			<key>hash2</key>
 			<data>
-			Kzslwc3I5D9Dr1QZv2gRGG5RXn8TDPC7HMPJptm+1TE=
+			r24H+7Q3TXTgMV7GJX+SggZ0n7C8WjSiiOW6N/sM/Y8=
 			</data>
 		</dict>
 		<key>ios-arm64/BanubaLicenseServicingSDK.framework/Headers/BanubaLicenseServicingSDK.h</key>
@@ -214,33 +214,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			4rdH2B2ikxwhtSUJALzY9c6CQGM=
+			OdI07d9vLM0t9PYWBlwvShQ2y3o=
 			</data>
 			<key>hash2</key>
 			<data>
-			yUaXN71DmPXX5FJeZjmB3LOLy1XhXNuhWwKP6dxIvIA=
+			m32mtf3ufYkAkkO9dJXsKeC2S/187hzRd6XJs9roaM0=
 			</data>
 		</dict>
 		<key>ios-arm64/BanubaLicenseServicingSDK.framework/Modules/BanubaLicenseServicingSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			MwhBHByeoJY3DzWyxmWJXDzFWq4=
+			Lb2IS8F4/fida8N0t51tiRrmqqs=
 			</data>
 			<key>hash2</key>
 			<data>
-			7K5zfW6CbqXuifyBEnUufAlhpf4bAy6KQjz2k8c69nQ=
+			cK2EqWbV8jgAoDxzBvqWIjht0G7m+iclVmQzFMXbSas=
 			</data>
 		</dict>
 		<key>ios-arm64/BanubaLicenseServicingSDK.framework/Modules/BanubaLicenseServicingSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			a1kVofGi8dOSqU69ijtDk4Ekxso=
+			qYRuRryqcsvFADPPzCIa5O/X3QY=
 			</data>
 			<key>hash2</key>
 			<data>
-			F1oNlMBjdOdpwiD11HgAPHKa6oMJ8mByvTOuLA7WgKc=
+			t37MLOY6HfjXOfceTmFulRDQIy+ylMMgb0YEUsFGG3w=
 			</data>
 		</dict>
 		<key>ios-arm64/BanubaLicenseServicingSDK.framework/Modules/BanubaLicenseServicingSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -258,11 +258,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			a1kVofGi8dOSqU69ijtDk4Ekxso=
+			qYRuRryqcsvFADPPzCIa5O/X3QY=
 			</data>
 			<key>hash2</key>
 			<data>
-			F1oNlMBjdOdpwiD11HgAPHKa6oMJ8mByvTOuLA7WgKc=
+			t37MLOY6HfjXOfceTmFulRDQIy+ylMMgb0YEUsFGG3w=
 			</data>
 		</dict>
 		<key>ios-arm64/BanubaLicenseServicingSDK.framework/Modules/module.modulemap</key>
@@ -291,77 +291,77 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			RX3KDo6rGjyRLWeDJW78/1zOC08=
+			SWZvztZUDT3r0WKymJiiHkj3OF4=
 			</data>
 			<key>hash2</key>
 			<data>
-			VAMEotNTZTfKoDUHxGN3VU10+5FuHPVjiHzl0bBfVxE=
+			2eIpnWJViSP9qhVoAU+ZD6q7HcYzM6DbUah/urkxiJc=
 			</data>
 		</dict>
 		<key>ios-arm64/dSYMs/BanubaLicenseServicingSDK.framework.dSYM/Contents/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Sq4hTYV3Z/gPVHesREMx0rPfmQk=
+			7CFcNBNn3H19OKhnJiiq1+4xlWE=
 			</data>
 			<key>hash2</key>
 			<data>
-			75m4lkw6qFCufCCpqWyDy5YvHvdB+FnhNneCq9/x3ZA=
+			5fRtLmrPKa+UbyBpwB7Cd9gnyRXh2bUAL4RsbI6u91s=
 			</data>
 		</dict>
 		<key>ios-arm64/dSYMs/BanubaLicenseServicingSDK.framework.dSYM/Contents/Resources/DWARF/BanubaLicenseServicingSDK</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			UVfTmQtoKNR4zRti9q4CTYBVyes=
+			UhsdNYa7m53gdvy1rFDhgntTHZg=
 			</data>
 			<key>hash2</key>
 			<data>
-			vk+vg3HfI4yRdqiiDD5gfU9ZStYK37sY7TnNuCpGrfE=
+			BwgXYWwx29u0VJmB6IlZsclKvcSn8d6a3fF34Z56XzY=
 			</data>
 		</dict>
 		<key>ios-arm64/dSYMs/BanubaLicenseServicingSDK.framework.dSYM/Contents/Resources/Relocations/aarch64/BanubaLicenseServicingSDK.yml</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			w7B7/2oivrw37HHUbEC7tXyYc00=
+			zCp+o6m+Ds5RLcsPG+Uu7j2hx3g=
 			</data>
 			<key>hash2</key>
 			<data>
-			QHoAdrG4SZtV15haaVjwITKff3RLCbwRasMGvj64KIY=
+			Cg1ob+JdV7H3NJClIgqrQd91zMBR4Sqx1yUPPeEooEk=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/BanubaLicenseServicingSDK.framework/BanubaLicenseServicingSDK</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			uaafV/pcwoyPtDFSn48JP2HtEHE=
+			L7y7dn2i+X6ixlOXZ3c9+nBYddE=
 			</data>
 			<key>hash2</key>
 			<data>
-			W7Dg54cGCSRCf4DTCeqLuuah3IhZS1a5GNiIFlK4IQg=
+			70LDVVC5v0IsEvSlQonaLApDNzleLCsjN3O6TyOhnsE=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/BanubaLicenseServicingSDK.framework/FrameworkVersion.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Ww/2QB6snHZlJjKKj7fXPqI2PoE=
+			Sdr84aLqK9XRhuAhYMkwvkuPBs0=
 			</data>
 			<key>hash2</key>
 			<data>
-			6bSMV6S+EsuAbR2mWpux4E/45AoiF4Bq4zRb9sG/Gyo=
+			Cmtv3jwg2k0xali/5WRFveaMWkPfqGRtcwdkNNCLjTQ=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/BanubaLicenseServicingSDK.framework/Headers/BanubaLicenseServicingSDK-Swift.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			c4UwbxPGfMYdUOMpANnB3VOV9k4=
+			xoaw0Ylsp2ZSfyPVi+LLjNgwd74=
 			</data>
 			<key>hash2</key>
 			<data>
-			tgcwQTMu4hKRB2WxzyL/A2uTuHs6ap5Ewgt64jdOM9U=
+			kPMy3L5lNwiqwWjklnduzAZo2QIP8xdsHGHILiSpoe0=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/BanubaLicenseServicingSDK.framework/Headers/BanubaLicenseServicingSDK.h</key>
@@ -390,33 +390,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			w/1YmB9/AYYhmu5G6ArKBC6ermA=
+			r/En5noACZBQxjUp0xnhUbuUfJQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			tbVvoHhlBbFomFW5oukI8JsdPS0DUK1pBqVOZV5jabE=
+			KaWRsiItD2glwh4wbe1e5l70pqjT6CLRf81/y4BmV6w=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/BanubaLicenseServicingSDK.framework/Modules/BanubaLicenseServicingSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			MwhBHByeoJY3DzWyxmWJXDzFWq4=
+			Lb2IS8F4/fida8N0t51tiRrmqqs=
 			</data>
 			<key>hash2</key>
 			<data>
-			7K5zfW6CbqXuifyBEnUufAlhpf4bAy6KQjz2k8c69nQ=
+			cK2EqWbV8jgAoDxzBvqWIjht0G7m+iclVmQzFMXbSas=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/BanubaLicenseServicingSDK.framework/Modules/BanubaLicenseServicingSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			RJPuf7sXa/OGix1yR3Ficjc+cfc=
+			E8vbGb0R4r4tJ/YzkP/V34yPagM=
 			</data>
 			<key>hash2</key>
 			<data>
-			R3X2M1P/KTouKiUl9222/F8kzRcusCRF2A/zZfXtKj0=
+			6BLm7oljZzdzietMS01OTZ13JjGbOb6Jf9v/LOcGSew=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/BanubaLicenseServicingSDK.framework/Modules/BanubaLicenseServicingSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -434,33 +434,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			RJPuf7sXa/OGix1yR3Ficjc+cfc=
+			E8vbGb0R4r4tJ/YzkP/V34yPagM=
 			</data>
 			<key>hash2</key>
 			<data>
-			R3X2M1P/KTouKiUl9222/F8kzRcusCRF2A/zZfXtKj0=
+			6BLm7oljZzdzietMS01OTZ13JjGbOb6Jf9v/LOcGSew=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/BanubaLicenseServicingSDK.framework/Modules/BanubaLicenseServicingSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			MwhBHByeoJY3DzWyxmWJXDzFWq4=
+			Lb2IS8F4/fida8N0t51tiRrmqqs=
 			</data>
 			<key>hash2</key>
 			<data>
-			7K5zfW6CbqXuifyBEnUufAlhpf4bAy6KQjz2k8c69nQ=
+			cK2EqWbV8jgAoDxzBvqWIjht0G7m+iclVmQzFMXbSas=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/BanubaLicenseServicingSDK.framework/Modules/BanubaLicenseServicingSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			WRJwLxDTA+y2U41ilE6tr+0p8oE=
+			oPb1r7u2fPvuiOniT29w92mqDZo=
 			</data>
 			<key>hash2</key>
 			<data>
-			7buw5+7jKrHx1PRicVzXcBDUrwtquPp7IWwLxhtLcUM=
+			pWY61aRaAgu9m4xM0UWbh4SONVed5S+4n25iEIb/cRU=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/BanubaLicenseServicingSDK.framework/Modules/BanubaLicenseServicingSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -478,11 +478,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			WRJwLxDTA+y2U41ilE6tr+0p8oE=
+			oPb1r7u2fPvuiOniT29w92mqDZo=
 			</data>
 			<key>hash2</key>
 			<data>
-			7buw5+7jKrHx1PRicVzXcBDUrwtquPp7IWwLxhtLcUM=
+			pWY61aRaAgu9m4xM0UWbh4SONVed5S+4n25iEIb/cRU=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/BanubaLicenseServicingSDK.framework/Modules/module.modulemap</key>
@@ -511,55 +511,55 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			AZoRCneZh1M+VbgfWb0EzuBwqjE=
+			2NkyGpn3VFUgAWsTCvFYKb56KJI=
 			</data>
 			<key>hash2</key>
 			<data>
-			twASi9vzo0y/ME9UJug//mIUXSZGI2V4c7a0Wwr4hRk=
+			K+lT4v9U9VLvnngVhDZoW1hhta227RiTene0QDm2s3Q=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/dSYMs/BanubaLicenseServicingSDK.framework.dSYM/Contents/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Sq4hTYV3Z/gPVHesREMx0rPfmQk=
+			7CFcNBNn3H19OKhnJiiq1+4xlWE=
 			</data>
 			<key>hash2</key>
 			<data>
-			75m4lkw6qFCufCCpqWyDy5YvHvdB+FnhNneCq9/x3ZA=
+			5fRtLmrPKa+UbyBpwB7Cd9gnyRXh2bUAL4RsbI6u91s=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/dSYMs/BanubaLicenseServicingSDK.framework.dSYM/Contents/Resources/DWARF/BanubaLicenseServicingSDK</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			BibNEXq8XpSH49iRkijo2u+ovZo=
+			jt2RiQO9DwuGu2hgoHgAy8Ymq7o=
 			</data>
 			<key>hash2</key>
 			<data>
-			kToNg8SbbCTssrcHeNlIHmcSSx5ZzwZMTOxPDjGesuM=
+			Lba7EzljFH+IqWKdVUJxoqD/54HjSz+Xr3BIEU/vUFQ=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/dSYMs/BanubaLicenseServicingSDK.framework.dSYM/Contents/Resources/Relocations/aarch64/BanubaLicenseServicingSDK.yml</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Mx3t9dFUhPP5i4ox5hQjjGrrKNg=
+			IMBrjzkWTS+pXEVblkUpy457NrE=
 			</data>
 			<key>hash2</key>
 			<data>
-			Z6MctcAT/kdlP8KPK7sKD2Ka0XYAI1OhZ5DqO6eyhmI=
+			iPTA1yWx25iOHXwOgMXgWAq19U8wIE9taIj7Ss2o3es=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/dSYMs/BanubaLicenseServicingSDK.framework.dSYM/Contents/Resources/Relocations/x86_64/BanubaLicenseServicingSDK.yml</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			O3MKe8jx2ovZ2xKbDKXWF0b09VQ=
+			Qcsv/Wmli7uT97DRpNR5T1xMOqo=
 			</data>
 			<key>hash2</key>
 			<data>
-			UJeqgfj7fGRtQ/W4f6c8/Aa+D8szHVwMbMCGwlGczeo=
+			SArJGorJ5LaHw6qqN9ZkhJAb8FBTv9gIfa0Bq14SoRQ=
 			</data>
 		</dict>
 	</dict>

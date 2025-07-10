@@ -243,6 +243,9 @@ extension BanubaLicenseServicingSDK.BNBAnalyticsManager {
   @objc public var supportsBgSeparation: Swift.Bool {
     get
   }
+  @objc public var supportsWeatherman: Swift.Bool {
+    get
+  }
   @objc public var supportsCaptions: Swift.Bool {
     get
   }
