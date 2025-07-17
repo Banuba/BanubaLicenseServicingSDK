@@ -333,6 +333,7 @@ SWIFT_CLASS("_TtC25BanubaLicenseServicingSDK7License")
 @property (nonatomic, readonly) BOOL supportsBgSeparation;
 @property (nonatomic, readonly) BOOL supportsWeatherman;
 @property (nonatomic, readonly) BOOL supportsCaptions;
+@property (nonatomic, readonly) BOOL supportsDrawing;
 @property (nonatomic, readonly) BOOL supportsAIClipping;
 @property (nonatomic, readonly) BOOL supportsVideoTemplates;
 @property (nonatomic, readonly, copy) NSArray<NSNumber *> * _Nonnull postProcessingEffects;

@@ -249,6 +249,9 @@ extension BanubaLicenseServicingSDK.BNBAnalyticsManager {
   @objc public var supportsCaptions: Swift.Bool {
     get
   }
+  @objc public var supportsDrawing: Swift.Bool {
+    get
+  }
   @objc public var supportsAIClipping: Swift.Bool {
     get
   }
