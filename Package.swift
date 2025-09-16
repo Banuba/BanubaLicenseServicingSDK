@@ -2,38 +2,18 @@
 
 import PackageDescription
 
-let version: Version = "1.47.2"
-
 let package = Package(
   name: "BanubaLicenseServicingSDK",
   platforms: [
-    .iOS(.v15)
+    .iOS(.v17)
   ],
   products: [
     .library(
       name: "BanubaLicenseServicingSDK",
-      targets: ["BanubaLicenseServicingSDKTarget"]
+      targets: ["BanubaLicenseServicingSDK"]
     )
   ],
-  dependencies: [
-    .package(url: "https://github.com/Banuba/BNBLicenseUtils-iOS.git", exact: version),
-  ],
   targets: [
-    .target(
-      name: "BanubaLicenseServicingSDKWrapper",
-      dependencies: [
-        "BanubaLicenseServicingSDK",
-        .product(name: "BNBLicenseUtils", package: "BNBLicenseUtils-iOS")
-      ],
-      path: "BanubaLicenseServicingSDKWrapper"
-    ),
-    .target(
-      name: "BanubaLicenseServicingSDKTarget",
-      dependencies: [
-        .target(name: "BanubaLicenseServicingSDKWrapper")
-      ],
-      path: "BanubaLicenseServicingSDKTarget"
-    ),
     .binaryTarget(
       name: "BanubaLicenseServicingSDK",
       path: "BanubaLicenseServicingSDK.xcframework"
