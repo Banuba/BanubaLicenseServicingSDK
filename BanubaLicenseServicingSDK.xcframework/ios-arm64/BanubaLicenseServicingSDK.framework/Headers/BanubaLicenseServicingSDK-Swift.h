@@ -328,12 +328,14 @@ SWIFT_CLASS("_TtC25BanubaLicenseServicingSDK7License")
 @property (nonatomic, readonly) BOOL videoEditorSupportsFaceAR;
 @property (nonatomic, readonly) BOOL hasFaceARFeatures;
 @property (nonatomic, readonly) BOOL supportsPiP;
-@property (nonatomic, readonly) BOOL supportsMusicLibrary;
 @property (nonatomic, readonly) BOOL supportsSoundstripe;
 @property (nonatomic, readonly) BOOL supportsBanubaMusic;
 @property (nonatomic, readonly) BOOL supportsBgSeparation;
+@property (nonatomic, readonly) BOOL supportsWeatherman;
 @property (nonatomic, readonly) BOOL supportsCaptions;
-@property (nonatomic, readonly) BOOL supportsAutoCut;
+@property (nonatomic, readonly) BOOL supportsDrawing;
+@property (nonatomic, readonly) BOOL supportsAIClipping;
+@property (nonatomic, readonly) BOOL supportsVideoTemplates;
 @property (nonatomic, readonly, copy) NSArray<NSNumber *> * _Nonnull postProcessingEffects;
 @property (nonatomic, readonly, copy) NSString * _Nullable arCloudURL;
 @property (nonatomic, readonly, strong) TimeBomb * _Nullable timeBomb;
