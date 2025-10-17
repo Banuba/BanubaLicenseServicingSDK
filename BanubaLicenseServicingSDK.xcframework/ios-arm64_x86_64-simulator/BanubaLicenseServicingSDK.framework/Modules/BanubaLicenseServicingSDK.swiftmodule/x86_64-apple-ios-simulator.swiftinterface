@@ -69,7 +69,7 @@ public struct PhotoEditorExportEventOptions : BanubaLicenseServicingSDK.BasicEve
   public init(from decoder: any Swift.Decoder) throws
 }
 public struct PostProcessingOptions : Swift.Codable {
-  public init(visual: Swift.Int, speed: Swift.Int, mask: Swift.Int, color: Swift.Int, text: Swift.Int, sticker: Swift.Int, blur: Swift.Int)
+  public init(visual: Swift.Int, speed: Swift.Int, mask: Swift.Int, color: Swift.Int, text: Swift.Int, sticker: Swift.Int, blur: Swift.Int, audio: [Swift.String])
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
@@ -87,6 +87,7 @@ public struct PresentEventOptions : BanubaLicenseServicingSDK.BasicEventOptions 
   public let iOSVersion: Swift.String
   public enum EntryPoint : Swift.String, Swift.Codable {
     case camera
+    @available(*, deprecated, message: "This case will be removed in future releases.")
     case pip
     case trimmer
     case editor
@@ -109,6 +110,7 @@ public struct PresentScreenEventOptions : BanubaLicenseServicingSDK.BasicEventOp
   public let iOSVersion: Swift.String
   public enum Screen : Swift.String, Swift.Codable {
     case camera
+    @available(*, deprecated, message: "This case will be removed in future releases.")
     case pip
     case trimmer
     case editor
