@@ -166,6 +166,9 @@ public struct AddEffectEventOptions : BanubaLicenseServicingSDK.BasicEventOption
     case music
     case voice
     case voiceChanger
+    case draw
+    case weatherman
+    case greenScreen
     case unknown
     public init?(rawValue: Swift.String)
     public typealias RawValue = Swift.String
