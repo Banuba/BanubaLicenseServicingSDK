@@ -5354,6 +5354,43 @@
               },
               {
                 "kind": "Var",
+                "name": "lowerThird",
+                "printedName": "lowerThird",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(BanubaLicenseServicingSDK.AddEffectEventOptions.EffectType.Type) -> BanubaLicenseServicingSDK.AddEffectEventOptions.EffectType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EffectType",
+                        "printedName": "BanubaLicenseServicingSDK.AddEffectEventOptions.EffectType",
+                        "usr": "s:25BanubaLicenseServicingSDK21AddEffectEventOptionsV0F4TypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "BanubaLicenseServicingSDK.AddEffectEventOptions.EffectType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "EffectType",
+                            "printedName": "BanubaLicenseServicingSDK.AddEffectEventOptions.EffectType",
+                            "usr": "s:25BanubaLicenseServicingSDK21AddEffectEventOptionsV0F4TypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:25BanubaLicenseServicingSDK21AddEffectEventOptionsV0F4TypeO10lowerThirdyA2EmF",
+                "mangledName": "$s25BanubaLicenseServicingSDK21AddEffectEventOptionsV0F4TypeO10lowerThirdyA2EmF",
+                "moduleName": "BanubaLicenseServicingSDK"
+              },
+              {
+                "kind": "Var",
                 "name": "weatherman",
                 "printedName": "weatherman",
                 "children": [
@@ -9262,63 +9299,70 @@
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
-      "offset": 14099,
+      "offset": 14078,
+      "length": 13,
+      "value": "\"lower_third\""
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
+      "kind": "StringLiteral",
+      "offset": 14135,
       "length": 14,
       "value": "\"green_screen\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
-      "offset": 14136,
+      "offset": 14172,
       "length": 13,
       "value": "\"ai_clipping\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
-      "offset": 14259,
+      "offset": 14295,
       "length": 13,
       "value": "\"sdk_version\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
-      "offset": 14295,
+      "offset": 14331,
       "length": 12,
       "value": "\"os_version\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
-      "offset": 14326,
+      "offset": 14362,
       "length": 8,
       "value": "\"screen\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
-      "offset": 14351,
+      "offset": 14387,
       "length": 6,
       "value": "\"type\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
-      "offset": 15171,
+      "offset": 15207,
       "length": 13,
       "value": "\"sdk_version\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
-      "offset": 15207,
+      "offset": 15243,
       "length": 12,
       "value": "\"os_version\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
-      "offset": 15236,
+      "offset": 15272,
       "length": 6,
       "value": "\"type\""
     },

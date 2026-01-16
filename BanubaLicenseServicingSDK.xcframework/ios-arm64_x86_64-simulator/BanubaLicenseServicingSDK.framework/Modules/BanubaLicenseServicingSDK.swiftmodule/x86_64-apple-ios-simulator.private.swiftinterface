@@ -167,6 +167,7 @@ public struct AddEffectEventOptions : BanubaLicenseServicingSDK.BasicEventOption
     case voice
     case voiceChanger
     case draw
+    case lowerThird
     case weatherman
     case greenScreen
     case aiClipping
