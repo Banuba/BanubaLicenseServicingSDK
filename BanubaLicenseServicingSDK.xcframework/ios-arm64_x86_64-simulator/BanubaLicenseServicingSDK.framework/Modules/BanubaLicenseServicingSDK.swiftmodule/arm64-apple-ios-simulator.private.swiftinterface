@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0.2 effective-5.10 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
-// swift-module-flags: -target arm64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name BanubaLicenseServicingSDK
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+// swift-compiler-version: Apple Swift version 6.2.3 effective-5.10 (swiftlang-6.2.3.3.21 clang-1700.6.3.2)
+// swift-module-flags: -target arm64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name BanubaLicenseServicingSDK
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.3
 import BNBLicenseUtils
 @_exported import BanubaLicenseServicingSDK
 import BanubaUtilities
@@ -25,14 +25,20 @@ public enum BNBInformerEventType {
   case saveDraft(any BanubaLicenseServicingSDK.BasicEventOptions)
   case createSlideshow(any BanubaLicenseServicingSDK.BasicEventOptions)
   case addEffect(any BanubaLicenseServicingSDK.BasicEventOptions)
+  case genAIGenerateVideo(any BanubaLicenseServicingSDK.BasicEventOptions)
+  case genAIOpen(any BanubaLicenseServicingSDK.BasicEventOptions)
 }
 public protocol BasicEventOptions : Swift.Decodable, Swift.Encodable {
   var sdkVersion: Swift.String { get }
   var iOSVersion: Swift.String { get }
+  #if compiler(>=5.3) && $NonescapableTypes
   func adjustStringJson() -> Swift.String?
+  #endif
 }
 extension BanubaLicenseServicingSDK.BasicEventOptions {
+  #if compiler(>=5.3) && $NonescapableTypes
   public func adjustStringJson() -> Swift.String?
+  #endif
 }
 public struct VideoSources : Swift.Codable {
   public let camera: Swift.Int
@@ -56,7 +62,9 @@ public struct ExportEventOptions : BanubaLicenseServicingSDK.BasicEventOptions {
   public let videoCount: Swift.UInt8
   public let videoSources: BanubaLicenseServicingSDK.VideoSources
   public let aspectRatio: Swift.String
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(exportSuccess: Swift.Bool, videoResolutions: [Swift.String], postProcessingEffects: BanubaLicenseServicingSDK.PostProcessingOptions?, cameraEffects: [Swift.String]?, exportDuration: Foundation.TimeInterval, videoDuration: Foundation.TimeInterval, videoCount: Swift.UInt8, videoSources: BanubaLicenseServicingSDK.VideoSources, aspectRatio: Swift.String)
+  #endif
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
@@ -64,7 +72,9 @@ public struct PhotoEditorExportEventOptions : BanubaLicenseServicingSDK.BasicEve
   public let exportSuccess: Swift.Bool
   public let sdkVersion: Swift.String
   public let iOSVersion: Swift.String
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(exportSuccess: Swift.Bool, sdkVersion: Swift.String?, iOSVersion: Swift.String)
+  #endif
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
@@ -77,7 +87,9 @@ public struct InitEventOptions : BanubaLicenseServicingSDK.BasicEventOptions {
   public let sdkVersion: Swift.String
   public let iOSVersion: Swift.String
   public init()
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(sdkVersion: Swift.String?, iOSVersion: Swift.String)
+  #endif
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
@@ -95,7 +107,9 @@ public struct PresentEventOptions : BanubaLicenseServicingSDK.BasicEventOptions 
     case gallery
     case aiClipping
     case videoTemplates
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -125,7 +139,16 @@ public struct PresentScreenEventOptions : BanubaLicenseServicingSDK.BasicEventOp
     case customGallery
     case aiClipping
     case cover
+    case genAIGuidelines
+    case genAIImagePicker
+    case genAIImagePreview
+    case genAIAudioSources
+    case genAIPromptPicker
+    case genAIVideoList
+    case genAIVideoPreview
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -172,13 +195,17 @@ public struct AddEffectEventOptions : BanubaLicenseServicingSDK.BasicEventOption
     case greenScreen
     case aiClipping
     case unknown
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
     }
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(screen: BanubaLicenseServicingSDK.PresentScreenEventOptions.Screen, type: BanubaLicenseServicingSDK.AddEffectEventOptions.EffectType, name: Swift.String? = nil)
+  #endif
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
@@ -189,13 +216,35 @@ public struct ChooseTemplateEventOption : BanubaLicenseServicingSDK.BasicEventOp
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
+public struct GenAIGenerateVideoEventOption : BanubaLicenseServicingSDK.BasicEventOptions {
+  public enum AudioType : Swift.String, Swift.Codable {
+    case recording
+    case upload
+    #if compiler(>=5.3) && $NonescapableTypes
+    public init?(rawValue: Swift.String)
+    #endif
+    public typealias RawValue = Swift.String
+    public var rawValue: Swift.String {
+      get
+    }
+  }
+  public let sdkVersion: Swift.String
+  public let iOSVersion: Swift.String
+  public let audioType: BanubaLicenseServicingSDK.GenAIGenerateVideoEventOption.AudioType
+  public let prompt: Swift.String
+  public init(audioType: BanubaLicenseServicingSDK.GenAIGenerateVideoEventOption.AudioType, prompt: Swift.String)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
 public enum EffectType : Swift.String, Swift.CaseIterable {
   case mask
   case filter
   case speed
   case beautification
   case timer
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias AllCases = [BanubaLicenseServicingSDK.EffectType]
   public typealias RawValue = Swift.String
   nonisolated public static var allCases: [BanubaLicenseServicingSDK.EffectType] {
@@ -289,9 +338,16 @@ extension BanubaLicenseServicingSDK.BNBAnalyticsManager {
   @objc public var isPhotoEditorSDKEnabled: Swift.Bool {
     get
   }
+  @objc public var supportsGenAI: Swift.Bool {
+    get
+  }
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc override dynamic public func isEqual(_ object: Any?) -> Swift.Bool
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public static func getLicense(fromToken token: Swift.String) -> BanubaLicenseServicingSDK.License?
-  public func getLicenseState(completion: @escaping ((BNBLicenseUtils.XBNBLicenseStatus) -> Swift.Void))
+  #endif
+  public func getLicenseState(completion: @escaping (BNBLicenseUtils.XBNBLicenseStatus) -> Swift.Void)
   @objc deinit
 }
 @objc public class TimeBomb : ObjectiveC.NSObject, Swift.Codable {
@@ -318,6 +374,9 @@ extension BanubaLicenseServicingSDK.PresentScreenEventOptions.Screen : Swift.Raw
 extension BanubaLicenseServicingSDK.AddEffectEventOptions.EffectType : Swift.Equatable {}
 extension BanubaLicenseServicingSDK.AddEffectEventOptions.EffectType : Swift.Hashable {}
 extension BanubaLicenseServicingSDK.AddEffectEventOptions.EffectType : Swift.RawRepresentable {}
+extension BanubaLicenseServicingSDK.GenAIGenerateVideoEventOption.AudioType : Swift.Equatable {}
+extension BanubaLicenseServicingSDK.GenAIGenerateVideoEventOption.AudioType : Swift.Hashable {}
+extension BanubaLicenseServicingSDK.GenAIGenerateVideoEventOption.AudioType : Swift.RawRepresentable {}
 extension BanubaLicenseServicingSDK.EffectType : Swift.Equatable {}
 extension BanubaLicenseServicingSDK.EffectType : Swift.Hashable {}
 extension BanubaLicenseServicingSDK.EffectType : Swift.RawRepresentable {}
