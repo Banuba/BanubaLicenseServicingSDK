@@ -1,6 +1,6 @@
 ---
 triple:          'arm64-apple-darwin'
-binary-path:     '/Users/andreysak/Library/Developer/Xcode/DerivedData/VideoEditorSDKSandbox-eqezbllecmxhkvalesvwdjdkkcdx/Build/Intermediates.noindex/ArchiveIntermediates/BanubaLicenseServicingSDK/InstallationBuildProductsLocation/Library/Frameworks/BanubaLicenseServicingSDK.framework/BanubaLicenseServicingSDK'
+binary-path:     '/Users/user/Library/Developer/Xcode/DerivedData/VideoEditorSDKSandbox-apczolamkvzvcugwxnswrghnwlmi/Build/Intermediates.noindex/ArchiveIntermediates/BanubaLicenseServicingSDK/InstallationBuildProductsLocation/Library/Frameworks/BanubaLicenseServicingSDK.framework/BanubaLicenseServicingSDK'
 relocations:
   - { offset: 0xD1A1A, size: 0x8, addend: 0x0, symName: _BanubaLicenseServicingSDKVersionString, symObjAddr: 0x0, symBinAddr: 0x1C6D0, symSize: 0x0 }
   - { offset: 0xD1A4F, size: 0x8, addend: 0x0, symName: _BanubaLicenseServicingSDKVersionNumber, symObjAddr: 0x58, symBinAddr: 0x1C728, symSize: 0x0 }

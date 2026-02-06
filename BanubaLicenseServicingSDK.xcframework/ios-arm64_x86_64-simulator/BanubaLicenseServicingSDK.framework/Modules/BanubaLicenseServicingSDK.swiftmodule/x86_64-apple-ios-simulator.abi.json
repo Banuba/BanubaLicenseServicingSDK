@@ -10007,679 +10007,679 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/andreysak\/Developer\/Banuba\/ve_sdk_ios_2023\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
       "offset": 4171,
       "length": 16,
       "value": "\"export_success\""
     },
     {
-      "filePath": "\/Users\/andreysak\/Developer\/Banuba\/ve_sdk_ios_2023\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
       "offset": 4210,
       "length": 13,
       "value": "\"sdk_version\""
     },
     {
-      "filePath": "\/Users\/andreysak\/Developer\/Banuba\/ve_sdk_ios_2023\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
       "offset": 4246,
       "length": 12,
       "value": "\"os_version\""
     },
     {
-      "filePath": "\/Users\/andreysak\/Developer\/Banuba\/ve_sdk_ios_2023\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
       "offset": 4285,
       "length": 17,
       "value": "\"export_duration\""
     },
     {
-      "filePath": "\/Users\/andreysak\/Developer\/Banuba\/ve_sdk_ios_2023\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
       "offset": 4328,
       "length": 16,
       "value": "\"video_duration\""
     },
     {
-      "filePath": "\/Users\/andreysak\/Developer\/Banuba\/ve_sdk_ios_2023\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
       "offset": 4367,
       "length": 13,
       "value": "\"video_count\""
     },
     {
-      "filePath": "\/Users\/andreysak\/Developer\/Banuba\/ve_sdk_ios_2023\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
       "offset": 4409,
       "length": 19,
       "value": "\"video_resolutions\""
     },
     {
-      "filePath": "\/Users\/andreysak\/Developer\/Banuba\/ve_sdk_ios_2023\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
       "offset": 4462,
       "length": 13,
       "value": "\"ppt_effects\""
     },
     {
-      "filePath": "\/Users\/andreysak\/Developer\/Banuba\/ve_sdk_ios_2023\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
       "offset": 4501,
       "length": 16,
       "value": "\"camera_effects\""
     },
     {
-      "filePath": "\/Users\/andreysak\/Developer\/Banuba\/ve_sdk_ios_2023\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
       "offset": 4542,
       "length": 9,
       "value": "\"sources\""
     },
     {
-      "filePath": "\/Users\/andreysak\/Developer\/Banuba\/ve_sdk_ios_2023\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
       "offset": 4575,
       "length": 14,
       "value": "\"aspect_ratio\""
     },
     {
-      "filePath": "\/Users\/andreysak\/Developer\/Banuba\/ve_sdk_ios_2023\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
       "offset": 6508,
       "length": 16,
       "value": "\"export_success\""
     },
     {
-      "filePath": "\/Users\/andreysak\/Developer\/Banuba\/ve_sdk_ios_2023\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
       "offset": 6547,
       "length": 13,
       "value": "\"sdk_version\""
     },
     {
-      "filePath": "\/Users\/andreysak\/Developer\/Banuba\/ve_sdk_ios_2023\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
       "offset": 6583,
       "length": 12,
       "value": "\"os_version\""
     },
     {
-      "filePath": "\/Users\/andreysak\/Developer\/Banuba\/ve_sdk_ios_2023\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
       "offset": 8617,
       "length": 13,
       "value": "\"lower_third\""
     },
     {
-      "filePath": "\/Users\/andreysak\/Developer\/Banuba\/ve_sdk_ios_2023\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
       "offset": 8966,
       "length": 13,
       "value": "\"sdk_version\""
     },
     {
-      "filePath": "\/Users\/andreysak\/Developer\/Banuba\/ve_sdk_ios_2023\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
       "offset": 9002,
       "length": 12,
       "value": "\"os_version\""
     },
     {
-      "filePath": "\/Users\/andreysak\/Developer\/Banuba\/ve_sdk_ios_2023\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
       "offset": 10240,
       "length": 13,
       "value": "\"ai_clipping\""
     },
     {
-      "filePath": "\/Users\/andreysak\/Developer\/Banuba\/ve_sdk_ios_2023\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
       "offset": 10370,
       "length": 13,
       "value": "\"sdk_version\""
     },
     {
-      "filePath": "\/Users\/andreysak\/Developer\/Banuba\/ve_sdk_ios_2023\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
       "offset": 10406,
       "length": 12,
       "value": "\"os_version\""
     },
     {
-      "filePath": "\/Users\/andreysak\/Developer\/Banuba\/ve_sdk_ios_2023\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
       "offset": 10441,
       "length": 13,
       "value": "\"entry_point\""
     },
     {
-      "filePath": "\/Users\/andreysak\/Developer\/Banuba\/ve_sdk_ios_2023\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
       "offset": 11416,
       "length": 12,
       "value": "\"camera_pip\""
     },
     {
-      "filePath": "\/Users\/andreysak\/Developer\/Banuba\/ve_sdk_ios_2023\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
       "offset": 11482,
       "length": 11,
       "value": "\"editor_v2\""
     },
     {
-      "filePath": "\/Users\/andreysak\/Developer\/Banuba\/ve_sdk_ios_2023\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
       "offset": 11523,
       "length": 21,
       "value": "\"audio_browser_local\""
     },
     {
-      "filePath": "\/Users\/andreysak\/Developer\/Banuba\/ve_sdk_ios_2023\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
       "offset": 11577,
       "length": 24,
       "value": "\"audio_browser_external\""
     },
     {
-      "filePath": "\/Users\/andreysak\/Developer\/Banuba\/ve_sdk_ios_2023\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
       "offset": 11632,
       "length": 22,
       "value": "\"audio_browser_mubert\""
     },
     {
-      "filePath": "\/Users\/andreysak\/Developer\/Banuba\/ve_sdk_ios_2023\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
       "offset": 11685,
       "length": 22,
       "value": "\"audio_browser_banuba\""
     },
     {
-      "filePath": "\/Users\/andreysak\/Developer\/Banuba\/ve_sdk_ios_2023\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
       "offset": 11743,
       "length": 27,
       "value": "\"audio_browser_soundstripe\""
     },
     {
-      "filePath": "\/Users\/andreysak\/Developer\/Banuba\/ve_sdk_ios_2023\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
       "offset": 11829,
       "length": 16,
       "value": "\"custom_gallery\""
     },
     {
-      "filePath": "\/Users\/andreysak\/Developer\/Banuba\/ve_sdk_ios_2023\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
       "offset": 11868,
       "length": 13,
       "value": "\"ai_clipping\""
     },
     {
-      "filePath": "\/Users\/andreysak\/Developer\/Banuba\/ve_sdk_ios_2023\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
       "offset": 11950,
       "length": 19,
       "value": "\"gen_ai_guidelines\""
     },
     {
-      "filePath": "\/Users\/andreysak\/Developer\/Banuba\/ve_sdk_ios_2023\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
       "offset": 11998,
       "length": 21,
       "value": "\"gen_ai_image_picker\""
     },
     {
-      "filePath": "\/Users\/andreysak\/Developer\/Banuba\/ve_sdk_ios_2023\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
       "offset": 12049,
       "length": 22,
       "value": "\"gen_ai_image_preview\""
     },
     {
-      "filePath": "\/Users\/andreysak\/Developer\/Banuba\/ve_sdk_ios_2023\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
       "offset": 12101,
       "length": 22,
       "value": "\"gen_ai_audio_sources\""
     },
     {
-      "filePath": "\/Users\/andreysak\/Developer\/Banuba\/ve_sdk_ios_2023\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
       "offset": 12153,
       "length": 22,
       "value": "\"gen_ai_prompt_picker\""
     },
     {
-      "filePath": "\/Users\/andreysak\/Developer\/Banuba\/ve_sdk_ios_2023\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
       "offset": 12202,
       "length": 19,
       "value": "\"gen_ai_video_list\""
     },
     {
-      "filePath": "\/Users\/andreysak\/Developer\/Banuba\/ve_sdk_ios_2023\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
       "offset": 12251,
       "length": 22,
       "value": "\"gen_ai_video_preview\""
     },
     {
-      "filePath": "\/Users\/andreysak\/Developer\/Banuba\/ve_sdk_ios_2023\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
       "offset": 12366,
       "length": 13,
       "value": "\"sdk_version\""
     },
     {
-      "filePath": "\/Users\/andreysak\/Developer\/Banuba\/ve_sdk_ios_2023\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
       "offset": 12402,
       "length": 12,
       "value": "\"os_version\""
     },
     {
-      "filePath": "\/Users\/andreysak\/Developer\/Banuba\/ve_sdk_ios_2023\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
       "offset": 12442,
       "length": 5,
       "value": "\"ltr\""
     },
     {
-      "filePath": "\/Users\/andreysak\/Developer\/Banuba\/ve_sdk_ios_2023\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
       "offset": 12466,
       "length": 8,
       "value": "\"screen\""
     },
     {
-      "filePath": "\/Users\/andreysak\/Developer\/Banuba\/ve_sdk_ios_2023\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
       "offset": 13308,
       "length": 13,
       "value": "\"sdk_version\""
     },
     {
-      "filePath": "\/Users\/andreysak\/Developer\/Banuba\/ve_sdk_ios_2023\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
       "offset": 13344,
       "length": 12,
       "value": "\"os_version\""
     },
     {
-      "filePath": "\/Users\/andreysak\/Developer\/Banuba\/ve_sdk_ios_2023\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
       "offset": 13375,
       "length": 8,
       "value": "\"screen\""
     },
     {
-      "filePath": "\/Users\/andreysak\/Developer\/Banuba\/ve_sdk_ios_2023\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
       "offset": 14164,
       "length": 13,
       "value": "\"sdk_version\""
     },
     {
-      "filePath": "\/Users\/andreysak\/Developer\/Banuba\/ve_sdk_ios_2023\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
       "offset": 14200,
       "length": 12,
       "value": "\"os_version\""
     },
     {
-      "filePath": "\/Users\/andreysak\/Developer\/Banuba\/ve_sdk_ios_2023\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
       "offset": 14231,
       "length": 8,
       "value": "\"screen\""
     },
     {
-      "filePath": "\/Users\/andreysak\/Developer\/Banuba\/ve_sdk_ios_2023\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
       "offset": 15302,
       "length": 12,
       "value": "\"text_style\""
     },
     {
-      "filePath": "\/Users\/andreysak\/Developer\/Banuba\/ve_sdk_ios_2023\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
       "offset": 15369,
       "length": 15,
       "value": "\"voice_changer\""
     },
     {
-      "filePath": "\/Users\/andreysak\/Developer\/Banuba\/ve_sdk_ios_2023\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
       "offset": 15421,
       "length": 13,
       "value": "\"lower_third\""
     },
     {
-      "filePath": "\/Users\/andreysak\/Developer\/Banuba\/ve_sdk_ios_2023\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
       "offset": 15478,
       "length": 14,
       "value": "\"green_screen\""
     },
     {
-      "filePath": "\/Users\/andreysak\/Developer\/Banuba\/ve_sdk_ios_2023\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
       "offset": 15515,
       "length": 13,
       "value": "\"ai_clipping\""
     },
     {
-      "filePath": "\/Users\/andreysak\/Developer\/Banuba\/ve_sdk_ios_2023\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
       "offset": 15642,
       "length": 13,
       "value": "\"sdk_version\""
     },
     {
-      "filePath": "\/Users\/andreysak\/Developer\/Banuba\/ve_sdk_ios_2023\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
       "offset": 15678,
       "length": 12,
       "value": "\"os_version\""
     },
     {
-      "filePath": "\/Users\/andreysak\/Developer\/Banuba\/ve_sdk_ios_2023\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
       "offset": 15709,
       "length": 8,
       "value": "\"screen\""
     },
     {
-      "filePath": "\/Users\/andreysak\/Developer\/Banuba\/ve_sdk_ios_2023\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
       "offset": 15734,
       "length": 6,
       "value": "\"type\""
     },
     {
-      "filePath": "\/Users\/andreysak\/Developer\/Banuba\/ve_sdk_ios_2023\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
       "offset": 15757,
       "length": 6,
       "value": "\"name\""
     },
     {
-      "filePath": "\/Users\/andreysak\/Developer\/Banuba\/ve_sdk_ios_2023\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
       "offset": 16690,
       "length": 13,
       "value": "\"sdk_version\""
     },
     {
-      "filePath": "\/Users\/andreysak\/Developer\/Banuba\/ve_sdk_ios_2023\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
       "offset": 16726,
       "length": 12,
       "value": "\"os_version\""
     },
     {
-      "filePath": "\/Users\/andreysak\/Developer\/Banuba\/ve_sdk_ios_2023\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
       "offset": 16755,
       "length": 6,
       "value": "\"type\""
     },
     {
-      "filePath": "\/Users\/andreysak\/Developer\/Banuba\/ve_sdk_ios_2023\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
       "offset": 17552,
       "length": 13,
       "value": "\"sdk_version\""
     },
     {
-      "filePath": "\/Users\/andreysak\/Developer\/Banuba\/ve_sdk_ios_2023\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
       "offset": 17588,
       "length": 12,
       "value": "\"os_version\""
     },
     {
-      "filePath": "\/Users\/andreysak\/Developer\/Banuba\/ve_sdk_ios_2023\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
       "offset": 17622,
       "length": 12,
       "value": "\"audio_type\""
     },
     {
-      "filePath": "\/Users\/andreysak\/Developer\/Banuba\/ve_sdk_ios_2023\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/AnalyticsEntities.swift",
       "kind": "StringLiteral",
       "offset": 17653,
       "length": 8,
       "value": "\"prompt\""
     },
     {
-      "filePath": "\/Users\/andreysak\/Developer\/Banuba\/ve_sdk_ios_2023\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/AnalyticsManager.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/AnalyticsManager.swift",
       "kind": "Array",
       "offset": 641,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/andreysak\/Developer\/Banuba\/ve_sdk_ios_2023\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/AnalyticsManager.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/AnalyticsManager.swift",
       "kind": "Array",
       "offset": 658,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/andreysak\/Developer\/Banuba\/ve_sdk_ios_2023\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/AnalyticsManager.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/AnalyticsManager.swift",
       "kind": "Array",
       "offset": 674,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/andreysak\/Developer\/Banuba\/ve_sdk_ios_2023\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/AnalyticsManager.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/AnalyticsManager.swift",
       "kind": "Array",
       "offset": 699,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/andreysak\/Developer\/Banuba\/ve_sdk_ios_2023\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/AnalyticsManager.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/AnalyticsManager.swift",
       "kind": "Array",
       "offset": 715,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/andreysak\/Developer\/Banuba\/ve_sdk_ios_2023\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
       "kind": "Array",
       "offset": 744,
       "length": 317,
       "value": "[101, 102, 103, 104, 105, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 201, 202, 301, 302, 303, 304, 305, 306, 307]"
     },
     {
-      "filePath": "\/Users\/andreysak\/Developer\/Banuba\/ve_sdk_ios_2023\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
       "kind": "StringLiteral",
       "offset": 1159,
       "length": 11,
       "value": "\"max_faces\""
     },
     {
-      "filePath": "\/Users\/andreysak\/Developer\/Banuba\/ve_sdk_ios_2023\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
       "kind": "StringLiteral",
       "offset": 1225,
       "length": 11,
       "value": "\"client_id\""
     },
     {
-      "filePath": "\/Users\/andreysak\/Developer\/Banuba\/ve_sdk_ios_2023\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
       "kind": "StringLiteral",
       "offset": 1272,
       "length": 7,
       "value": "\"veSdk\""
     },
     {
-      "filePath": "\/Users\/andreysak\/Developer\/Banuba\/ve_sdk_ios_2023\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
       "kind": "StringLiteral",
       "offset": 1297,
       "length": 7,
       "value": "\"peSdk\""
     },
     {
-      "filePath": "\/Users\/andreysak\/Developer\/Banuba\/ve_sdk_ios_2023\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
       "kind": "StringLiteral",
       "offset": 1331,
       "length": 13,
       "value": "\"soundstripe\""
     },
     {
-      "filePath": "\/Users\/andreysak\/Developer\/Banuba\/ve_sdk_ios_2023\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
       "kind": "StringLiteral",
       "offset": 1367,
       "length": 14,
       "value": "\"ar_cloud_url\""
     },
     {
-      "filePath": "\/Users\/andreysak\/Developer\/Banuba\/ve_sdk_ios_2023\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
       "kind": "StringLiteral",
       "offset": 1402,
       "length": 11,
       "value": "\"time_bomb\""
     },
     {
-      "filePath": "\/Users\/andreysak\/Developer\/Banuba\/ve_sdk_ios_2023\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
       "kind": "StringLiteral",
       "offset": 1431,
       "length": 7,
       "value": "\"veApi\""
     },
     {
-      "filePath": "\/Users\/andreysak\/Developer\/Banuba\/ve_sdk_ios_2023\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
       "kind": "StringLiteral",
       "offset": 4550,
       "length": 12,
       "value": "\"year_begin\""
     },
     {
-      "filePath": "\/Users\/andreysak\/Developer\/Banuba\/ve_sdk_ios_2023\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
       "kind": "StringLiteral",
       "offset": 4583,
       "length": 11,
       "value": "\"mon_begin\""
     },
     {
-      "filePath": "\/Users\/andreysak\/Developer\/Banuba\/ve_sdk_ios_2023\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
       "kind": "StringLiteral",
       "offset": 4615,
       "length": 11,
       "value": "\"day_begin\""
     },
     {
-      "filePath": "\/Users\/andreysak\/Developer\/Banuba\/ve_sdk_ios_2023\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
       "kind": "StringLiteral",
       "offset": 4646,
       "length": 10,
       "value": "\"year_end\""
     },
     {
-      "filePath": "\/Users\/andreysak\/Developer\/Banuba\/ve_sdk_ios_2023\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
       "kind": "StringLiteral",
       "offset": 4675,
       "length": 9,
       "value": "\"mon_end\""
     },
     {
-      "filePath": "\/Users\/andreysak\/Developer\/Banuba\/ve_sdk_ios_2023\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
       "kind": "StringLiteral",
       "offset": 4703,
       "length": 9,
       "value": "\"day_end\""
     },
     {
-      "filePath": "\/Users\/andreysak\/Developer\/Banuba\/ve_sdk_ios_2023\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
       "kind": "StringLiteral",
       "offset": 4772,
       "length": 32,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/andreysak\/Developer\/Banuba\/ve_sdk_ios_2023\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
       "kind": "StringLiteral",
       "offset": 4782,
       "length": 1,
       "value": "\".\""
     },
     {
-      "filePath": "\/Users\/andreysak\/Developer\/Banuba\/ve_sdk_ios_2023\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
       "kind": "StringLiteral",
       "offset": 4792,
       "length": 1,
       "value": "\".\""
     },
     {
-      "filePath": "\/Users\/andreysak\/Developer\/Banuba\/ve_sdk_ios_2023\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
       "kind": "StringLiteral",
       "offset": 4803,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/andreysak\/Developer\/Banuba\/ve_sdk_ios_2023\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
       "kind": "StringLiteral",
       "offset": 4873,
       "length": 12,
       "value": "\"dd\/MM\/yyyy\""
     },
     {
-      "filePath": "\/Users\/andreysak\/Developer\/Banuba\/ve_sdk_ios_2023\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
       "kind": "BooleanLiteral",
       "offset": 4967,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/andreysak\/Developer\/Banuba\/ve_sdk_ios_2023\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
       "kind": "StringLiteral",
       "offset": 5252,
       "length": 13,
       "value": "\"playbackApi\""
     },
     {
-      "filePath": "\/Users\/andreysak\/Developer\/Banuba\/ve_sdk_ios_2023\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
       "kind": "StringLiteral",
       "offset": 5287,
       "length": 11,
       "value": "\"exportApi\""
     },
     {
-      "filePath": "\/Users\/andreysak\/Developer\/Banuba\/ve_sdk_ios_2023\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
       "kind": "StringLiteral",
       "offset": 5962,
       "length": 16,
       "value": "\"supportsFeedFM\""
     },
     {
-      "filePath": "\/Users\/andreysak\/Developer\/Banuba\/ve_sdk_ios_2023\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
       "kind": "StringLiteral",
       "offset": 6065,
       "length": 23,
       "value": "\"supportClosedCaptions\""
     },
     {
-      "filePath": "\/Users\/andreysak\/Developer\/Banuba\/ve_sdk_ios_2023\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
       "kind": "StringLiteral",
       "offset": 6141,
       "length": 16,
       "value": "\"supportAutoCut\""
     },
     {
-      "filePath": "\/Users\/andreysak\/Developer\/Banuba\/ve_sdk_ios_2023\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
       "kind": "StringLiteral",
       "offset": 6192,
       "length": 18,
       "value": "\"supportTemplates\""
     },
     {
-      "filePath": "\/Users\/andreysak\/Developer\/Banuba\/ve_sdk_ios_2023\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaLicenseServicingSDK\/BanubaLicenseServicingSDK\/Components\/VideoEditorSDKToken.swift",
       "kind": "StringLiteral",
       "offset": 6257,
       "length": 23,
