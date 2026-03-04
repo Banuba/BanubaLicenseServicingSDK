@@ -6,7 +6,7 @@
 	<dict>
 		<key>FrameworkVersion.plist</key>
 		<data>
-		lwETWzj24OfI0U93hepRFfgmrbw=
+		OuYjvaPoG0iexp/Rpwx3h40R9qw=
 		</data>
 		<key>Headers/BanubaLicenseServicingSDK-Swift.h</key>
 		<data>
@@ -22,15 +22,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		gTQ5oxz6JQjfBvXN/HxPHyKijPc=
+		ALhsJj5ASbgsOGLrbSuexBuVsl0=
 		</data>
 		<key>Modules/BanubaLicenseServicingSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		0pqdpf0rXpFzv3YPqvMReUzrX4w=
+		5XHqakQmXObYfVTscNUTjFKtUgc=
 		</data>
 		<key>Modules/BanubaLicenseServicingSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		OiZdYnrFVIS9TQKp6rPnJ3/09II=
+		xZSJrYeHdVx8fRWpsMI/HjRibs4=
 		</data>
 		<key>Modules/BanubaLicenseServicingSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -38,11 +38,11 @@
 		</data>
 		<key>Modules/BanubaLicenseServicingSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		OiZdYnrFVIS9TQKp6rPnJ3/09II=
+		xZSJrYeHdVx8fRWpsMI/HjRibs4=
 		</data>
 		<key>Modules/BanubaLicenseServicingSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		FLw2P+btRcJllb1nBkLp4Cs3z8A=
+		SfgI+L5AQmDmkIH01XKHA6Zpc0g=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -59,7 +59,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BjwIY1QiedsDWsi979l2Hv7vQHPM/VUSZUXrTm31YVc=
+			Sqck0Kp6Tl4Vc1A4t7D18fQaq7aQzI1C4ecVIKYxQVQ=
 			</data>
 		</dict>
 		<key>Headers/BanubaLicenseServicingSDK-Swift.h</key>
@@ -87,14 +87,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			473nCGIxUX2ZtJoMm5xxh9a2kJUh3xwQzsucazONIRg=
+			q3/TlPY0a3D31CULw16Vmw9vuAEbm8yyaBW5p7DizQ4=
 			</data>
 		</dict>
 		<key>Modules/BanubaLicenseServicingSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PYtgnJYPGnuz2Hv1Mv0hsRl1lW1PDU35tg41mWkybAU=
+			B3egJs/OPfl5hfIoM2tMAILLQDkt2BTAG103MchYT/0=
 			</data>
 		</dict>
 		<key>Modules/BanubaLicenseServicingSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -108,14 +108,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			PYtgnJYPGnuz2Hv1Mv0hsRl1lW1PDU35tg41mWkybAU=
+			B3egJs/OPfl5hfIoM2tMAILLQDkt2BTAG103MchYT/0=
 			</data>
 		</dict>
 		<key>Modules/BanubaLicenseServicingSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			U2fJPF3K7/CBECtZqyPuKy21C25CFzIUTnB9/g7d8zU=
+			n1fOZ4Rdm+hTl3WAYBE/hitl4hfoXNzlGPZa9PwjBvA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

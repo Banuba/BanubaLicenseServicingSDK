@@ -99,8 +99,6 @@ public struct PresentEventOptions : BanubaLicenseServicingSDK.BasicEventOptions 
   public let iOSVersion: Swift.String
   public enum EntryPoint : Swift.String, Swift.Codable {
     case camera
-    @available(*, deprecated, message: "This case will be removed in future releases.")
-    case pip
     case trimmer
     case editor
     case drafts
