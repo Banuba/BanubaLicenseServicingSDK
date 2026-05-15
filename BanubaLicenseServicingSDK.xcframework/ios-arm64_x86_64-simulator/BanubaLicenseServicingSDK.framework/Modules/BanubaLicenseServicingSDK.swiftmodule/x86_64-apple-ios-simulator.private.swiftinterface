@@ -27,6 +27,25 @@ public enum BNBInformerEventType {
   case addEffect(any BanubaLicenseServicingSDK.BasicEventOptions)
   case genAIGenerateVideo(any BanubaLicenseServicingSDK.BasicEventOptions)
   case genAIOpen(any BanubaLicenseServicingSDK.BasicEventOptions)
+  case genAIStartGeneration(any BanubaLicenseServicingSDK.BasicEventOptions)
+  case genAIShareToFeed(any BanubaLicenseServicingSDK.BasicEventOptions)
+  case genAIOpenVideoEditor(any BanubaLicenseServicingSDK.BasicEventOptions)
+  case genAISaveOnDevice(any BanubaLicenseServicingSDK.BasicEventOptions)
+  case genAIGenerationTime(any BanubaLicenseServicingSDK.BasicEventOptions)
+  case genAICompleted(any BanubaLicenseServicingSDK.BasicEventOptions)
+  case genAIFailed(any BanubaLicenseServicingSDK.BasicEventOptions)
+  case genAIContactUsRefuse(any BanubaLicenseServicingSDK.BasicEventOptions)
+  case genAIContactUsEmail(any BanubaLicenseServicingSDK.BasicEventOptions)
+  case genAIContactUsAlertPresented(any BanubaLicenseServicingSDK.BasicEventOptions)
+  case templateBuilderPublished(any BanubaLicenseServicingSDK.BasicEventOptions)
+}
+extension BanubaLicenseServicingSDK.BNBInformerEventType {
+  public var eventKey: Swift.String {
+    get
+  }
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func externalEventJSONString() -> Swift.String?
+  #endif
 }
 public protocol BasicEventOptions : Swift.Decodable, Swift.Encodable {
   var sdkVersion: Swift.String { get }
@@ -105,6 +124,7 @@ public struct PresentEventOptions : BanubaLicenseServicingSDK.BasicEventOptions 
     case gallery
     case aiClipping
     case videoTemplates
+    case templatesBuilder
     #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
     #endif
@@ -144,6 +164,8 @@ public struct PresentScreenEventOptions : BanubaLicenseServicingSDK.BasicEventOp
     case genAIPromptPicker
     case genAIVideoList
     case genAIVideoPreview
+    case templateBuilderEditor
+    case templateBuilderPublishing
     #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
     #endif
@@ -214,6 +236,17 @@ public struct ChooseTemplateEventOption : BanubaLicenseServicingSDK.BasicEventOp
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
+public struct TemplateBuilderPublishedEventOptions : BanubaLicenseServicingSDK.BasicEventOptions {
+  public let sdkVersion: Swift.String
+  public let iOSVersion: Swift.String
+  public let templateId: Swift.String
+  public let templateTitle: Swift.String
+  public let templateDuration: Swift.String
+  public let segmentsCount: Swift.Int
+  public init(templateId: Foundation.UUID, templateTitle: Swift.String, templateDuration: Swift.String, segmentsCount: Swift.Int)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
 public struct GenAIGenerateVideoEventOption : BanubaLicenseServicingSDK.BasicEventOptions {
   public enum AudioType : Swift.String, Swift.Codable {
     case recording
@@ -229,8 +262,59 @@ public struct GenAIGenerateVideoEventOption : BanubaLicenseServicingSDK.BasicEve
   public let sdkVersion: Swift.String
   public let iOSVersion: Swift.String
   public let audioType: BanubaLicenseServicingSDK.GenAIGenerateVideoEventOption.AudioType
+  public let audioDuration: Swift.String
   public let prompt: Swift.String
-  public init(audioType: BanubaLicenseServicingSDK.GenAIGenerateVideoEventOption.AudioType, prompt: Swift.String)
+  public init(audioType: BanubaLicenseServicingSDK.GenAIGenerateVideoEventOption.AudioType, audioDuration: Swift.Double, prompt: Swift.String)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct GenAIStartGenerationEventOption : BanubaLicenseServicingSDK.BasicEventOptions {
+  public let sdkVersion: Swift.String
+  public let iOSVersion: Swift.String
+  public let taskId: Swift.String
+  public init(taskId: Swift.String)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct GenAIPreviewActionEventOption : BanubaLicenseServicingSDK.BasicEventOptions {
+  public let sdkVersion: Swift.String
+  public let iOSVersion: Swift.String
+  public let taskId: Swift.String
+  public init(taskId: Swift.String)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct GenAIGenerationTimeEventOption : BanubaLicenseServicingSDK.BasicEventOptions {
+  public let sdkVersion: Swift.String
+  public let iOSVersion: Swift.String
+  public let taskId: Swift.String
+  public let duration: Swift.String
+  public init(taskId: Swift.String, duration: Swift.Double)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct GenAICompletedEventOption : BanubaLicenseServicingSDK.BasicEventOptions {
+  public let sdkVersion: Swift.String
+  public let iOSVersion: Swift.String
+  public let taskId: Swift.String
+  public init(taskId: Swift.String)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct GenAIFailedEventOption : BanubaLicenseServicingSDK.BasicEventOptions {
+  public let sdkVersion: Swift.String
+  public let iOSVersion: Swift.String
+  public let taskId: Swift.String
+  public let errorMessage: Swift.String
+  public init(taskId: Swift.String, errorMessage: Swift.String)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct GenAIContactUsEmailEventOption : BanubaLicenseServicingSDK.BasicEventOptions {
+  public let sdkVersion: Swift.String
+  public let iOSVersion: Swift.String
+  public let result: Swift.String
+  public init(result: Swift.String)
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
