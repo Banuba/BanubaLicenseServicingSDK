@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 6.2.3 effective-5.10 (swiftlang-6.2.3.3.21 clang-1700.6.3.2)
-// swift-module-flags: -target arm64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name BanubaLicenseServicingSDK
+// swift-module-flags: -target arm64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-upcoming-feature StrictConcurrency -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name BanubaLicenseServicingSDK
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.3
 import BNBLicenseUtils
 @_exported import BanubaLicenseServicingSDK
@@ -21,7 +21,7 @@ public enum BNBInformerEventType {
   case presentPE(any BanubaLicenseServicingSDK.BasicEventOptions)
   case exportVE(any BanubaLicenseServicingSDK.BasicEventOptions)
   case exportPE(any BanubaLicenseServicingSDK.BasicEventOptions)
-  case screenOpen(any BanubaLicenseServicingSDK.BasicEventOptions)
+  case screenOpen(BanubaLicenseServicingSDK.PresentScreenEventOptions)
   case saveDraft(any BanubaLicenseServicingSDK.BasicEventOptions)
   case createSlideshow(any BanubaLicenseServicingSDK.BasicEventOptions)
   case addEffect(any BanubaLicenseServicingSDK.BasicEventOptions)
@@ -44,20 +44,13 @@ extension BanubaLicenseServicingSDK.BNBInformerEventType {
     get
   }
   #if compiler(>=5.3) && $NonescapableTypes
-  public func externalEventJSONString() -> Swift.String?
+  public func externalEventJSONString(using manager: BanubaLicenseServicingSDK.BNBAnalyticsManager) -> Swift.String?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func externalEventJSONString(sdkVersionOverride: Swift.String? = nil, isLeftToRightLayoutDirection: Swift.Bool = true) -> Swift.String?
   #endif
 }
 public protocol BasicEventOptions : Swift.Decodable, Swift.Encodable {
-  var sdkVersion: Swift.String { get }
-  var iOSVersion: Swift.String { get }
-  #if compiler(>=5.3) && $NonescapableTypes
-  func adjustStringJson() -> Swift.String?
-  #endif
-}
-extension BanubaLicenseServicingSDK.BasicEventOptions {
-  #if compiler(>=5.3) && $NonescapableTypes
-  public func adjustStringJson() -> Swift.String?
-  #endif
 }
 public struct VideoSources : Swift.Codable {
   public let camera: Swift.Int
@@ -74,10 +67,8 @@ public struct ExportEventOptions : BanubaLicenseServicingSDK.BasicEventOptions {
   public let videoResolutions: [Swift.String]
   public let postProcessingEffects: BanubaLicenseServicingSDK.PostProcessingOptions?
   public let cameraEffects: [Swift.String]?
-  public let sdkVersion: Swift.String
-  public let iOSVersion: Swift.String
-  public let exportDuration: Swift.Double
-  public let videoDuration: Swift.Double
+  public let exportDuration: Swift.String
+  public let videoDuration: Swift.String
   public let videoCount: Swift.UInt8
   public let videoSources: BanubaLicenseServicingSDK.VideoSources
   public let aspectRatio: Swift.String
@@ -89,11 +80,7 @@ public struct ExportEventOptions : BanubaLicenseServicingSDK.BasicEventOptions {
 }
 public struct PhotoEditorExportEventOptions : BanubaLicenseServicingSDK.BasicEventOptions {
   public let exportSuccess: Swift.Bool
-  public let sdkVersion: Swift.String
-  public let iOSVersion: Swift.String
-  #if compiler(>=5.3) && $NonescapableTypes
-  public init(exportSuccess: Swift.Bool, sdkVersion: Swift.String?, iOSVersion: Swift.String)
-  #endif
+  public init(exportSuccess: Swift.Bool)
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
@@ -103,19 +90,12 @@ public struct PostProcessingOptions : Swift.Codable {
   public init(from decoder: any Swift.Decoder) throws
 }
 public struct InitEventOptions : BanubaLicenseServicingSDK.BasicEventOptions {
-  public let sdkVersion: Swift.String
-  public let iOSVersion: Swift.String
   public init()
-  #if compiler(>=5.3) && $NonescapableTypes
-  public init(sdkVersion: Swift.String?, iOSVersion: Swift.String)
-  #endif
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
 public typealias BanubaVideoEditorEntryPoint = BanubaLicenseServicingSDK.PresentEventOptions.EntryPoint
 public struct PresentEventOptions : BanubaLicenseServicingSDK.BasicEventOptions {
-  public let sdkVersion: Swift.String
-  public let iOSVersion: Swift.String
   public enum EntryPoint : Swift.String, Swift.Codable {
     case camera
     case trimmer
@@ -138,8 +118,6 @@ public struct PresentEventOptions : BanubaLicenseServicingSDK.BasicEventOptions 
   public init(from decoder: any Swift.Decoder) throws
 }
 public struct PresentScreenEventOptions : BanubaLicenseServicingSDK.BasicEventOptions {
-  public let sdkVersion: Swift.String
-  public let iOSVersion: Swift.String
   public enum Screen : Swift.String, Swift.Codable {
     case camera
     @available(*, deprecated, message: "This case will be removed in future releases.")
@@ -179,22 +157,16 @@ public struct PresentScreenEventOptions : BanubaLicenseServicingSDK.BasicEventOp
   public init(from decoder: any Swift.Decoder) throws
 }
 public struct SaveDraftEventOptions : BanubaLicenseServicingSDK.BasicEventOptions {
-  public let sdkVersion: Swift.String
-  public let iOSVersion: Swift.String
   public init(screen: BanubaLicenseServicingSDK.PresentScreenEventOptions.Screen)
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
 public struct CreateSlideshowEventOptions : BanubaLicenseServicingSDK.BasicEventOptions {
-  public let sdkVersion: Swift.String
-  public let iOSVersion: Swift.String
   public init(screen: BanubaLicenseServicingSDK.PresentScreenEventOptions.Screen)
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
 public struct AddEffectEventOptions : BanubaLicenseServicingSDK.BasicEventOptions {
-  public let sdkVersion: Swift.String
-  public let iOSVersion: Swift.String
   public enum EffectType : Swift.String, Swift.Codable {
     case sticker
     case visual
@@ -211,9 +183,8 @@ public struct AddEffectEventOptions : BanubaLicenseServicingSDK.BasicEventOption
     case voiceChanger
     case draw
     case lowerThird
-    case weatherman
-    case greenScreen
     case aiClipping
+    case layouts
     case unknown
     #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
@@ -230,15 +201,11 @@ public struct AddEffectEventOptions : BanubaLicenseServicingSDK.BasicEventOption
   public init(from decoder: any Swift.Decoder) throws
 }
 public struct ChooseTemplateEventOption : BanubaLicenseServicingSDK.BasicEventOptions {
-  public let sdkVersion: Swift.String
-  public let iOSVersion: Swift.String
   public init(type: Swift.String)
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
 public struct TemplateBuilderPublishedEventOptions : BanubaLicenseServicingSDK.BasicEventOptions {
-  public let sdkVersion: Swift.String
-  public let iOSVersion: Swift.String
   public let templateId: Swift.String
   public let templateTitle: Swift.String
   public let templateDuration: Swift.String
@@ -259,8 +226,6 @@ public struct GenAIGenerateVideoEventOption : BanubaLicenseServicingSDK.BasicEve
       get
     }
   }
-  public let sdkVersion: Swift.String
-  public let iOSVersion: Swift.String
   public let audioType: BanubaLicenseServicingSDK.GenAIGenerateVideoEventOption.AudioType
   public let audioDuration: Swift.String
   public let prompt: Swift.String
@@ -269,24 +234,18 @@ public struct GenAIGenerateVideoEventOption : BanubaLicenseServicingSDK.BasicEve
   public init(from decoder: any Swift.Decoder) throws
 }
 public struct GenAIStartGenerationEventOption : BanubaLicenseServicingSDK.BasicEventOptions {
-  public let sdkVersion: Swift.String
-  public let iOSVersion: Swift.String
   public let taskId: Swift.String
   public init(taskId: Swift.String)
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
 public struct GenAIPreviewActionEventOption : BanubaLicenseServicingSDK.BasicEventOptions {
-  public let sdkVersion: Swift.String
-  public let iOSVersion: Swift.String
   public let taskId: Swift.String
   public init(taskId: Swift.String)
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
 public struct GenAIGenerationTimeEventOption : BanubaLicenseServicingSDK.BasicEventOptions {
-  public let sdkVersion: Swift.String
-  public let iOSVersion: Swift.String
   public let taskId: Swift.String
   public let duration: Swift.String
   public init(taskId: Swift.String, duration: Swift.Double)
@@ -294,16 +253,12 @@ public struct GenAIGenerationTimeEventOption : BanubaLicenseServicingSDK.BasicEv
   public init(from decoder: any Swift.Decoder) throws
 }
 public struct GenAICompletedEventOption : BanubaLicenseServicingSDK.BasicEventOptions {
-  public let sdkVersion: Swift.String
-  public let iOSVersion: Swift.String
   public let taskId: Swift.String
   public init(taskId: Swift.String)
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
 public struct GenAIFailedEventOption : BanubaLicenseServicingSDK.BasicEventOptions {
-  public let sdkVersion: Swift.String
-  public let iOSVersion: Swift.String
   public let taskId: Swift.String
   public let errorMessage: Swift.String
   public init(taskId: Swift.String, errorMessage: Swift.String)
@@ -311,8 +266,6 @@ public struct GenAIFailedEventOption : BanubaLicenseServicingSDK.BasicEventOptio
   public init(from decoder: any Swift.Decoder) throws
 }
 public struct GenAIContactUsEmailEventOption : BanubaLicenseServicingSDK.BasicEventOptions {
-  public let sdkVersion: Swift.String
-  public let iOSVersion: Swift.String
   public let result: Swift.String
   public init(result: Swift.String)
   public func encode(to encoder: any Swift.Encoder) throws
@@ -340,14 +293,20 @@ public enum EffectType : Swift.String, Swift.CaseIterable {
   public var license: BanubaLicenseServicingSDK.License {
     get
   }
+  public var isLeftToRightLayoutDirection: Swift.Bool
+  public var sdkVersionOverride: Swift.String?
   public var cameraEffects: [BanubaLicenseServicingSDK.EffectType : [Swift.String?]]
   public init(license: BanubaLicenseServicingSDK.License)
   @objc deinit
 }
 extension BanubaLicenseServicingSDK.BNBAnalyticsManager {
   public func sendEvent(withType type: BanubaLicenseServicingSDK.BNBInformerEventType)
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func eventJSONString(for type: BanubaLicenseServicingSDK.BNBInformerEventType) -> Swift.String?
+  #endif
+  @_Concurrency.MainActor public func configureLayoutDirection(from hostController: UIKit.UIViewController)
 }
-@_hasMissingDesignatedInitializers @objc public class License : ObjectiveC.NSObject {
+@_hasMissingDesignatedInitializers @objc public class License : ObjectiveC.NSObject, @unchecked Swift.Sendable {
   @objc public var token: Swift.String {
     get
   }
@@ -429,7 +388,7 @@ extension BanubaLicenseServicingSDK.BNBAnalyticsManager {
   #if compiler(>=5.3) && $NonescapableTypes
   @objc public static func getLicense(fromToken token: Swift.String) -> BanubaLicenseServicingSDK.License?
   #endif
-  public func getLicenseState(completion: @escaping (BNBLicenseUtils.XBNBLicenseStatus) -> Swift.Void)
+  public func getLicenseState(completion: @escaping @Sendable (BNBLicenseUtils.XBNBLicenseStatus) -> Swift.Void)
   @objc deinit
 }
 @objc public class TimeBomb : ObjectiveC.NSObject, Swift.Codable {
