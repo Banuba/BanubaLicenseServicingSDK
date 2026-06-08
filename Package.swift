@@ -2,7 +2,7 @@
 
 import PackageDescription
 
-let version: Version = "1.52.1"
+let version: Version = "1.53.0-beta.0"
 
 let package = Package(
   name: "BanubaLicenseServicingSDK",
@@ -36,7 +36,8 @@ let package = Package(
     ),
     .binaryTarget(
       name: "BanubaLicenseServicingSDK",
-      path: "BanubaLicenseServicingSDK.xcframework"
+      url: "https://nexus.banuba.net/repository/ios-frameworks/ios/frameworks/BanubaLicenseServicingSDK/1.53.0-beta.0/BanubaLicenseServicingSDK-1.53.0-beta.0.xcframework.zip",
+      checksum: "dbbc176cb3304613000320b56ef4aa53576952109e6cd5b68970ff36f13d2c69"
     )
   ]
 )
