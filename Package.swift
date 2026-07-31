@@ -2,7 +2,7 @@
 
 import PackageDescription
 
-let bnbLicenseUtilsVersionRange: Range<Version> = "1.53.0-beta.0"..<"1.53.99"
+let bnbLicenseUtilsVersionRange: Range<Version> = "1.53.1"..<"1.53.99"
 
 let package = Package(
   name: "BanubaLicenseServicingSDK",
@@ -34,17 +34,10 @@ let package = Package(
       ],
       path: "BanubaLicenseServicingSDKTarget"
     ),
-    // Local development uses the path-based binaryTarget below.
-    // Release flow (fastlane patch_package_swift_for_nexus) replaces it in the GitHub distribution repo with:
-    // .binaryTarget(
-    //   name: "BanubaLicenseServicingSDK",
-    //   url: "https://nexus.banuba.net/repository/ios-frameworks/ios/frameworks/BanubaLicenseServicingSDK/{version}/BanubaLicenseServicingSDK-{version}.xcframework.zip",
-    //   checksum: "{computed at release}"
-    // )
     .binaryTarget(
       name: "BanubaLicenseServicingSDK",
-      url: "https://nexus.banuba.net/repository/ios-frameworks/ios/frameworks/BanubaLicenseServicingSDK/1.53.0/BanubaLicenseServicingSDK-1.53.0.xcframework.zip",
-      checksum: "882b103f64f4c1970d1af45cceb6bd04d25c3cda007ada5713dc010c9f462ddc"
+      url: "https://nexus.banuba.net/repository/ios-frameworks/ios/frameworks/BanubaLicenseServicingSDK/1.53.1/BanubaLicenseServicingSDK-1.53.1.xcframework.zip",
+      checksum: "5bbcc92c7e46ed1513d7aa4e5c69166c6260f8fa3da5c5cb101546450082496e"
     )
   ]
 )
