@@ -2,7 +2,7 @@
 
 import PackageDescription
 
-let bnbLicenseUtilsVersionRange: Range<Version> = "1.53.1"..<"1.53.99"
+let bnbLicenseUtilsVersionRange: Range<Version> = "1.53.1"..<"1.59.99"
 
 let package = Package(
   name: "BanubaLicenseServicingSDK",
@@ -36,8 +36,8 @@ let package = Package(
     ),
     .binaryTarget(
       name: "BanubaLicenseServicingSDK",
-      url: "https://nexus.banuba.net/repository/ios-frameworks/ios/frameworks/BanubaLicenseServicingSDK/1.53.2/BanubaLicenseServicingSDK-1.53.2.xcframework.zip",
-      checksum: "e77210700e0f4613d8f7d37e1519a2a8b5cf3eb4e491b180c35fe162d89833d9"
+      url: "https://nexus.banuba.net/repository/ios-frameworks/ios/frameworks/BanubaLicenseServicingSDK/1.54.0/BanubaLicenseServicingSDK-1.54.0.xcframework.zip",
+      checksum: "f31798d8a9741c0f54ccc73a8b77e1f82f9a34c09038d479f1c215092689b762"
     )
   ]
 )
