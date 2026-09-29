@@ -36,8 +36,8 @@ let package = Package(
     ),
     .binaryTarget(
       name: "BanubaLicenseServicingSDK",
-      url: "https://nexus.banuba.net/repository/ios-frameworks/ios/frameworks/BanubaLicenseServicingSDK/1.54.3/BanubaLicenseServicingSDK-1.54.3.xcframework.zip",
-      checksum: "dee5d365b63cd51c61dbacbfd1a3d7e9156f04a964c306f47c74f3d4e3020876"
+      url: "https://nexus.banuba.net/repository/ios-frameworks/ios/frameworks/BanubaLicenseServicingSDK/1.54.4/BanubaLicenseServicingSDK-1.54.4.xcframework.zip",
+      checksum: "97956c83adb37d520b01d85df749cf6dcc25142efbe92f96e8dca52b16ead6e6"
     )
   ]
 )
