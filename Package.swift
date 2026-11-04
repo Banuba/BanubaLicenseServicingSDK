@@ -2,7 +2,7 @@
 
 import PackageDescription
 
-let bnbLicenseUtilsVersionRange: Range<Version> = "1.55.0"..<"1.59.99"
+let bnbLicenseUtilsVersionRange: Range<Version> = "1.53.1"..<"1.59.99"
 
 let package = Package(
   name: "BanubaLicenseServicingSDK",
