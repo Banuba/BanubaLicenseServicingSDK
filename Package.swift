@@ -2,7 +2,7 @@
 
 import PackageDescription
 
-let bnbLicenseUtilsVersionRange: Range<Version> = "1.53.1"..<"1.59.99"
+let bnbLicenseUtilsVersion: Version = "1.53.1"
 
 let package = Package(
   name: "BanubaLicenseServicingSDK",
@@ -16,7 +16,7 @@ let package = Package(
     )
   ],
   dependencies: [
-    .package(url: "https://github.com/Banuba/BNBLicenseUtils-iOS.git", bnbLicenseUtilsVersionRange),
+    .package(url: "https://github.com/Banuba/BNBLicenseUtils-iOS.git", exact: bnbLicenseUtilsVersion),
   ],
   targets: [
     .target(
@@ -36,8 +36,8 @@ let package = Package(
     ),
     .binaryTarget(
       name: "BanubaLicenseServicingSDK",
-      url: "https://nexus.banuba.net/repository/ios-frameworks/ios/frameworks/BanubaLicenseServicingSDK/1.55.0/BanubaLicenseServicingSDK-1.55.0.xcframework.zip",
-      checksum: "bc08a0b1a38ad077790b915c72c2abd29233f5fd6c16e40cfd4b0823562e1c18"
+      url: "https://nexus.banuba.net/repository/ios-frameworks/ios/frameworks/BanubaLicenseServicingSDK/1.55.1/BanubaLicenseServicingSDK-1.55.1.xcframework.zip",
+      checksum: "878bfe908df432161070a970b0a81f6d961143c4ffd2ce074803b04f40220c33"
     )
   ]
 )
